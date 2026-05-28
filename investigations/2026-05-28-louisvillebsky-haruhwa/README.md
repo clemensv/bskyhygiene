@@ -41,7 +41,7 @@ Both `pds.louisvillebsky.app` and `haruhwa.com` are **self-hosted Bluesky PDS (P
 
 ## 3. Bot Score Distribution
 
-![Bot Score Distribution](bot_score_distribution.png)
+![Bot Score Distribution](assets/bot_score_distribution.png)
 
 | Score Band | Louisville | Haruhwa |
 |-----------|-----------|---------|
@@ -54,7 +54,7 @@ Both `pds.louisvillebsky.app` and `haruhwa.com` are **self-hosted Bluesky PDS (P
 
 ## 4. Bulk Creation Patterns
 
-![Bulk Creation Timeline](bulk_creation_timeline.png)
+![Bulk Creation Timeline](assets/bulk_creation_timeline.png)
 
 **Simultaneous bursts on both PDS:**
 
@@ -73,7 +73,7 @@ Both `pds.louisvillebsky.app` and `haruhwa.com` are **self-hosted Bluesky PDS (P
 
 ## 5. Anonymity & Activity Signals
 
-![Anonymity Signals](anonymity_signals.png)
+![Anonymity Signals](assets/anonymity_signals.png)
 
 | Signal | Louisville | Haruhwa |
 |--------|-----------|---------|
@@ -96,7 +96,7 @@ Both `pds.louisvillebsky.app` and `haruhwa.com` are **self-hosted Bluesky PDS (P
 
 ## 7. Handle Generation Patterns
 
-![Handle Patterns](handle_patterns.png)
+![Handle Patterns](assets/handle_patterns.png)
 
 | Pattern | Count | Examples |
 |---------|-------|----------|
@@ -110,7 +110,7 @@ Both `pds.louisvillebsky.app` and `haruhwa.com` are **self-hosted Bluesky PDS (P
 
 ## 8. Identified Clusters
 
-![Cluster Overview](cluster_overview.png)
+![Cluster Overview](assets/cluster_overview.png)
 
 ### Cluster A: Japanese Female Persona Ring 🔴 HIGH THREAT
 - **35 accounts** created on 2026-05-27 within seconds of each other
