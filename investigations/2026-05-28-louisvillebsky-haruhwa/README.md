@@ -193,24 +193,108 @@ The **"Jameel/Joud" family connection** and **Louisville, KY** geography in the 
 
 ## Post Activity Analysis
 
-**Finding: Zero posts detected from louisvillebsky/haruhwa accounts.**
+**Correction:** The initial investigation reported zero posts. With improved DID resolution
+(matching via `display_name` field containing PDS-specific handles), we find **290 posts
+from 112 accounts** (out of 179 identified in the firehose — 63% posting rate).
 
-Unlike typical spam bots that post content to promote links, the louisvillebsky/haruhwa
-cluster operates as **pure follow-inflation bots**. They:
+### Summary Statistics
 
-- ❌ Never post original content
-- ❌ Never repost or quote-post
-- ❌ Never reply to other accounts
-- ✅ Only create follow relationships
+| Metric | Value |
+|--------|-------|
+| Total posts | 290 |
+| Posting accounts | 112 (of 179 in firehose) |
+| Replies | 156 (54%) |
+| Original posts | 134 (46%) |
+| Posts with embeds | 135 (47%) |
+| Distinct texts | 218 |
+| Active period | May 1 – May 27, 2026 |
 
-This is a deliberate operational security choice — by never posting, these accounts:
-1. Avoid text-based spam detection
-2. Generate no reportable content for users to flag
-3. Leave a minimal behavioral footprint
-4. Can only be detected by analyzing follow graph patterns
+### Language Distribution
 
-This makes them significantly more sophisticated than typical spam bots and harder
-to detect through traditional content moderation.
+| Language | Posts | Percentage |
+|----------|-------|-----------|
+| Arabic (`ar`) | 253 | 87.2% |
+| English (`en`) | 33 | 11.4% |
+| Najdi Arabic (`ars`) | 2 | 0.7% |
+| French (`fr`) | 1 | 0.3% |
+| Italian (`it`) | 1 | 0.3% |
+
+### Content Themes
+
+| Theme | Posts | Description |
+|-------|-------|-------------|
+| **Mention spam** | 114 (39%) | Bulk @-mentioning legitimate users to beg for reposts |
+| **Share requests** | 78 (27%) | "Please share/quote my post" replies to strangers |
+| **Sick father appeal** | 41 (14%) | "Dad is sick, needs medication" fundraising narrative |
+| **Gaza crisis appeal** | 21 (7%) | "Mahmoud in hospital, daughters hungry" narrative |
+| **Minimal content** | 11 (4%) | Single dot "." or empty posts |
+| **Other** | 24 (8%) | Mixed/uncategorized |
+| **Medical fundraising** | 1 (<1%) | Cartilage surgery narrative |
+
+### Narrative Templates
+
+The posts revolve around **two primary sob-story templates** used to solicit donations:
+
+**Template A — Gaza Family Crisis:**
+> 🆘 Mahmoud's life is in real danger. He urgently needs daily bandages, medical
+> tests, and medication 💔 My daughters only need milk and diapers...
+
+**Template B — Sick Father:**
+> My father is fading away from pain, and I can't even afford his medicine.
+> I urgently need €50 for a tent to protect us...
+
+**Template C — French variant (same narrative):**
+> Bonjour mon frère, je te jure que mon père est malade et a besoin d'un
+> traitement, mais nous sommes incapables de le soigner...
+
+### Behavioral Pattern: Targeted Harassment of High-Profile Accounts
+
+The bots systematically **@-mention and reply to legitimate accounts** begging for
+shares, quotes, and reposts. The top targeted accounts:
+
+| Account | Times Mentioned | Profile |
+|---------|-----------------|---------|
+| `trisolaranrobin.bsky.social` | 19 | |
+| `gorangligovic.bsky.social` | 15 | |
+| `chantalalive.blacksky.app` | 14 | |
+| `welldressedbird.bsky.social` | 13 | |
+| `insatiableone.bsky.social` | 12 | |
+| `beejonson.me` | 11 | |
+| `sigilynk.bsky.social` | 11 | |
+| `anna-orridge.bsky.social` | 11 | |
+| `authorkaraj.bsky.social` | 11 | |
+| `sunderedmarches.com` | 10 | |
+
+These targets are progressive/literary/activist accounts — the same community
+targeted by the follow-inflation bots. The posting accounts act as a
+**human-in-the-loop amplification layer**: using the bot infrastructure to
+spam real users with emotional appeals designed to generate sympathy reposts.
+
+### Post Volume Distribution
+
+| Bucket | Accounts | Posts |
+|--------|----------|-------|
+| 1 post | 49 | 49 |
+| 2–5 posts | 53 | 133 |
+| 6–20 posts | 10 | 108 |
+
+The 10 high-volume accounts (6–20 posts each) are the **active operators** who
+post the crisis narratives. The 49 single-post accounts appear to be the
+same follow-inflation bots with one opportunistic post added.
+
+### Conclusion
+
+The louisvillebsky/haruhwa operation is **not purely follow-inflation** — it also
+operates a **charity fraud / sympathy scam** layer. The operator (likely Arabic-speaking,
+with French as secondary language) uses:
+
+1. **Bulk bot accounts** for follow inflation (silent, no posts)
+2. **A subset of accounts** for posting emotional fundraising appeals
+3. **Systematic mention-spamming** of progressive/activist accounts likely to sympathize
+4. **Multiple narrative identities** (Marwan from Gaza, sick father Ahmed, etc.)
+
+This changes the threat model: the operation combines **follower inflation** (to appear
+legitimate) with **charity fraud** (to extract donations via fabricated crisis narratives).
 
 ---
 
