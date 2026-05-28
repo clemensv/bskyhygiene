@@ -249,10 +249,12 @@ def main():
         pds_servers = [c["url"] for c in clusters_config.get("clusters", [])]
         allowlist_dids = set(clusters_config.get("allowlist_dids", []))
         allowlist_handles = set(h.lower() for h in clusters_config.get("allowlist_handles", []))
+        description_rules = clusters_config.get("description_rules", [])
     else:
         pds_servers = TARGET_PDS_SERVERS
         allowlist_dids = set()
         allowlist_handles = set()
+        description_rules = []
         print(f"WARNING: {clusters_path} not found, using built-in defaults", file=sys.stderr)
 
     output_path = Path(args.output)
@@ -272,6 +274,7 @@ def main():
     all_results = []
     scan_time = datetime.now(timezone.utc).isoformat()
 
+    # --- Phase 1: Scan PDS clusters (heuristic scoring) ---
     for pds_url in pds_servers:
         pds_name = pds_url.replace("https://", "")
         print(f"\n{'='*60}", file=sys.stderr)
@@ -326,6 +329,105 @@ def main():
             # Small delay to be respectful of rate limits
             time.sleep(0.5)
 
+    # --- Phase 2: Search for description-rule matches ---
+    # These are accounts on official Bluesky PDS identified by specific spam
+    # signatures in their profile description. No heuristic needed — the presence
+    # of a confirmed spam domain/link is deterministic.
+    flagged_dids = set(entry["did"] for entry in all_results)
+
+    for rule in description_rules:
+        rule_name = rule.get("name", "unnamed")
+        patterns = rule.get("patterns", [])
+        rule_score = rule.get("score", 1.0)
+        rule_signals = rule.get("signals", ["description_rule_match"])
+
+        if not patterns:
+            continue
+
+        print(f"\n{'='*60}", file=sys.stderr)
+        print(f"Description rule: {rule_name}", file=sys.stderr)
+        print(f"  Patterns: {patterns}", file=sys.stderr)
+        print(f"{'='*60}", file=sys.stderr)
+
+        # Search Bluesky for accounts matching the pattern using searchActors
+        rule_matches = 0
+        for pattern in patterns:
+            cursor = None
+            seen_in_pattern = 0
+            while True:
+                params = {"q": pattern, "limit": 100}
+                if cursor:
+                    params["cursor"] = cursor
+                headers = {}
+                if auth_token:
+                    headers["Authorization"] = f"Bearer {auth_token}"
+                try:
+                    resp = client.get(
+                        f"{BLUESKY_API}/app.bsky.actor.searchActors",
+                        params=params,
+                        headers=headers,
+                    )
+                    if resp.status_code == 429:
+                        retry_after = int(resp.headers.get("retry-after", "30"))
+                        print(f"  Rate limited, waiting {retry_after}s...", file=sys.stderr)
+                        time.sleep(retry_after)
+                        continue
+                    if resp.status_code != 200:
+                        print(f"  Search failed: {resp.status_code}", file=sys.stderr)
+                        break
+                except httpx.HTTPError as e:
+                    print(f"  Search error: {e}", file=sys.stderr)
+                    break
+
+                data = resp.json()
+                actors = data.get("actors", [])
+                if not actors:
+                    break
+
+                for actor in actors:
+                    did = actor.get("did", "")
+                    handle = actor.get("handle", "")
+                    description = actor.get("description", "") or ""
+
+                    # Verify the pattern actually appears in the description
+                    # (searchActors may return fuzzy matches)
+                    if not any(p.lower() in description.lower() for p in patterns):
+                        continue
+
+                    # Skip allowlisted or already-flagged accounts
+                    if did in allowlist_dids or handle.lower() in allowlist_handles:
+                        continue
+                    if did in flagged_dids:
+                        continue
+
+                    entry = {
+                        "did": did,
+                        "handle": handle,
+                        "displayName": actor.get("displayName", ""),
+                        "pds": "bsky.network",
+                        "botScore": rule_score,
+                        "signals": rule_signals,
+                        "handlePattern": detect_handle_pattern(handle),
+                        "postsCount": actor.get("postsCount", 0),
+                        "followersCount": actor.get("followersCount", 0),
+                        "followsCount": actor.get("followsCount", 0),
+                        "createdAt": actor.get("createdAt", ""),
+                        "rule": rule_name,
+                    }
+                    all_results.append(entry)
+                    flagged_dids.add(did)
+                    rule_matches += 1
+                    seen_in_pattern += 1
+
+                cursor = data.get("cursor")
+                if not cursor:
+                    break
+                time.sleep(0.5)
+
+            print(f"  Pattern '{pattern}': {seen_in_pattern} matches", file=sys.stderr)
+
+        print(f"  Total for rule '{rule_name}': {rule_matches} accounts", file=sys.stderr)
+
     # Sort by bot score descending
     all_results.sort(key=lambda x: x["botScore"], reverse=True)
 
@@ -336,8 +438,9 @@ def main():
             "threshold": args.threshold,
             "total_flagged": len(all_results),
             "pds_servers_scanned": [u.replace("https://", "") for u in pds_servers],
+            "description_rules_applied": len(description_rules),
             "allowlisted": len(allowlist_dids) + len(allowlist_handles),
-            "heuristic_version": "1.1",
+            "heuristic_version": "2.0",
         },
         "accounts": all_results,
     }

@@ -23,6 +23,28 @@
       "operator_link": "rvtest31672 registered within 378ms across all 3 PDS servers, scantest99xz failed config test"
     }
   ],
+  "description_rules": [
+    {
+      "name": "Burst-follow adult spam (watchmelive/livechats)",
+      "confirmed": "2026-05-28",
+      "field": "description",
+      "patterns": ["watchmelive.my.id", "livechats.my.id"],
+      "match": "contains_any",
+      "score": 1.0,
+      "signals": ["confirmed_spam_domain", "burst_follow_cluster"],
+      "evidence": "389 accounts, each does exactly ~1001 follows in <5 min, single adult spam post, synchronized sub-second posting bursts"
+    },
+    {
+      "name": "Japanese mutual-follow ring (b-short.link)",
+      "confirmed": "2026-05-28",
+      "field": "description",
+      "patterns": ["b-short.link/C85gz9"],
+      "match": "contains_any",
+      "score": 1.0,
+      "signals": ["confirmed_spam_link", "mutual_follow_ring"],
+      "evidence": "604 accounts created in single hour, 96% internal follows (28K mutual), Japanese adult content engagement bait"
+    }
+  ],
   "allowlist_dids": [],
   "allowlist_handles": [],
   "_allowlist_note": "Add handles or DIDs here to exclude from the blocklist (e.g., researcher accounts, confirmed legitimate users on these PDS servers)"

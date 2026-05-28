@@ -79,6 +79,6 @@ jobs:
           else
             git commit -m "Update blocklist $(date -u +%Y-%m-%d)
 
-          Automated daily scan of pds.louisvillebsky.app and haruhwa.com"
+          Scans: PDS clusters + description-rule matches (burst-follow, b-short ring)"
             git push
           fi
