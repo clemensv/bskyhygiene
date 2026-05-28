@@ -46,6 +46,18 @@ jobs:
           echo "| High score (≥0.7) | $HIGH |" >> blocklists/LATEST.md
           echo "| Medium score (0.45–0.7) | $MEDIUM |" >> blocklists/LATEST.md
 
+      - name: Generate visualization cards
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_API_KEY: ${{ secrets.BLUESKY_API_KEY }}
+        run: |
+          python scripts/generate_cards.py \
+            --identifier "$BLUESKY_HANDLE" \
+            --app-password "$BLUESKY_API_KEY" \
+            --blocklist blocklists/blocklist.json \
+            --output-dir blocklists/assets \
+            --sample-size 150
+
       - name: Sync to Bluesky moderation list
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}

@@ -310,6 +310,7 @@ def main():
                     "postsCount": profile.get("postsCount", 0),
                     "followersCount": profile.get("followersCount", 0),
                     "followsCount": profile.get("followsCount", 0),
+                    "createdAt": profile.get("createdAt", ""),
                 }
 
                 if bot_score >= args.threshold:
