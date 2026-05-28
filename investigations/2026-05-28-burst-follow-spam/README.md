@@ -99,12 +99,96 @@ either manual operator triggers or rate-limit avoidance.
 1. **Account creation** — new DID registered on official Bluesky PDS
 2. **Handle assignment** — `femalename+random.bsky.social`
 3. **Follow burst** — exactly ~1,001 follows issued in 3–5 minutes
-4. **Profile update** — adult spam link added to description
-5. **Dormancy** — no further activity observed
+4. **Spam post** — single post with adult content link + external embed
+5. **Profile update** — adult spam link added to description
+6. **Dormancy** — no further activity observed
 
 The 1,001 follow count is almost certainly a hardcoded constant in the automation script
 (likely `range(1001)` or similar). The slight variations (1,001–1,666) may indicate
 different script configurations or batching logic.
+
+## Post Analysis
+
+### Summary Statistics
+
+| Metric | Value |
+|--------|-------|
+| Accounts that posted | 385 of 389 (99%) |
+| Total posts | 386 |
+| Distinct post texts | 384 |
+| Posts with embeds | 385 (99.7%) |
+| Avg posts per account | 1.00 |
+| Max posts per account | 2 |
+| Accounts with exactly 1 post | 384 |
+| Accounts with 2 posts | 1 |
+| Active posting period | May 22 – May 28, 2026 |
+| Language tag | `id` (Indonesian) |
+
+### Post Template
+
+Every spam post uses an identical text template with unique tracking URL:
+
+```
+"Do you want to meet me?" ✨ ADULT EXCLUSIVE CONTENT HERE 👉 {domain}/{tracking_id}
+```
+
+- Embed type: `app.bsky.embed.external` (link card preview)
+- Language declared as `id` (Indonesian) — matches `.my.id` TLD
+- Each post has a unique tracking suffix (9 alphanumeric chars)
+
+### Domains Observed in Posts
+
+| Domain | Purpose |
+|--------|---------|
+| `watchmelive.my.id` | Adult content redirect |
+| `livechats.my.id` | Adult content redirect |
+| `open.substack.com` | Political content (1 outlier) |
+
+### Post Timing — Synchronized Bursts
+
+Posts are fired in tight synchronized bursts, with multiple accounts posting within
+the same second:
+
+```
+2026-05-28 01:32:28.023Z — 8 posts within 1.7 seconds
+2026-05-28 01:43:17.608Z — 7 posts within 1.7 seconds  
+2026-05-28 01:52:48.743Z — 7 posts within 1.2 seconds
+2026-05-28 02:03:52.238Z — 8 posts within 1.3 seconds
+2026-05-28 02:11:58.245Z — 8 posts within 1.7 seconds
+2026-05-28 03:56:58.423Z — 6 posts within 1.3 seconds
+```
+
+This sub-second coordination is conclusive proof of automation — no human can
+orchestrate 6–8 accounts posting within 1.7 seconds.
+
+### Outlier Accounts — Political Content
+
+Two accounts in the burst-follow cluster posted **non-spam content**, revealing
+possible dual-purpose accounts or operator testing:
+
+**`did:plc:ia3pm4p6dd2bfcgwlsowlr7y` (dddpod.bsky.social)**
+- 1,666 follows (highest in cluster)
+- Posted: *"The Tightening Noose: How #Trump Is Trying to Break #Cuba"*
+- Link: Substack article from `dailydeepdive` newsletter
+- Created: May 22 (earliest in cluster — possible operator's primary account)
+
+**`did:plc:iuwjzd7oh5kviej3q2saqotn`**
+- 1,014 follows
+- Posted: *"I've really never hated anybody as much as I hate DT. He is exhausting..."*
+- Anti-Trump political commentary (English)
+- No spam link — genuine-seeming political engagement
+
+These two outliers suggest the operator may also be involved in political
+influence activity, or that these accounts were repurposed from a different campaign.
+The `dddpod` account's Substack link (`dailydeepdive`) is notable — it could be
+the operator's own content platform, using the bot network to amplify reach.
+
+### Comparison: louisvillebsky Posts
+
+The louisvillebsky/haruhwa cluster shows **zero posts** in the firehose data.
+These accounts are **follow-only** bots — they never post, like, or repost.
+Their sole purpose is follow inflation (making targets appear more popular)
+without generating any content that could trigger spam detection.
 
 ## Infrastructure Details
 
