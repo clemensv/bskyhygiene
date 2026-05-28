@@ -94,6 +94,33 @@ May 28, 05:00 UTC  ███████████░░░░░░░░░ 
 Creation happens in distinct waves with gaps of 4–12 hours between them, suggesting
 either manual operator triggers or rate-limit avoidance.
 
+## Burst Follow Timing
+
+Each bot account completes ~1,001 follows within a few minutes. The scatter plot below
+shows each bot's first follow timestamp vs burst duration, colored by follow rate:
+
+![Burst Follow Scatter](assets/burst_follow_scatter.png)
+
+The overwhelming majority complete their follow burst in under 5 minutes (300 seconds).
+The rate distribution shows most bots operate at 100–400 follows/minute:
+
+![Follow Rate Distribution](assets/follow_rate_histogram.png)
+
+## Network Structure
+
+The bot network exhibits a distinctive **random spray** pattern — unlike the
+louisvillebsky cluster which targets specific accounts, these bots each follow ~1,001
+essentially random accounts with minimal overlap between bots.
+
+The one exception: **bsky.app** (`did:plc:z72i7hdynmk6r22z27h6tvur`) is followed by
+502 of the bots — likely a hardcoded "seed" follow in the automation script.
+
+![Network Graph](assets/network_graph.png)
+
+Beyond bsky.app, only 50 accounts are followed by more than 8 bots (out of ~500,000+
+total follows). This means the follow targets are essentially random, making the
+operation purely volume-based rather than targeted.
+
 ## Behavioral Signature
 
 1. **Account creation** — new DID registered on official Bluesky PDS
