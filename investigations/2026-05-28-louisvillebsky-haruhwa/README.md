@@ -88,9 +88,13 @@ Both `pds.louisvillebsky.app` and `haruhwa.com` are **self-hosted Bluesky PDS (P
 
 ## 6. Follow Cadence (Automation Proof)
 
+![Creation vs Follow Scatter](assets/creation_scatter.png)
+
 - **Haruhwa bot** (`did:plc:pbpc6hcrqdeylrnphefhtsru`): **Median 2 seconds** between follows, P90 at 13s — unambiguously scripted
 - **Louisville account** (`did:plc:3d6mnezh6exzs2smjv2tf2b7`): Median 51s within sessions, following 54 external targets
 - **Haruhwa top 20 follow-only accounts**: 159–397 follows with ZERO posts
+
+The scatter plot above shows account creation time (x-axis) vs minutes until first follow (y-axis). Accounts below the 5-minute threshold line are following targets almost immediately after creation — a definitive automation signal.
 
 ---
 
@@ -145,7 +149,15 @@ Both `pds.louisvillebsky.app` and `haruhwa.com` are **self-hosted Bluesky PDS (P
 
 ---
 
-## 9. Key DIDs for Monitoring
+## 9. Co-Follow Network
+
+![Network Graph](assets/network_graph.png)
+
+The network graph above shows the co-follow relationships between bot accounts and their targets. Node size represents the number of suspected bot followers. Core cluster members (red/orange) follow each other and share bot follower patterns. Periphery targets (grey) are legitimate accounts receiving artificial follows from the bot network.
+
+---
+
+## 10. Key DIDs for Monitoring
 
 ### Haruhwa High-Volume Follow Bots (ZERO posts, 100+ follows)
 
@@ -162,7 +174,7 @@ Both `pds.louisvillebsky.app` and `haruhwa.com` are **self-hosted Bluesky PDS (P
 
 ---
 
-## 10. Conclusion
+## 11. Conclusion
 
 This is a **coordinated bot infrastructure** operated from a single entity running two self-hosted Bluesky PDS servers:
 
