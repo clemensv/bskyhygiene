@@ -37,6 +37,15 @@ legitimate users.
 
 ---
 
+## Creation Timeline
+
+![Creation Timeline](assets/creation_timeline.png)
+
+All 604 accounts appeared in the Bluesky firehose within a single hour — an unmistakable
+bulk-creation event.
+
+---
+
 ## Profile Template
 
 All 604 accounts use Japanese female first names with emoji, and a two-line bio:
@@ -77,7 +86,11 @@ All point to the same shortened URL: `https://b-short.link/C85gz9`
 
 ## Mutual-Follow Ring Structure
 
+![Network Graph](assets/network_graph.png)
+
 This is a **pure engagement ring** — the bots primarily follow each other:
+
+![Follow Distribution](assets/follow_distribution.png)
 
 | Metric | Value |
 |--------|-------|
@@ -98,6 +111,8 @@ but real accounts to casual observers.
 ---
 
 ## Post Content
+
+![Post Activity](assets/post_activity.png)
 
 All 604 accounts post — averaging **5.2 posts each** (3,140 total). Posts are in
 Japanese and use Twitter/X-style engagement bait:

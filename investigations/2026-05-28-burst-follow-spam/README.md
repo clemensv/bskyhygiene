@@ -66,7 +66,16 @@ Two domains are rotated:
 Each link has a unique tracking suffix (e.g., `/37sqzk9e4`, `/ofzx9dytu`, `/v5h19e5ip`),
 suggesting per-account attribution for the spam campaign.
 
+## Bot Signal Prevalence
+
+![Bot Signals](assets/bot_signals.png)
+
+Nearly every account in the cluster exhibits the same set of indicators, making
+detection trivial once the pattern is identified.
+
 ## Temporal Pattern — Account Creation Waves
+
+![Creation Timeline](assets/creation_timeline.png)
 
 ```
 May 23, 13:00 UTC  ████████░░░░░░░░░░░░  27 accounts
