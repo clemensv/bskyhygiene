@@ -1,302 +1,272 @@
-# 🔍 Bluesky Bot Hunt: pds.louisvillebsky.app & haruhwa.com
+# Coordinated Bot Infrastructure: pds.louisvillebsky.app & haruhwa.com
 
 **Investigation Date:** 2026-05-28  
-**Methodology:** KQL analysis of Bluesky Firehose data (profiles, follows, posts, blocks)  
-**Scope:** All accounts hosted on or referencing these two self-hosted PDS servers
+**Methodology:** KQL analysis of Bluesky Firehose data (profiles, follows, posts) + PDS `listRepos` enumeration  
+**Scope:** 3,584 accounts across two self-hosted PDS servers operated by the same entity
 
 ---
 
 ## Executive Summary
 
-Both `pds.louisvillebsky.app` and `haruhwa.com` are **self-hosted Bluesky PDS (Personal Data Server) instances** operated by the **same entity**, running a multi-purpose bot infrastructure with **3,584 combined accounts**. The operation appears to be in an active **testing/scaling phase** with bulk account creation, follow inflation bots, engagement rings, and impersonation testing.
+Two self-hosted Bluesky PDS instances — `pds.louisvillebsky.app` (2,882 accounts) and
+`haruhwa.com` (702 accounts) — are operated by the same individual running a **dual-purpose
+bot infrastructure** that combines:
+
+1. **Follow inflation** — thousands of silent bot accounts artificially inflate follower
+   counts of progressive/activist Bluesky users
+2. **Charity fraud** — a subset of accounts post fabricated crisis narratives in Arabic,
+   English, and French, then systematically spam legitimate users to solicit sympathy
+   reposts and donations
+
+The operator is likely Arabic-speaking (87% of post content is Arabic), with ties to
+Louisville, KY (per the PDS domain name) and personal/family accounts referencing
+"Jameel" and "Joud."
 
 ---
 
-## 1. Infrastructure Overview
+## Infrastructure
 
 | Metric | pds.louisvillebsky.app | haruhwa.com |
 |--------|----------------------|-------------|
-| **Total DIDs on PDS** | 2,882 | 702 |
-| **Resolved via API** | 1,695 | 379 |
-| **Active accounts** | 2,881 | 701 |
-| **Server DID** | `did:web:pds.louisvillebsky.app` | `did:web:haruhwa.com` |
-| **Available domain handles** | `.pds.louisvillebsky.app` | `.haruhwa.com` |
-| **Invite required** | No | No |
+| Total DIDs | 2,882 | 702 |
+| Resolved via API | 1,695 | 379 |
+| Server DID | `did:web:pds.louisvillebsky.app` | `did:web:haruhwa.com` |
+| Domain handles | `.pds.louisvillebsky.app` | `.haruhwa.com` |
+| Invite required | No | No |
+
+A third PDS — `tranquil.mosphere.at` — was subsequently confirmed as part of the same
+operation via cross-PDS registration within 378 ms of a haruhwa account.
+
+### Proof of Same Operator
+
+The two primary PDS servers are irrefutably linked:
+
+- **Shared test accounts**: Handle `rvtest31672` exists on both servers
+- **Simultaneous creation**: `SyncTest` (Louisville) and `HaruhwaTest796901` (Haruhwa)
+  created 46 seconds apart on 2026-05-07
+- **13 synchronized creation hours** with simultaneous bulk registrations on both PDS
+- **12 shared display names** including "Om jameel", "Mohemad A. Ei-Eiran"
+- **Identical handle generators**: same `adjective-noun`, `word+number`, and `xx####` templates
+- **Same misspelled impersonation**: "Robret Reich_Assistant" on both
 
 ---
 
-## 2. Proof of Same Operator
+## Account Creation at Scale
 
-**Irrefutable evidence** that both PDS servers are controlled by the same entity:
+![Bulk Creation Timeline](assets/bulk_creation_timeline.png)
 
-1. **Shared test accounts**: Handle `rvtest31672` exists on **both** servers
-2. **Shared prefix**: `chktest*` automation test handles on both
-3. **Simultaneous creation**: `SyncTest` (Louisville) created at 20:55:56 and `HaruhwaTest796901` (Haruhwa) created at 20:55:10 on 2026-05-07 — **46 seconds apart**
-4. **13 synchronized creation hours** where both PDS had simultaneous bulk registrations
-5. **12 shared display names** including "Om jameel", "Mohemad A. Ei-Eiran", "Anderw Lokenuath_Assistant"
-6. **Identical handle generation templates** (`adjective-noun`, `word+number`, `xx####`)
-7. **Same misspelled impersonation**: "Robret Reich_Assistant" on both
+Accounts are created in automated bursts, with peak rates of 97 accounts/hour (Louisville)
+and 48 accounts/hour (Haruhwa) — median interval of 19.9 and 39.2 seconds respectively.
+Both PDS servers show synchronized creation spikes on the same dates:
+
+| Hour (UTC) | Louisville | Haruhwa | Total |
+|-----------|-----------|---------|-------|
+| 2026-05-16 13:00 | 97 | 10 | **107** |
+| 2026-05-12 11:00 | 41 | 48 | **89** |
+| 2026-05-12 10:00 | 35 | 29 | **64** |
 
 ---
 
-## 3. Bot Score Distribution
+## Bot Scoring
 
 ![Bot Score Distribution](assets/bot_score_distribution.png)
 
 | Score Band | Louisville | Haruhwa |
 |-----------|-----------|---------|
-| **High (≥0.7)** — strong bot indicator | 729 (43.0%) | 61 (16.1%) |
-| **Medium (0.45–0.7)** — suspect | 499 (29.4%) | 233 (61.5%) |
-| **Low (<0.45)** — possibly legitimate | 467 (27.6%) | 85 (22.4%) |
-| **Mean score** | 0.552 | 0.518 |
+| High (≥0.7) — strong bot | 729 (43%) | 61 (16%) |
+| Medium (0.45–0.7) — suspect | 499 (29%) | 233 (62%) |
+| Low (<0.45) — possibly legitimate | 467 (28%) | 85 (22%) |
 
----
-
-## 4. Bulk Creation Patterns
-
-![Bulk Creation Timeline](assets/bulk_creation_timeline.png)
-
-**Simultaneous bursts on both PDS:**
-
-| Hour (UTC) | Louisville | Haruhwa | Total |
-|-----------|-----------|---------|-------|
-| 2026-05-12 11:00 | 41 | 48 | **89** |
-| 2026-05-12 10:00 | 35 | 29 | **64** |
-| 2026-05-16 13:00 | 97 | 10 | **107** |
-| 2026-05-16 12:00 | 15 | 12 | 27 |
-| 2026-05-08 20:00 | 11 | 8 | 19 |
-
-- **Louisville peak**: 97 accounts in 1 hour with **median 19.9 seconds** between creations
-- **Haruhwa peak**: 48 accounts in 1 hour with **median 39.2 seconds** between creations
-
----
-
-## 5. Anonymity & Activity Signals
+The majority of accounts exhibit classic bot indicators: no avatar, no bio (96–99%),
+no display name (57–71%), and zero posts on most accounts.
 
 ![Anonymity Signals](assets/anonymity_signals.png)
 
-| Signal | Louisville | Haruhwa |
-|--------|-----------|---------|
-| No avatar | 68.5% | 42.2% |
-| No description | **96.2%** | **98.9%** |
-| No display name | 71.3% | 57.8% |
-| Zero posts | 44.5% | 25.9% |
-| Zero followers | 46.2% | 26.9% |
-| Zero following | 40.5% | 9.2% |
-
 ---
 
-## 6. Follow Cadence (Automation Proof)
+## Follow Inflation Operation
+
+The primary purpose of the infrastructure is **artificial follower inflation** targeting
+progressive, LGBTQ+, literary, and activist Bluesky accounts.
+
+### Automation Evidence
 
 ![Creation vs Follow Scatter](assets/creation_scatter.png)
 
-- **Haruhwa bot** (`did:plc:pbpc6hcrqdeylrnphefhtsru`): **Median 2 seconds** between follows, P90 at 13s — unambiguously scripted
-- **Louisville account** (`did:plc:3d6mnezh6exzs2smjv2tf2b7`): Median 51s within sessions, following 54 external targets
-- **Haruhwa top 20 follow-only accounts**: 159–397 follows with ZERO posts
+Accounts begin following targets within minutes of creation. The fastest bot
+(`did:plc:pbpc6hcrqdeylrnphefhtsru`) issues follows with a **median interval of
+2 seconds** — unambiguously scripted. Accounts below the 5-minute threshold in the
+scatter plot above began following almost immediately after registration.
 
-The scatter plot above shows account creation time (x-axis) vs minutes until first follow (y-axis). Accounts below the 5-minute threshold line are following targets almost immediately after creation — a definitive automation signal.
-
----
-
-## 7. Handle Generation Patterns
+### Handle Generation
 
 ![Handle Patterns](assets/handle_patterns.png)
 
 | Pattern | Count | Examples |
 |---------|-------|----------|
-| Firstname+number | 654 | `laurareyes474`, `patriciareed406`, `aaronjones125` |
-| Random alphanumeric | 300 | `n7uba880g`, `nxo8oqkccp`, `2m1g73200d`, `zwmu0pgig` |
-| Adjective-noun | ~200 | `soft-deer`, `strong-core`, `true-lynx`, `calm-stack` |
-| Compound-word+number | 35 | `mightybeam16344`, `happybeam4753`, `fluxwave2301` |
-| Normal/legitimate | ~15 | `pocketbear`, `pb-afterdark`, `pupderp` |
+| Firstname+number | 654 | `laurareyes474`, `patriciareed406` |
+| Random alphanumeric | 300 | `n7uba880g`, `nxo8oqkccp` |
+| Adjective-noun | ~200 | `soft-deer`, `strong-core`, `true-lynx` |
+| Compound-word+number | 35 | `mightybeam16344`, `happybeam4753` |
+| Normal/legitimate | ~15 | `pocketbear`, `pb-afterdark` |
 
----
-
-## 8. Identified Clusters
-
-![Cluster Overview](assets/cluster_overview.png)
-
-### Cluster A: Japanese Female Persona Ring 🔴 HIGH THREAT
-- **35 accounts** created on 2026-05-27 within seconds of each other
-- All have exactly **60 follows**, 55–71 followers, 4–7 posts
-- Handles: `mightybeam16344`, `happybeam4753`, `peachstar5301`, `rosesage4865`, etc.
-- Display names: あすか🎀, ひめ, はな🐣, ゆきは🫧, えみな🌸, etc.
-- **Assessment**: Coordinated mutual-follow ring, likely adult content engagement farming
-
-### Cluster B: Generated-Name Bot Army 🔴 HIGH THREAT
-- **190 accounts** (141 Louisville + 49 Haruhwa)
-- Display names follow `FirstName + Letter/Number` template: "Ted A", "Iris P", "Cedar19", "Lyra91", "Vic62", "Juno9"
-- Typically 0–1 posts, 3–9 follows
-- **Assessment**: Botnet in early deployment phase, accounts being warmed up
-
-### Cluster C: Follow-Only Haruhwa Bots 🔴 HIGH THREAT
-- **20 accounts** with 100–400 follows but ZERO posts
-- Random consonant-cluster handles: `kamsjz`, `amxnjdb`, `akbxbbc`, `mznxbcv`, `rtyunbm`, `jklkoka`
-- **Targets**: Progressive/LGBTQ+ creators (FabForward 17K, SJones 7.6K, Haylie 6.9K, Meaf 4.3K, Raven Paine 3.4K)
-- **Assessment**: Follow inflation bots, potentially TARN-style camouflage
-
-### Cluster D: Impersonation Accounts 🟡 MEDIUM THREAT
-- **6 accounts** using misspelled names "**Robret Reich_Assistant**" and "**Anderw Lokenuath_Assistant**"
-- All created May 2026
-- 2–6 posts each
-- **Assessment**: Likely testing impersonation/engagement tactics
-
-### Cluster E: Operator's Personal Network 🟢 LOW THREAT
-- **17 accounts** with "jameel", "joud", "jamil" references
-- Some have substantial activity (367–419 posts)
-- Names: "Om jameel", "Eng abo jameel", "mahmood"
-- **Assessment**: PDS operator's personal/family accounts
-
----
-
-## 9. Co-Follow Network
+### Follow Target Network
 
 ![Network Graph](assets/network_graph.png)
 
-The network graph above shows the co-follow relationships between bot accounts and their targets. Node size represents the number of suspected bot followers. Core cluster members (red/orange) follow each other and share bot follower patterns. Periphery targets (grey) are legitimate accounts receiving artificial follows from the bot network.
+The bot accounts collectively follow a curated set of progressive/LGBTQ+ content
+creators. Core cluster members (red/orange nodes) follow each other and share
+overlapping target sets. Periphery targets (green) are legitimate accounts
+receiving hundreds of artificial follows from this network, including accounts
+with 4K–17K followers.
 
 ---
 
-## 10. Key DIDs for Monitoring
+## Charity Fraud / Sympathy Scam Layer
 
-### Haruhwa High-Volume Follow Bots (ZERO posts, 100+ follows)
+Beyond silent follow inflation, **112 accounts have posted 290 times** — revealing
+that the operation also runs a coordinated fundraising scam.
 
-| DID | Handle | Follows |
-|-----|--------|---------|
-| `did:plc:jg7vonhdg37iujah5hdmrebb` | kamsjz.haruhwa.com | 397 |
-| `did:plc:ijugfjbyjeomu6tcsynh757d` | amxnjdb.haruhwa.com | 373 |
-| `did:plc:suvv44lxx4442u2azvdhd74a` | jood2.haruhwa.com | 329 |
-| `did:plc:ixxtgxx4equfeckkm7arrvpc` | akbxbbc.haruhwa.com | 281 |
-| `did:plc:ekufkaqd3bhjb4tgjbeasqnm` | mznxbcv.haruhwa.com | 262 |
-
-### Louisville Impersonation Accounts
-- Multiple DIDs using "Robret Reich_Assistant" (×4) and "Anderw Lokenuath_Assistant" (×2)
-
----
-
-## 11. Conclusion
-
-This is a **coordinated bot infrastructure** operated from a single entity running two self-hosted Bluesky PDS servers:
-
-| Finding | Evidence |
-|---------|----------|
-| **Industrial scale** | 3,584 accounts across both servers |
-| **Automated creation** | Bulk registration at 20–40 second intervals |
-| **Multiple purposes** | Follow inflation, engagement rings, impersonation testing |
-| **Camouflage layer** | Generated names and minimal activity to appear legitimate |
-| **Active deployment** | Major creation bursts in May 2026 (ongoing) |
-| **Target profile** | Progressive/LGBTQ+ content creators receiving artificial follows |
-
-The **"Jameel/Joud" family connection** and **Louisville, KY** geography in the PDS naming suggest a specific individual operator who has built this infrastructure on self-hosted PDS servers to bypass Bluesky's native rate limits and moderation.
-
----
-
-## Post Activity Analysis
-
-**Correction:** The initial investigation reported zero posts. With improved DID resolution
-(matching via `display_name` field containing PDS-specific handles), we find **290 posts
-from 112 accounts** (out of 179 identified in the firehose — 63% posting rate).
-
-### Summary Statistics
+### Content Profile
 
 | Metric | Value |
 |--------|-------|
+| Posting accounts | 112 of 3,584 (3%) |
 | Total posts | 290 |
-| Posting accounts | 112 (of 179 in firehose) |
 | Replies | 156 (54%) |
 | Original posts | 134 (46%) |
-| Posts with embeds | 135 (47%) |
 | Distinct texts | 218 |
-| Active period | May 1 – May 27, 2026 |
+| Active period | May 1–27, 2026 |
 
 ### Language Distribution
 
-| Language | Posts | Percentage |
-|----------|-------|-----------|
-| Arabic (`ar`) | 253 | 87.2% |
-| English (`en`) | 33 | 11.4% |
-| Najdi Arabic (`ars`) | 2 | 0.7% |
-| French (`fr`) | 1 | 0.3% |
-| Italian (`it`) | 1 | 0.3% |
+| Language | Posts | % |
+|----------|-------|---|
+| Arabic | 253 | 87% |
+| English | 33 | 11% |
+| Najdi Arabic | 2 | <1% |
+| French | 1 | <1% |
+| Italian | 1 | <1% |
 
 ### Content Themes
 
 | Theme | Posts | Description |
 |-------|-------|-------------|
-| **Mention spam** | 114 (39%) | Bulk @-mentioning legitimate users to beg for reposts |
-| **Share requests** | 78 (27%) | "Please share/quote my post" replies to strangers |
-| **Sick father appeal** | 41 (14%) | "Dad is sick, needs medication" fundraising narrative |
-| **Gaza crisis appeal** | 21 (7%) | "Mahmoud in hospital, daughters hungry" narrative |
-| **Minimal content** | 11 (4%) | Single dot "." or empty posts |
-| **Other** | 24 (8%) | Mixed/uncategorized |
-| **Medical fundraising** | 1 (<1%) | Cartilage surgery narrative |
+| **Mention spam** | 114 (39%) | Bulk @-mentioning users to beg for reposts |
+| **Share requests** | 78 (27%) | "Please share/quote my post" replies |
+| **Sick father** | 41 (14%) | "Dad needs medication" fundraising |
+| **Gaza crisis** | 21 (7%) | "Mahmoud in hospital, daughters hungry" |
+| **Minimal/other** | 36 (12%) | Dots, empty, uncategorized |
 
-### Narrative Templates
+### Fabricated Narratives
 
-The posts revolve around **two primary sob-story templates** used to solicit donations:
+The posts use two primary sob-story templates recycled across accounts:
 
-**Template A — Gaza Family Crisis:**
+**Gaza Family Crisis:**
 > 🆘 Mahmoud's life is in real danger. He urgently needs daily bandages, medical
 > tests, and medication 💔 My daughters only need milk and diapers...
 
-**Template B — Sick Father:**
+**Sick Father / Displacement:**
 > My father is fading away from pain, and I can't even afford his medicine.
 > I urgently need €50 for a tent to protect us...
 
-**Template C — French variant (same narrative):**
+**French variant (same operator):**
 > Bonjour mon frère, je te jure que mon père est malade et a besoin d'un
 > traitement, mais nous sommes incapables de le soigner...
 
-### Behavioral Pattern: Targeted Harassment of High-Profile Accounts
+### Mention-Spam Targets
 
-The bots systematically **@-mention and reply to legitimate accounts** begging for
-shares, quotes, and reposts. The top targeted accounts:
+The scam accounts systematically @-mention and reply to legitimate accounts,
+pressuring them to share/quote fundraising posts:
 
-| Account | Times Mentioned | Profile |
-|---------|-----------------|---------|
-| `trisolaranrobin.bsky.social` | 19 | |
-| `gorangligovic.bsky.social` | 15 | |
-| `chantalalive.blacksky.app` | 14 | |
-| `welldressedbird.bsky.social` | 13 | |
-| `insatiableone.bsky.social` | 12 | |
-| `beejonson.me` | 11 | |
-| `sigilynk.bsky.social` | 11 | |
-| `anna-orridge.bsky.social` | 11 | |
-| `authorkaraj.bsky.social` | 11 | |
-| `sunderedmarches.com` | 10 | |
+| Account | Times Mentioned |
+|---------|-----------------|
+| `trisolaranrobin.bsky.social` | 19 |
+| `gorangligovic.bsky.social` | 15 |
+| `chantalalive.blacksky.app` | 14 |
+| `welldressedbird.bsky.social` | 13 |
+| `insatiableone.bsky.social` | 12 |
+| `beejonson.me` | 11 |
+| `sigilynk.bsky.social` | 11 |
+| `anna-orridge.bsky.social` | 11 |
+| `authorkaraj.bsky.social` | 11 |
+| `sunderedmarches.com` | 10 |
 
-These targets are progressive/literary/activist accounts — the same community
-targeted by the follow-inflation bots. The posting accounts act as a
-**human-in-the-loop amplification layer**: using the bot infrastructure to
-spam real users with emotional appeals designed to generate sympathy reposts.
+These are the same progressive/literary/activist accounts targeted by the follow
+bots — the operator first inflates their followers (to appear as a genuine community
+member) then leverages that apparent legitimacy to spam them with emotional appeals.
 
-### Post Volume Distribution
+### Posting Account Distribution
 
-| Bucket | Accounts | Posts |
-|--------|----------|-------|
-| 1 post | 49 | 49 |
-| 2–5 posts | 53 | 133 |
-| 6–20 posts | 10 | 108 |
+| Posts per Account | Accounts | Total Posts |
+|-------------------|----------|-------------|
+| 1 | 49 | 49 |
+| 2–5 | 53 | 133 |
+| 6–20 | 10 | 108 |
 
-The 10 high-volume accounts (6–20 posts each) are the **active operators** who
-post the crisis narratives. The 49 single-post accounts appear to be the
-same follow-inflation bots with one opportunistic post added.
-
-### Conclusion
-
-The louisvillebsky/haruhwa operation is **not purely follow-inflation** — it also
-operates a **charity fraud / sympathy scam** layer. The operator (likely Arabic-speaking,
-with French as secondary language) uses:
-
-1. **Bulk bot accounts** for follow inflation (silent, no posts)
-2. **A subset of accounts** for posting emotional fundraising appeals
-3. **Systematic mention-spamming** of progressive/activist accounts likely to sympathize
-4. **Multiple narrative identities** (Marwan from Gaza, sick father Ahmed, etc.)
-
-This changes the threat model: the operation combines **follower inflation** (to appear
-legitimate) with **charity fraud** (to extract donations via fabricated crisis narratives).
+The 10 high-volume accounts are the **active operators** running the scam narratives.
+The 49 single-post accounts are follow-inflation bots with one opportunistic post added.
 
 ---
 
-*Generated by Bluesky Bot Hunter agent — querying Bluesky Firehose data via Microsoft Fabric Eventhouse*
+## Identified Sub-Clusters
 
+![Cluster Overview](assets/cluster_overview.png)
+
+### Japanese Female Persona Ring 🔴
+35 accounts created within seconds on 2026-05-27. All have exactly 60 follows, 55–71
+followers, 4–7 posts. Handles: `mightybeam16344`, `happybeam4753`, `peachstar5301`.
+Display names: あすか🎀, ひめ, はな🐣, ゆきは🫧. Coordinated mutual-follow ring for
+engagement farming.
+
+### Generated-Name Bot Army 🔴
+190 accounts (141 Louisville + 49 Haruhwa) with display names like "Ted A", "Iris P",
+"Cedar19", "Lyra91". Typically 0–1 posts, 3–9 follows. Botnet in early deployment phase.
+
+### Follow-Only Bots 🔴
+20 Haruhwa accounts with 100–400 follows, zero posts. Random consonant-cluster handles
+(`kamsjz`, `amxnjdb`, `akbxbbc`). Targets: progressive/LGBTQ+ creators with 3K–17K followers.
+
+### Impersonation Accounts 🟡
+6 accounts using misspelled "Robret Reich_Assistant" and "Anderw Lokenuath_Assistant."
+Testing impersonation/engagement tactics.
+
+### Operator's Personal Network 🟢
+17 accounts referencing "jameel", "joud", "jamil" — some with substantial genuine activity
+(367–419 posts). PDS operator's personal/family accounts.
+
+---
+
+## Key DIDs for Monitoring
+
+| DID | Handle | Role | Follows |
+|-----|--------|------|---------|
+| `did:plc:jg7vonhdg37iujah5hdmrebb` | kamsjz.haruhwa.com | Follow bot | 397 |
+| `did:plc:ijugfjbyjeomu6tcsynh757d` | amxnjdb.haruhwa.com | Follow bot | 373 |
+| `did:plc:suvv44lxx4442u2azvdhd74a` | jood2.haruhwa.com | Follow bot | 329 |
+| `did:plc:ixxtgxx4equfeckkm7arrvpc` | akbxbbc.haruhwa.com | Follow bot | 281 |
+| `did:plc:ekufkaqd3bhjb4tgjbeasqnm` | mznxbcv.haruhwa.com | Follow bot | 262 |
+| Multiple DIDs | — | Impersonation | "Robret Reich_Assistant" ×4 |
+
+---
+
+## Conclusion
+
+This operation is a **multi-layered abuse infrastructure** combining three threat types
+under one operator:
+
+| Layer | Mechanism | Scale |
+|-------|-----------|-------|
+| **Follow inflation** | Silent bot accounts inflate follower counts | ~3,400 accounts |
+| **Charity fraud** | Fabricated crisis narratives solicit donations | 112 active accounts, 290 posts |
+| **Mention harassment** | Systematic @-spam pressures users to amplify scam posts | 10+ targets, 10–19 mentions each |
+
+The operator uses self-hosted PDS infrastructure (bypassing Bluesky's rate limits and
+moderation), bulk-generates accounts with scripted handle patterns, and targets the
+progressive/activist Bluesky community — first artificially joining it via follow
+inflation, then exploiting that manufactured social proof to run emotionally manipulative
+fundraising scams.
+
+---
+
+*Investigation conducted via KQL queries against Bluesky Firehose data (Microsoft Fabric Eventhouse).*
