@@ -14,6 +14,13 @@
       "confirmed": "2026-05-28",
       "evidence": "Bulk creation (48 accounts/hr at 39.2s intervals), follow bots with 2s cadence targeting progressive creators, shared test handles with louisvillebsky",
       "operator_link": "rvtest31672, chktest*, HaruhwaTest796901 created 46s after SyncTest on Louisville"
+    },
+    {
+      "url": "https://tranquil.mosphere.at",
+      "name": "Tranquil Mosphere",
+      "confirmed": "2026-05-28",
+      "evidence": "rvtest31672 registered 378ms after louisvillebsky (same script). PDS locked down (403 on enumeration). Currently staging with 2 accounts.",
+      "operator_link": "rvtest31672 registered within 378ms across all 3 PDS servers, scantest99xz failed config test"
     }
   ],
   "allowlist_dids": [],
