@@ -46,6 +46,17 @@ jobs:
           echo "| High score (≥0.7) | $HIGH |" >> blocklists/LATEST.md
           echo "| Medium score (0.45–0.7) | $MEDIUM |" >> blocklists/LATEST.md
 
+      - name: Sync to Bluesky moderation list
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_API_KEY: ${{ secrets.BLUESKY_API_KEY }}
+        run: |
+          python scripts/sync_modlist.py \
+            --identifier "$BLUESKY_HANDLE" \
+            --app-password "$BLUESKY_API_KEY" \
+            --blocklist blocklists/blocklist.json \
+            --list-name "Bot Infrastructure Blocklist"
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
