@@ -213,12 +213,6 @@ The 49 single-post accounts are follow-inflation bots with one opportunistic pos
 
 ![Cluster Overview](assets/cluster_overview.png)
 
-### Japanese Female Persona Ring 🔴
-35 accounts created within seconds on 2026-05-27. All have exactly 60 follows, 55–71
-followers, 4–7 posts. Handles: `mightybeam16344`, `happybeam4753`, `peachstar5301`.
-Display names: あすか🎀, ひめ, はな🐣, ゆきは🫧. Coordinated mutual-follow ring for
-engagement farming.
-
 ### Generated-Name Bot Army 🔴
 190 accounts (141 Louisville + 49 Haruhwa) with display names like "Ted A", "Iris P",
 "Cedar19", "Lyra91". Typically 0–1 posts, 3–9 follows. Botnet in early deployment phase.
