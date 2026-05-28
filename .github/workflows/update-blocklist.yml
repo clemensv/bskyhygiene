@@ -30,7 +30,8 @@ jobs:
             --identifier "$BLUESKY_HANDLE" \
             --app-password "$BLUESKY_API_KEY" \
             --output blocklists/blocklist.json \
-            --threshold 0.45
+            --threshold 0.45 \
+            --clusters clusters.json
 
       - name: Generate summary
         run: |

@@ -1,0 +1,22 @@
+{
+  "_comment": "Confirmed bot infrastructure clusters. Each entry requires prior investigation.",
+  "clusters": [
+    {
+      "url": "https://pds.louisvillebsky.app",
+      "name": "Louisville Bsky",
+      "confirmed": "2026-05-28",
+      "evidence": "Bulk creation (97 accounts/hr at 19.9s intervals), shared test handles with haruhwa.com, impersonation accounts, follow-only bots",
+      "operator_link": "rvtest31672, chktest*, SyncTest handles shared across clusters"
+    },
+    {
+      "url": "https://haruhwa.com",
+      "name": "Haruhwa",
+      "confirmed": "2026-05-28",
+      "evidence": "Bulk creation (48 accounts/hr at 39.2s intervals), follow bots with 2s cadence targeting progressive creators, shared test handles with louisvillebsky",
+      "operator_link": "rvtest31672, chktest*, HaruhwaTest796901 created 46s after SyncTest on Louisville"
+    }
+  ],
+  "allowlist_dids": [],
+  "allowlist_handles": [],
+  "_allowlist_note": "Add handles or DIDs here to exclude from the blocklist (e.g., researcher accounts, confirmed legitimate users on these PDS servers)"
+}

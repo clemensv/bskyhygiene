@@ -1,14 +1,18 @@
 """
 Bluesky Bot Heuristic Scanner
 
-Scans self-hosted PDS servers (pds.louisvillebsky.app, haruhwa.com) for
-bot-like accounts and produces a scored blocklist.
+Scans CONFIRMED bot PDS clusters for coordinated inauthentic behavior.
+Only targets PDS servers that have been positively identified as bot
+infrastructure through investigation (shared test accounts, synchronized
+bulk creation, identical handle templates, same operator evidence).
+
+This is NOT a general-purpose bot detector. It is a targeted blocklist
+generator for known-bad infrastructure.
 
 Heuristic signals (each contributes to a 0-1 bot score):
 - Profile completeness: no avatar, no description, no display name
 - Handle generation patterns: firstname+number, random alphanumeric, adjective-noun
 - Activity signals: zero posts, zero followers, high follow/follower ratio
-- Temporal signals: recently created in bulk bursts
 - Network signals: follow-only behavior (many follows, zero posts)
 """
 
@@ -22,6 +26,8 @@ from pathlib import Path
 import httpx
 
 # --- Configuration ---
+# Only confirmed bot infrastructure clusters go here.
+# Each entry requires prior investigation proving coordinated inauthentic behavior.
 TARGET_PDS_SERVERS = [
     "https://pds.louisvillebsky.app",
     "https://haruhwa.com",
@@ -231,7 +237,23 @@ def main():
         default=BOT_SCORE_THRESHOLD,
         help="Bot score threshold (default: 0.45)",
     )
+    parser.add_argument(
+        "--clusters", default="clusters.json", help="Path to clusters config file"
+    )
     args = parser.parse_args()
+
+    # Load cluster config (PDS servers to scan + allowlist)
+    clusters_path = Path(args.clusters)
+    if clusters_path.exists():
+        clusters_config = json.loads(clusters_path.read_text(encoding="utf-8"))
+        pds_servers = [c["url"] for c in clusters_config.get("clusters", [])]
+        allowlist_dids = set(clusters_config.get("allowlist_dids", []))
+        allowlist_handles = set(h.lower() for h in clusters_config.get("allowlist_handles", []))
+    else:
+        pds_servers = TARGET_PDS_SERVERS
+        allowlist_dids = set()
+        allowlist_handles = set()
+        print(f"WARNING: {clusters_path} not found, using built-in defaults", file=sys.stderr)
 
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -250,7 +272,7 @@ def main():
     all_results = []
     scan_time = datetime.now(timezone.utc).isoformat()
 
-    for pds_url in TARGET_PDS_SERVERS:
+    for pds_url in pds_servers:
         pds_name = pds_url.replace("https://", "")
         print(f"\n{'='*60}", file=sys.stderr)
         print(f"Scanning PDS: {pds_name}", file=sys.stderr)
@@ -269,6 +291,11 @@ def main():
             for profile in profiles:
                 did = profile.get("did", "")
                 handle = profile.get("handle", "")
+
+                # Skip allowlisted accounts
+                if did in allowlist_dids or handle.lower() in allowlist_handles:
+                    continue
+
                 handle_pattern = detect_handle_pattern(handle)
                 bot_score, signals = score_account(profile, handle_pattern)
 
@@ -307,8 +334,9 @@ def main():
             "generated_at": scan_time,
             "threshold": args.threshold,
             "total_flagged": len(all_results),
-            "pds_servers_scanned": [u.replace("https://", "") for u in TARGET_PDS_SERVERS],
-            "heuristic_version": "1.0",
+            "pds_servers_scanned": [u.replace("https://", "") for u in pds_servers],
+            "allowlisted": len(allowlist_dids) + len(allowlist_handles),
+            "heuristic_version": "1.1",
         },
         "accounts": all_results,
     }
