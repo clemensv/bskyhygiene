@@ -2,7 +2,13 @@
 Bluesky Moderation List Sync
 
 Syncs the local blocklist.json to a Bluesky moderation list (app.bsky.graph.list).
-Creates the list if it doesn't exist, then adds/removes members to match the blocklist.
+Creates the list if it doesn't exist, then ADDS new members.
+
+IMPORTANT: This script is append-only. It NEVER removes accounts from the list.
+Once identified as bot infrastructure, an account stays on the list permanently.
+To remove a false positive, add the DID to allowlist_dids in clusters.json —
+the allowlist is applied at scan time (heuristic.py) so the account won't appear
+in future blocklist.json outputs.
 
 Usage:
     python scripts/sync_modlist.py \
@@ -236,24 +242,16 @@ def main():
     current_dids = set(current_items.keys())
     print(f"Current list has {len(current_dids)} members", file=sys.stderr)
 
-    # Calculate diff
+    # Calculate additions only — NEVER remove previously identified accounts.
+    # Once an account is confirmed as bot infrastructure, it stays on the list
+    # permanently unless manually removed via allowlist.
     to_add = target_dids - current_dids
-    to_remove = current_dids - target_dids
+    already_listed = len(current_dids & target_dids)
+    retained = len(current_dids - target_dids)
 
-    print(f"  To add:    {len(to_add)}", file=sys.stderr)
-    print(f"  To remove: {len(to_remove)}", file=sys.stderr)
-    print(f"  Unchanged: {len(current_dids & target_dids)}", file=sys.stderr)
-
-    # Remove accounts no longer on blocklist
-    for i, did in enumerate(to_remove):
-        record_uri = current_items[did]
-        bsky.remove_from_list(record_uri)
-        if (i + 1) % 50 == 0:
-            print(f"  Removed {i + 1}/{len(to_remove)}", file=sys.stderr)
-        time.sleep(0.2)
-
-    if to_remove:
-        print(f"  Removed {len(to_remove)} accounts from list", file=sys.stderr)
+    print(f"  To add:       {len(to_add)}", file=sys.stderr)
+    print(f"  Already on:   {already_listed}", file=sys.stderr)
+    print(f"  Retained:     {retained} (from prior scans, not in current batch)", file=sys.stderr)
 
     # Add new accounts
     for i, did in enumerate(to_add):
@@ -265,8 +263,9 @@ def main():
     if to_add:
         print(f"  Added {len(to_add)} accounts to list", file=sys.stderr)
 
+    final_count = len(current_dids) + len(to_add)
     print(f"\n{'='*60}", file=sys.stderr)
-    print(f"DONE: Moderation list synced ({len(target_dids)} total members)", file=sys.stderr)
+    print(f"DONE: Moderation list now has {final_count} total members", file=sys.stderr)
     print(f"List URI: {list_uri}", file=sys.stderr)
 
 
