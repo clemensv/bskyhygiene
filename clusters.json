@@ -45,6 +45,29 @@
       "evidence": "604 accounts created in single hour, 96% internal follows (28K mutual), Japanese adult content engagement bait"
     }
   ],
+  "co_follow_rules": [
+    {
+      "name": "Japanese mutual-follow ring (co-follow expansion)",
+      "confirmed": "2026-05-28",
+      "seeds_file": "data/bshort_ring_seeds.json",
+      "overlap_threshold": 5,
+      "score": 1.0,
+      "signals": ["co_follow_ring_member", "mutual_follow_ring"],
+      "bio_patterns": ["b-short.link/C85gz9"],
+      "pds_servers": [
+        "https://kimbia.social",
+        "https://pds.familiar.bond",
+        "https://pds.dadavidtseng.com",
+        "https://bsky.nrbrtspvk.com",
+        "https://pds.goldentooth.net",
+        "https://pds.ridgeway.dev",
+        "https://arisnet.top",
+        "https://pds.nightbo.at",
+        "https://p.0rs.org"
+      ],
+      "evidence": "b-short.link ring expanded to 9+ community PDS servers (~6000 accounts). Detection via bio pattern OR co-follow overlap with 620 known ring members. Threshold of 5 means account follows 5+ known ring members — zero false positive risk given ring members only follow each other."
+    }
+  ],
   "allowlist_dids": [],
   "allowlist_handles": [],
   "_allowlist_note": "Add handles or DIDs here to exclude from the blocklist (e.g., researcher accounts, confirmed legitimate users on these PDS servers)"

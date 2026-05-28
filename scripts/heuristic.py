@@ -33,7 +33,8 @@ TARGET_PDS_SERVERS = [
     "https://haruhwa.com",
 ]
 
-BLUESKY_API = "https://bsky.social/xrpc"
+BLUESKY_API = "https://public.api.bsky.app/xrpc"
+BLUESKY_AUTH_API = "https://bsky.social/xrpc"
 BOT_SCORE_THRESHOLD = 0.45  # accounts scoring above this go on the blocklist
 
 # --- Handle pattern detectors ---
@@ -209,7 +210,7 @@ def authenticate(client: httpx.Client, identifier: str, app_password: str) -> st
     """Authenticate to Bluesky and return an access token."""
     try:
         resp = client.post(
-            f"{BLUESKY_API}/com.atproto.server.createSession",
+            f"{BLUESKY_AUTH_API}/com.atproto.server.createSession",
             json={"identifier": identifier, "password": app_password},
         )
         if resp.status_code == 200:
@@ -427,6 +428,169 @@ def main():
             print(f"  Pattern '{pattern}': {seen_in_pattern} matches", file=sys.stderr)
 
         print(f"  Total for rule '{rule_name}': {rule_matches} accounts", file=sys.stderr)
+
+    # --- Phase 3: Co-follow ring detection ---
+    # Detect mutual-follow ring members on community PDS servers.
+    # Strategy: enumerate accounts on known-abused PDSes, batch-fetch profiles,
+    # and flag accounts that either:
+    #   (a) have the ring bio link (fast, deterministic), or
+    #   (b) match the ring profile signature AND co-follow known ring members
+    # This catches bots even if they remove their bio link.
+    co_follow_rules = clusters_config.get("co_follow_rules", []) if clusters_path.exists() else []
+
+    for rule in co_follow_rules:
+        rule_name = rule.get("name", "unnamed")
+        seeds_file = rule.get("seeds_file", "")
+        pds_list = rule.get("pds_servers", [])
+        threshold = rule.get("overlap_threshold", 5)
+        rule_score = rule.get("score", 1.0)
+        rule_signals = rule.get("signals", ["co_follow_ring_member"])
+        bio_patterns = rule.get("bio_patterns", [])
+
+        # Load seed ring DIDs
+        seeds_path = clusters_path.parent / seeds_file
+        if not seeds_path.exists():
+            print(f"  WARNING: Seeds file not found: {seeds_path}", file=sys.stderr)
+            continue
+
+        ring_dids = set(json.loads(seeds_path.read_text(encoding="utf-8")))
+        print(f"\n{'='*60}", file=sys.stderr)
+        print(f"Co-follow rule: {rule_name}", file=sys.stderr)
+        print(f"  Ring size: {len(ring_dids)} known members", file=sys.stderr)
+        print(f"  Overlap threshold: {threshold}", file=sys.stderr)
+        print(f"  PDS servers: {len(pds_list)}", file=sys.stderr)
+        print(f"{'='*60}", file=sys.stderr)
+
+        rule_matches = 0
+        for pds_url in pds_list:
+            pds_name = pds_url.replace("https://", "")
+            print(f"\n  Scanning PDS: {pds_name}", file=sys.stderr)
+
+            # List repos on PDS
+            dids = list_pds_repos(client, pds_url)
+            print(f"    Found {len(dids)} accounts", file=sys.stderr)
+
+            # Batch-fetch profiles (25 at a time)
+            pds_flagged = 0
+            co_follow_candidates = []
+            for batch_start in range(0, len(dids), 25):
+                batch = dids[batch_start : batch_start + 25]
+                profiles = get_profiles_batch(client, batch, auth_token)
+
+                for profile in profiles:
+                    did = profile.get("did", "")
+                    if did in flagged_dids or did in allowlist_dids:
+                        continue
+                    handle = profile.get("handle", "")
+                    if handle.lower() in allowlist_handles:
+                        continue
+
+                    description = profile.get("description", "") or ""
+                    follows_count = profile.get("followsCount", 0)
+                    followers_count = profile.get("followersCount", 0)
+                    posts_count = profile.get("postsCount", 0)
+
+                    # (a) Bio-link match: deterministic flag
+                    if bio_patterns and any(p.lower() in description.lower() for p in bio_patterns):
+                        entry = {
+                            "did": did,
+                            "handle": handle,
+                            "displayName": profile.get("displayName", ""),
+                            "pds": pds_name,
+                            "botScore": rule_score,
+                            "signals": ["co_follow_ring_bio_match"],
+                            "handlePattern": detect_handle_pattern(handle),
+                            "postsCount": posts_count,
+                            "followersCount": followers_count,
+                            "followsCount": follows_count,
+                            "createdAt": profile.get("createdAt", ""),
+                            "rule": rule_name,
+                        }
+                        all_results.append(entry)
+                        flagged_dids.add(did)
+                        pds_flagged += 1
+                        continue
+
+                    # (b) Ring profile signature: queue for co-follow check
+                    # ~50 follows, ~50 followers, few posts, compound handle pattern
+                    if (20 <= follows_count <= 80
+                            and followers_count >= 10
+                            and posts_count <= 15
+                            and posts_count >= 2
+                            and detect_handle_pattern(handle) in ("compound_number", "adjective_noun", "firstname_number")):
+                        co_follow_candidates.append(profile)
+
+                time.sleep(0.3)
+
+            print(f"    Bio-flagged: {pds_flagged}", file=sys.stderr)
+            print(f"    Co-follow candidates: {len(co_follow_candidates)}", file=sys.stderr)
+
+            # Check co-follow overlap for candidates
+            co_follow_flagged = 0
+            for profile in co_follow_candidates:
+                did = profile.get("did", "")
+                if did in flagged_dids:
+                    continue
+
+                # Fetch this account's follows
+                follows = set()
+                cursor = None
+                while True:
+                    params = {"actor": did, "limit": 100}
+                    if cursor:
+                        params["cursor"] = cursor
+                    try:
+                        resp = client.get(
+                            "https://public.api.bsky.app/xrpc/app.bsky.graph.getFollows",
+                            params=params,
+                        )
+                        if resp.status_code == 429:
+                            retry_after = int(resp.headers.get("retry-after", "30"))
+                            print(f"    Rate limited, waiting {retry_after}s...", file=sys.stderr)
+                            time.sleep(retry_after)
+                            continue
+                        if resp.status_code != 200:
+                            break
+                    except httpx.HTTPError:
+                        break
+
+                    data = resp.json()
+                    for f in data.get("follows", []):
+                        follows.add(f.get("did", ""))
+                    cursor = data.get("cursor")
+                    if not cursor or len(follows) >= 200:
+                        break
+
+                # Check overlap
+                overlap = len(follows & ring_dids)
+                if overlap >= threshold:
+                    entry = {
+                        "did": did,
+                        "handle": profile.get("handle", ""),
+                        "displayName": profile.get("displayName", ""),
+                        "pds": pds_name,
+                        "botScore": rule_score,
+                        "signals": rule_signals,
+                        "handlePattern": detect_handle_pattern(profile.get("handle", "")),
+                        "postsCount": profile.get("postsCount", 0),
+                        "followersCount": profile.get("followersCount", 0),
+                        "followsCount": profile.get("followsCount", 0),
+                        "createdAt": profile.get("createdAt", ""),
+                        "rule": rule_name,
+                        "coFollowOverlap": overlap,
+                    }
+                    all_results.append(entry)
+                    flagged_dids.add(did)
+                    co_follow_flagged += 1
+
+                time.sleep(0.3)
+
+            pds_flagged += co_follow_flagged
+            rule_matches += pds_flagged
+            print(f"    Co-follow flagged: {co_follow_flagged}", file=sys.stderr)
+            print(f"    Total flagged on {pds_name}: {pds_flagged}", file=sys.stderr)
+
+        print(f"\n  Total for co-follow rule '{rule_name}': {rule_matches} accounts", file=sys.stderr)
 
     # Sort by bot score descending
     all_results.sort(key=lambda x: x["botScore"], reverse=True)
