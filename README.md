@@ -21,10 +21,11 @@ Analysis performed via KQL queries against Bluesky Firehose data ingested into M
 
 ## Automated Blocklist
 
-A daily GitHub Actions workflow scans both PDS servers and produces a scored blocklist:
+A daily GitHub Actions workflow scans all confirmed bot clusters and produces a scored blocklist:
 
 - **[blocklists/blocklist.json](blocklists/blocklist.json)** — Full scored list with signals
 - **[blocklists/blocklist.txt](blocklists/blocklist.txt)** — Plain DID list for import
 - **[Heuristic documentation](blocklists/README.md)** — Scoring methodology
+- **[🦋 Bluesky Moderation List](https://bsky.app/profile/did:plc:sthd2dnrddxe6icdqza2oryx/lists/3mmvjoj2jqq2p)** — Subscribe to block all identified bots
 
 The workflow runs at 06:00 UTC daily and can be triggered manually.

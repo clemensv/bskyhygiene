@@ -4,7 +4,8 @@
 **Status:** Active (ongoing waves)  
 **Scope:** 389 bot accounts, ~394,000 fake follows generated in 5 days  
 **Infrastructure:** Official Bluesky PDS (bsky.network), not self-hosted  
-**Relation to louisvillebsky/haruhwa:** None — independent operation, zero follow-target overlap
+**Relation to louisvillebsky/haruhwa:** None — independent operation, zero follow-target overlap  
+**Moderation List:** [🦋 Subscribe on Bluesky](https://bsky.app/profile/did:plc:sthd2dnrddxe6icdqza2oryx/lists/3mmvjoj2jqq2p)
 
 ---
 

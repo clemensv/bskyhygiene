@@ -2,7 +2,8 @@
 
 **Investigation Date:** 2026-05-28  
 **Methodology:** KQL analysis of Bluesky Firehose data (profiles, follows, posts) + PDS `listRepos` enumeration  
-**Scope:** 3,584 accounts across two self-hosted PDS servers operated by the same entity
+**Scope:** 3,584 accounts across two self-hosted PDS servers operated by the same entity  
+**Moderation List:** [🦋 Subscribe on Bluesky](https://bsky.app/profile/did:plc:sthd2dnrddxe6icdqza2oryx/lists/3mmvjoj2jqq2p)
 
 ---
 

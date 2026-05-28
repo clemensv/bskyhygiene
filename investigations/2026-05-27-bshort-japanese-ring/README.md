@@ -3,7 +3,8 @@
 **Investigation Date:** 2026-05-28  
 **Methodology:** KQL analysis of Bluesky Firehose data (profiles, follows, posts)  
 **Scope:** 604 bot accounts sharing a single spam link in profile bios  
-**Relation to other investigations:** Independent — zero account or follow-target overlap with louisvillebsky/haruhwa or burst-follow spam clusters
+**Relation to other investigations:** Independent — zero account or follow-target overlap with louisvillebsky/haruhwa or burst-follow spam clusters  
+**Moderation List:** [🦋 Subscribe on Bluesky](https://bsky.app/profile/did:plc:sthd2dnrddxe6icdqza2oryx/lists/3mmvjoj2jqq2p)
 
 ---
 
