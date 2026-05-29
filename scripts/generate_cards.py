@@ -234,7 +234,7 @@ def main():
     timing_df = collect_follow_timing(client, accounts, auth_token, sample_size=args.sample_size)
     if not timing_df.empty:
         fig = creation_vs_follow_scatter(timing_df)
-        fig.write_image(str(output_dir / "creation_scatter.png"), scale=2)
+        fig.savefig(str(output_dir / "creation_scatter.png"), dpi=200, bbox_inches="tight")
         print(f"  Saved: {output_dir / 'creation_scatter.png'}", file=sys.stderr)
     else:
         print("  Skipped: no timing data collected", file=sys.stderr)
@@ -246,7 +246,7 @@ def main():
     )
     if not nodes_df.empty:
         fig = network_cluster_graph(nodes_df, edges_df)
-        fig.write_image(str(output_dir / "network_graph.png"), scale=2)
+        fig.savefig(str(output_dir / "network_graph.png"), dpi=200, bbox_inches="tight")
         print(f"  Saved: {output_dir / 'network_graph.png'}", file=sys.stderr)
     else:
         print("  Skipped: insufficient network data", file=sys.stderr)

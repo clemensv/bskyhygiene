@@ -128,6 +128,17 @@ All point to the same shortened URL: `https://b-short.link/C85gz9`
 
 ---
 
+## Account Creation vs. Follow Timing
+
+![Creation Scatter](assets/creation_scatter.png)
+
+The scatter reveals a **two-phase deployment strategy**: the original 604 bsky.network bots
+were created over weeks (Apr 30 – May 26) and lay dormant until the mass-follow event at
+May 27 15:00 UTC. Community PDS bots created May 27–28 followed within minutes of creation
+— well below the 5-minute threshold — indicating fully automated deployment.
+
+---
+
 ## Mutual-Follow Ring Structure
 
 ![Network Graph](assets/network_graph.png)
@@ -275,6 +286,79 @@ coolridge68486.ridgeway.dev         (かほ🎋)
 aquanode87523.p.0rs.org             (ゆずは💫)
 reddusk92773.nightbo.at             (ちあき🥺)
 ```
+
+---
+
+## Chronology (Firehose Data)
+
+*Updated 2026-05-29 via KQL time-series analysis against the full firehose window (Apr 30 – May 29).*
+
+![Deployment Timeline](assets/deployment_timeline.png)
+
+![Campaign Phases](assets/expansion_wave.png)
+
+### Phase 1: Assembly (Apr 30 – May 26)
+
+Low-rate trickle of 1–7 follows/hour from ring members — the operator created accounts
+slowly and connected them to avoid burst detection.
+
+| Date Range | Hourly Activity | Pattern |
+|-----------|----------------|---------|
+| Apr 30 – May 4 | 1–7 follows | Sporadic, testing |
+| May 4–14 | 1–4 follows | Steady drip, ~2/day |
+| May 14–26 | 1–3 follows | Near dormancy |
+
+### Phase 2: Ignition (May 27 00:00–12:00 UTC)
+
+- **00:00** — First significant spike: 72 follows in one hour (connecting first batch)
+- **12:00** — Single follow (final configuration check?)
+
+### Phase 3: Full Deployment (May 27 13:00–17:00 UTC)
+
+The operator ran the main deployment script, completing the ring in ~4 hours:
+
+| Time (UTC) | Follows | Posts | Significance |
+|------------|---------|-------|--------------|
+| 13:00 | 941 | 20 | Ring bootstrap — first accounts begin following + posting |
+| 14:00 | 1 | 11 | Posting continues, follows pause |
+| **15:00** | **25,962** | **601** | **MAIN BURST — all ~600 bots activated simultaneously** |
+| 16:00 | 2,530 | 1 | Tail-end connections |
+| 17:00 | 1,312 | — | Final follow wave completes |
+
+**Total deployment volume:** 30,746 follows + 633 posts in 4 hours.
+
+### Phase 4: Expansion Wave (May 28 21:17–21:19 UTC)
+
+A second post burst 30 hours after initial deployment:
+- **601 posts** from **597 unique DIDs** in a **2-minute window**
+- New post templates: `"{adverb}配信してる{emoji}"` + link + hashtags
+- **584 of these DIDs were NOT in the original 620-DID seed list**
+- Ring size grew ~10% in a single deployment event
+- **Revised ring total: ~6,600+ accounts**
+
+### Phase 5: Post-Deployment (May 29 — today)
+
+- **Zero new follows** detected from ring members in the last 24h (follow phase complete)
+- **No new posts from C85gz9** today — ring appears dormant after completing deployment
+- Ring infrastructure remains active on all 9+ community PDSes
+
+### Independent Operator: b-short.link/hdjN41
+
+A **separate operator** using the same link shortener infrastructure:
+
+| Metric | Value |
+|--------|-------|
+| Link | `b-short.link/hdjN41` |
+| Additional domains | `to-link.click/pb9eLa`, `momentary.link/MsCtHF`, `momentary.link/uHbaZp` |
+| Primary DID | `did:plc:phkvkocww6tu6mw7ehdxwuvi` |
+| Active since | 2026-05-09 (18 days before C85gz9 activation) |
+| Total posts | 57 |
+| Authors | 2 |
+| Content | Japanese adult with celebrity names (五十路奥様, 上羽絢) |
+| Relationship to C85gz9 | **Independent** — different timeline, scale, and methodology |
+
+Assessment: Same affiliate network customer, different operator. The b-short.link domain
+is shared infrastructure (like a URL shortener service) used by multiple spam operators.
 
 ---
 

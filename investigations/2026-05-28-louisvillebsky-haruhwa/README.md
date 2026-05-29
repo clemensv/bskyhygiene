@@ -1,7 +1,8 @@
 # Coordinated Bot Infrastructure: pds.louisvillebsky.app & haruhwa.com
 
-**Investigation Date:** 2026-05-28  
+**Investigation Date:** 2026-05-28 (initial report); updated 2026-05-29  
 **Methodology:** KQL analysis of Bluesky Firehose data (profiles, follows, posts) + PDS `listRepos` enumeration  
+**Status:** Charity fraud posting **ACTIVE** (5 posts today); follow inflation possibly dormant  
 **Scope:** 3,584 accounts across two self-hosted PDS servers operated by the same entity  
 **Moderation List:** [🦋 Subscribe on Bluesky](https://bsky.app/profile/did:plc:sthd2dnrddxe6icdqza2oryx/lists/3mmvjoj2jqq2p)
 
@@ -245,6 +246,95 @@ Testing impersonation/engagement tactics.
 
 ---
 
+## Chronology (Firehose Data)
+
+*Updated 2026-05-29 via KQL time-series analysis.*
+
+![Charity Fraud Timeline](assets/charity_fraud_timeline.png)
+
+![PDS Parasitism](assets/pds_parasitism.png)
+
+### Follow Inflation Operation
+
+| Date | Activity | DID Example | Notes |
+|------|----------|-------------|-------|
+| May 2, 13:00 | 118 follows in 1h | `did:plc:pbpc6hcrqdeylrnphefhtsru` | Original Louisville bot — fastest in cluster |
+| May 2, 15:00 | 42 follows | same | Continued follow burst |
+| May 2, 16:00 | 12 follows | same | Tail-end completion (172 total) |
+| May 7 | Bulk account creation | — | SyncTest/HaruhwaTest accounts |
+| May 12 | 89 accounts/hour peak | — | Synchronized Louisville + Haruhwa creation |
+| May 16 | 107 accounts/hour peak | — | Louisville's largest creation burst |
+
+The follow-inflation bots appear to have been deployed progressively over May 1–16,
+with each new account beginning to follow targets within minutes of creation.
+No new follow activity has been detected from original Louisville/Haruhwa bots
+since approximately May 16 — the follow phase may be dormant or complete.
+
+### PDS Parasitism by b-short Ring (May 27)
+
+Starting May 27, the Louisville PDS was **parasitized** by the Japanese b-short spam ring:
+
+| Time (UTC) | Event | DIDs |
+|------------|-------|------|
+| May 27, 13:00 | 4 b-short ring accounts activate on Louisville PDS | `did:plc:o7a4e5zsfoevz2hf6tfgvefu`, etc. |
+| May 27, 15:00 | Same accounts complete ring follows (~50 each) | — |
+
+These accounts are classified under the b-short ring rule (not Louisville's original
+operation). The Louisville PDS's open registration policy makes it vulnerable to
+parasitic use by any operator. Approximately 35 accounts on the Louisville PDS are
+b-short ring bots, not original Louisville/Haruhwa accounts.
+
+### Charity Fraud Posting — STILL ACTIVE
+
+The charity fraud posting operation has been **continuously active for 30 days**
+(Apr 30 – May 29, 2026) with no interruption:
+
+| Date | Posts | Unique Authors |
+|------|-------|----------------|
+| Apr 30 | 9 | 7 |
+| May 1 | 13 | 13 |
+| May 2 | 13 | 9 |
+| May 3 | 9 | 8 |
+| May 4 | 13 | 9 |
+| May 5 | 22 | 11 |
+| May 6 | 6 | 5 |
+| May 7 | 19 | 14 |
+| May 8 | 11 | 10 |
+| May 9 | 6 | 6 |
+| May 10 | 5 | 5 |
+| May 11 | 23 | 19 |
+| May 12 | 16 | 16 |
+| May 13 | 18 | 14 |
+| May 14 | 21 | 19 |
+| May 15 | 16 | 14 |
+| May 16 | 17 | 12 |
+| May 17 | 14 | 12 |
+| May 18 | 9 | 9 |
+| May 19 | 8 | 8 |
+| May 20 | 15 | 12 |
+| May 21 | 9 | 9 |
+| May 22 | 8 | 7 |
+| May 23 | 12 | 10 |
+| May 24 | 10 | 7 |
+| May 25 | 17 | 12 |
+| May 26 | 10 | 10 |
+| May 27 | 2 | 2 |
+| May 28 | 7 | 7 |
+| **May 29** | **5** | **4** |
+
+**Key findings:**
+- **Total: 383 posts from 4–19 unique authors per day** over 30 continuous days
+- Average: 12.8 posts/day, peak 23 (May 11)
+- The operation is **still active today** with 5 posts from 4 authors
+- Dip on May 27 (2 posts) correlates with heightened Bluesky T&S activity
+- The 4–19 unique authors per day suggests a **rotating roster of ~20 active scam accounts**
+
+**Assessment:** The follow-inflation infrastructure may be dormant, but the
+charity fraud posting operation is **fully operational** and shows no sign of stopping.
+The operator has sustained a daily posting cadence for over a month.
+
+---
+
 ## Conclusion
 
 This operation is a **multi-layered abuse infrastructure** combining three threat types
@@ -264,4 +354,4 @@ fundraising scams.
 
 ---
 
-*Investigation conducted via KQL queries against Bluesky Firehose data (Microsoft Fabric Eventhouse).*
+*Investigation conducted via KQL queries against Bluesky Firehose data (Microsoft Fabric Eventhouse). Last updated 2026-05-29.*

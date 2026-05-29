@@ -1,8 +1,8 @@
 # Burst-Follow Spam Network (watchmelive.my.id / livechats.my.id)
 
-**Date:** 2026-05-28  
-**Status:** Active (ongoing waves)  
-**Scope:** 389 bot accounts, ~394,000 fake follows generated in 5 days  
+**Date:** 2026-05-28 (initial report); updated 2026-05-29  
+**Status:** ACTIVE — still deploying new bots (6 activated today, 2026-05-29)  
+**Scope:** **472 bot accounts**, **483,327 fake follows** generated over 20 days (and growing)  
 **Infrastructure:** Official Bluesky PDS (bsky.network), not self-hosted  
 **Relation to louisvillebsky/haruhwa:** None — independent operation, zero follow-target overlap  
 **Moderation List:** [🦋 Subscribe on Bluesky](https://bsky.app/profile/did:plc:sthd2dnrddxe6icdqza2oryx/lists/3mmvjoj2jqq2p)
@@ -12,23 +12,25 @@
 ## Executive Summary
 
 A large-scale follow-spam and adult content promotion operation was detected on Bluesky,
-creating **389 accounts** between May 23–28, 2026. Each account issues exactly **~1,001 follows**
+deploying **472 accounts** between May 9–29, 2026. Each account issues exactly **~1,024 follows**
 within a 3–5 minute window (200–640 follows/minute), then updates its profile with adult
-spam links. Unlike the louisvillebsky/haruhwa cluster, these bots use standard Bluesky PDS
-infrastructure rather than self-hosted servers.
+spam links. The operation started with single-account probes (May 9, 13) and has escalated
+to 106 bots/day by May 28. **Still active today (6 bots deployed May 29).**
 
 ## Key Indicators
 
 | Signal | Value |
 |--------|-------|
-| Total accounts | 389 |
-| Avg follows per account | 1,013 |
+| Total accounts | **472** (was 389 at initial report) |
+| Total follows generated | **483,327** |
+| Avg follows per account | 1,024 |
 | Follow burst duration | < 5 minutes per account |
 | Peak follow rate | 640 follows/minute |
-| Account creation pattern | Waves of 24–126 per hour |
-| Active period | May 23–28, 2026 (ongoing) |
+| Campaign start | **2026-05-09** (earlier than initially detected) |
+| Campaign end | **Ongoing** (last activation: 2026-05-29 13:45 UTC) |
+| Daily acceleration | 1 bot/day → 106 bots/day over 20 days |
 | PDS infrastructure | Official bsky.network shards |
-| Shared target | `bsky.app` (followed by 387/389 bots) |
+| Shared target | `bsky.app` (followed by 472/472 bots — 100%) |
 | Spam domains | `watchmelive.my.id`, `livechats.my.id` |
 
 ## Handle Naming Pattern
@@ -277,6 +279,79 @@ threat model:
 - **Burst-follow spam**: Blunt-force adult content promotion using disposable accounts
   on official infrastructure, trivially detectable by rate analysis
 
+## Chronology (Firehose Data)
+
+*Updated 2026-05-29 via KQL time-series analysis. Identifies all accounts following
+`bsky.app` with 900+ follows completed in < 10 minutes.*
+
+![Campaign Acceleration](assets/campaign_acceleration.png)
+
+![Cumulative Impact](assets/daily_follows.png)
+
+### Phase 1: Testing (May 9–13)
+
+| Date | Bots | Follows | Notes |
+|------|------|---------|-------|
+| May 9 | 1 | 1,577 | Single probe account (highest follow count in campaign) |
+| May 13 | 1 | 921 | Second test, lower follow count |
+
+### Phase 2: Small Waves (May 18–20)
+
+| Date | Bots | Follows | Daily Increase |
+|------|------|---------|----------------|
+| May 18 | 7 | 7,006 | First multi-account batch |
+| May 19 | 14 | 14,014 | +100% |
+| May 20 | 17 | 17,010 | +21% |
+
+### Phase 3: Major Escalation (May 23–28)
+
+| Date | Bots Activated | Follows Generated | Cumulative Total |
+|------|----------------|-------------------|------------------|
+| May 23 | 42 | 42,024 | — |
+| May 24 | 52 | 51,989 | ~94K |
+| May 25 | 61 | 61,045 | ~155K |
+| May 26 | 93 | 94,364 | ~249K |
+| May 27 | 72 | 73,990 | ~323K |
+| **May 28** | **106** | **106,209** | **~430K** |
+
+The operator **accelerated through the week**: 42 → 52 → 61 → 93 → 72 → **106** bots/day.
+May 28 was the single largest day (106 bots, 106K follows). The dip on May 27 coincides
+with heavy Bluesky T&S suspension activity (unconfirmed whether related).
+
+### Phase 4: Ongoing (May 29 — today)
+
+| Date | Bots | Follows | Notes |
+|------|------|---------|-------|
+| May 29 | 6 | 13,178 | Still active; data covers through 13:45 UTC |
+
+The lower count today may represent:
+1. Partial day (data through early afternoon only)
+2. Operator slowing down after T&S suspensions
+3. Temporary pause before next escalation wave
+
+### Campaign Growth Trajectory
+
+```
+May 09  █ 1
+May 13  █ 1
+May 18  ████ 7
+May 19  ████████ 14
+May 20  █████████ 17
+May 23  ██████████████████████ 42
+May 24  ███████████████████████████ 52
+May 25  ████████████████████████████████ 61
+May 26  █████████████████████████████████████████████████ 93
+May 27  █████████████████████████████████████ 72
+May 28  ██████████████████████████████████████████████████████ 106  ← peak
+May 29  ███ 6 (partial day, still active)
+```
+
+**Assessment:** The operation shows exponential growth with no signs of stopping.
+At current acceleration, 200+ bots/day is plausible within the next week unless
+T&S intervention is effective.
+
+---
+
 ## Detection Heuristic
 
 ```
@@ -304,4 +379,4 @@ did:plc:xhmcqmuiucas3eidh6jljrww  (olivianasqku.bsky.social)
 
 ---
 
-*Investigation conducted via KQL queries against Bluesky Firehose data (Microsoft Fabric Eventhouse).*
+*Investigation conducted via KQL queries against Bluesky Firehose data (Microsoft Fabric Eventhouse). Last updated 2026-05-29.*
