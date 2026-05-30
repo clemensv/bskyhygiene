@@ -25,6 +25,10 @@ bot farm with topic-varied "seasoning" profiles.
 
 ---
 
+## Cluster Overview
+
+![Cluster Sizes](assets/cluster_sizes.png)
+
 ## Key Indicators
 
 | Metric | Media/Tech Ring | Gaming Ring |
@@ -70,6 +74,8 @@ They are **not** customers — they are unwitting cover for the seasoning operat
 
 ## Temporal Pattern
 
+![Daily Follow Volume](assets/temporal_daily.png)
+
 The operation runs **continuously** at 50–250 follows/hour across the target set, with
 activity observed around the clock since at least 2026-05-16.
 
@@ -94,6 +100,8 @@ automated infrastructure running 24/7 — not human-driven activity.
 ---
 
 ## Bot Profile Template
+
+![Profile Fingerprint](assets/profile_fingerprint.png)
 
 All sampled bot accounts share these characteristics:
 
@@ -149,30 +157,18 @@ coordinated messaging campaigns.
 
 ---
 
+## Network Structure
+
+![Network Venn Diagram](assets/network_venn.png)
+
+---
+
 ## Detection Methodology
 
 1. Identify accounts receiving abnormally high co-follows from the same new-account cohort
 2. Filter to accounts following 3+ of the curated target set within 14 days
 3. Validate bot signals: 0 posts, < 10 followers, bulk creation date clustering
 4. Confirm overlap between themed rings (588 shared accounts proves single operator)
-
-### Reproduction KQL
-
-```kql
-// Find media ring members
-let media_targets = dynamic([
-    "did:plc:7exlcsle4mjfhu3wnhcgizz6",  // theverge.com
-    "did:plc:inz4fkbbp7ms3ixufw6xuvdi",  // wired.com
-    "did:plc:vtpyqvwce4x6gpa5dcizqecy",  // techcrunch.com
-    "did:plc:yf6hctt2ug3qyfty4in64yob",  // politico.com
-    "did:plc:xlqcxpk53spbhlypj6wmvvke"   // popbase.tv
-]);
-["Bluesky.Graph.Follow_v1"]
-| where ___time >= ago(14d)
-| where subject in (media_targets)
-| summarize targets_followed=dcount(subject) by did
-| where targets_followed >= 3
-```
 
 ---
 

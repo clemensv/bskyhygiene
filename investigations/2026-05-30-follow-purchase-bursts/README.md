@@ -25,6 +25,10 @@ a separate low-effort bot pool.
 
 ---
 
+## Burst Magnitude
+
+![Burst Magnitude](assets/burst_magnitude.png)
+
 ## Key Indicators
 
 | Metric | @cislost24 | @cookierunkingdom |
@@ -48,6 +52,8 @@ a separate low-effort bot pool.
 
 ### @cislost24.bsky.social — 2026-05-25
 
+![cislost24 Burst](assets/burst_cislost24.png)
+
 ```
 04:00 UTC  ████████████████████████████████████████  198 follows
 05:00 UTC  ████████████████████████                  122 follows
@@ -60,6 +66,8 @@ Single concentrated burst starting at 04:00 UTC, decaying over 8 hours.
 Total: 589 new followers delivered.
 
 ### @cookierunkingdom.bsky.social — 2026-05-27
+
+![cookierunkingdom Burst](assets/burst_cookierunkingdom.png)
 
 ```
 20:00 UTC  ████████████████████████████████████████████████████████████████████████████████  395 follows
@@ -103,6 +111,8 @@ seasoning ring accounts:
 
 ## Inter-Follow Cadence Analysis
 
+![Cadence Analysis](assets/cadence_analysis.png)
+
 The timing between consecutive bot follows reveals automated batch submission:
 
 | Metric | @cislost24 burst | @cookierunkingdom burst |
@@ -136,6 +146,8 @@ per hour.
 
 ## Comparison with Seasoning Ring Bots
 
+![Bot Tier Comparison](assets/bot_tier_comparison.png)
+
 | Property | Seasoning Ring Bots | Burst Follow Bots |
 |----------|--------------------|--------------------|
 | Following count | 62–182 | 2–3 |
@@ -158,30 +170,6 @@ for eventual resale, while the burst bots are cheap throwaways for immediate del
 3. Measure inter-follow cadence (p10 < 5 seconds = automation)
 4. Classify bot pool by follow-set size and handle patterns
 5. Correlate burst timing with target account post history (no viral post = purchased)
-
-### Reproduction KQL
-
-```kql
-// Find burst targets in last 7d
-["Bluesky.Graph.Follow_v1"]
-| where ___time >= ago(7d)
-| summarize new_followers=count() by subject, bin(___time, 1h)
-| where new_followers >= 100
-| summarize peak_rate=max(new_followers), burst_hours=count() by subject
-| order by peak_rate desc
-
-// Measure inter-follow cadence for a specific target
-["Bluesky.Graph.Follow_v1"]
-| where ___time >= ago(7d)
-| where subject == "<TARGET_DID>"
-| order by ___time asc
-| extend prev_time = prev(___time)
-| extend gap_sec = datetime_diff("second", ___time, prev_time)
-| where isnotnull(gap_sec)
-| summarize avg_gap=avg(gap_sec), median_gap=percentile(gap_sec, 50),
-            p10=percentile(gap_sec, 10), p90=percentile(gap_sec, 90),
-            zero_gap=countif(gap_sec == 0)
-```
 
 ---
 
