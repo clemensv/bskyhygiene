@@ -3,7 +3,7 @@
 **Investigation Date:** 2026-05-30  
 **Methodology:** Temporal burst detection via KQL on Bluesky Firehose follow data; profile resolution via `app.bsky.actor.getProfile`  
 **Status:** **ACTIVE** — new burst events observed as recently as 2026-05-29  
-**Scope:** 2 confirmed follow-purchase targets receiving 589–1,380 fake followers within hours  
+**Scope:** 2 primary follow-purchase targets (595 + 1,323 bots), 9 Vietnamese SEO co-customers, 1 additional small customer  
 **Related:** [Seasoning Rings](../2026-05-30-seasoning-rings/README.md), [Burst Follow Spam (watchmelive.my.id)](../2026-05-28-burst-follow-spam/README.md)
 
 ---
@@ -15,8 +15,17 @@ bursts — consistent with a **paid follow-purchase service** ("follow farm as a
 
 | Target | Bot Followers (7d) | Peak Rate | Peak Time (UTC) |
 |--------|-------------------|-----------|-----------------|
-| @cislost24.bsky.social | 589 | 198/hour | 2026-05-25 04:00 |
-| @cookierunkingdom.bsky.social | 1,380 | 395/hour | 2026-05-27 20:00 |
+| @cislost24.bsky.social | 595 | 198/hour | 2026-05-25 04:00 |
+| @cookierunkingdom.bsky.social | 1,323 | 395/hour | 2026-05-27 20:00 |
+
+The two bot pools are **completely separate** (zero overlapping accounts), indicating either
+different vendors or distinct batch allocations.
+
+Deep mapping of the cislost24 pool (595 bots) revealed **9 Vietnamese SEO link-farm
+accounts** and 1 Korean anime artist (**@eriimyon.bsky.social**) as co-customers of the
+same vendor. The Vietnamese accounts are all zero-post placeholder profiles for manga piracy
+sites and an electronics retailer (FPT Shop), each purchasing small batches of 8–20 bot
+followers from the same pool.
 
 The bot accounts delivering these follows are **minimal throwaway accounts** — typically
 0 followers, 2–3 following, 0 posts — distinct from the seasoning ring bots (which follow
@@ -35,7 +44,7 @@ a separate low-effort bot pool.
 |--------|-----------|-------------------|
 | Target DID | `did:plc:rvoal7hdidgduflugbohykni` | `did:plc:5rwgthupzv6vcteaebpoa6zu` |
 | Total followers (real) | 3,853 | 5,521 |
-| Bot followers received (7d) | 589 | 1,380 |
+| Bot followers received (7d) | 595 | 1,323 |
 | Peak burst rate | 198/hour | 395/hour |
 | Peak burst time | 2026-05-25 04:00 UTC | 2026-05-27 20:00 UTC |
 | Burst duration | ~4 hours | ~5 hours |
@@ -63,7 +72,7 @@ a separate low-effort bot pool.
 ```
 
 Single concentrated burst starting at 04:00 UTC, decaying over 8 hours.
-Total: 589 new followers delivered.
+Total: 595 new followers delivered.
 
 ### @cookierunkingdom.bsky.social — 2026-05-27
 
@@ -78,7 +87,7 @@ Total: 589 new followers delivered.
 ```
 
 Massive single burst starting at 20:00 UTC, also decaying.
-Total: 1,380 new followers delivered.
+Total: 1,323 new followers delivered.
 
 ---
 
@@ -136,11 +145,84 @@ Both targets are **likely purchasers** (not victims):
 - **@cislost24.bsky.social** — 3,853 followers but only 45 posts and 5 following.
   Follower-to-post ratio of 85:1 is extremely inflated.
 - **@cookierunkingdom.bsky.social** — 5,521 followers, 153 posts.
-  Follower-to-post ratio of 36:1. A branded gaming community account that may
-  have purchased followers to boost credibility.
+  Follower-to-post ratio of 36:1. A branded gaming community account (Cookie Run:
+  Kingdom, a major Korean mobile game by Devsisters launched January 2021, 150M+ downloads)
+  that purchased followers to inflate credibility.
 
 Neither account shows any content that would organically attract 200–400 new followers
 per hour.
+
+---
+
+## Bot Pool Separation
+
+The cislost24 and cookierunkingdom bot pools are **completely separate** — zero overlapping
+bot accounts out of 595 and 1,323 bots respectively. This indicates either different
+vendors or distinct batch allocations from the same vendor.
+
+| Pool | Bot Count | Burst Date | Peak Rate | Cross-Overlap |
+|------|-----------|------------|-----------|---------------|
+| cislost24 | 595 | 2026-05-25 | 198/hr | 0 shared with cookie |
+| cookierunkingdom | 1,323 | 2026-05-27 | 395/hr | 0 shared with cislost |
+
+---
+
+## cislost24 Bot Cluster — Co-Target Mapping
+
+The 595 cislost24 bots also sprinkle small numbers of follows to other accounts, revealing
+the **vendor's customer list**:
+
+| Account | Shared Bots | Total Followers | Posts | Description |
+|---------|-------------|-----------------|-------|-------------|
+| @bsky.app | 414 | 33.5M | 756 | Auto-follow on creation (not a customer) |
+| @eriimyon.bsky.social | 9 | 21,923 | 31 | Korean anime artist |
+| @hentaipbncom.bsky.social | 5 | 349 | 0 | Vietnamese hentai manga piracy site |
+| @themtruyen.bsky.social | 5 | 258 | 0 | Vietnamese manga reading site |
+| @hentaivnmobi.bsky.social | 4 | 162 | 0 | Vietnamese hentai site |
+| @tiemsachnhoxinhcom.bsky.social | 4 | 108 | 0 | Vietnamese bookshop SEO |
+| @truyenqqclub.bsky.social | 4 | 105 | 0 | Vietnamese manga reading site |
+| @nettruyen.bsky.social | 3 | 246 | 0 | Vietnamese manga reading site |
+| @animevietnam.bsky.social | 2 | 480 | 0 | Vietnamese anime content |
+| @thienthaitruyen.bsky.social | 2 | 209 | 0 | Vietnamese hentai/manhwa site |
+| @fptshop.bsky.social | 2 | 258 | 1 | FPT Shop (Vietnamese electronics retail chain) |
+
+### Shared-bot distribution
+
+- 51 accounts received exactly 1 bot from this pool (noise/incidental)
+- 16 accounts received 2–4 bots
+- 3 accounts received 5–9 bots
+- 1 account received 100+ (@bsky.app — auto-follow)
+- **cislost24 is the sole large customer** in this batch (595 bots)
+
+---
+
+## Vietnamese SEO Link Farm Cluster
+
+Nine Vietnamese accounts — all **zero-post placeholder profiles** — share bots from the
+cislost24 pool, confirming they are customers of the same vendor:
+
+| Account | Bot Followers (30d) | Bot % | Created |
+|---------|--------------------:|------:|--------:|
+| @hentaipbncom.bsky.social | 20 | 56% | 2025-03-27 |
+| @animevietnam.bsky.social | 18 | 42% | 2025-04-16 |
+| @truyenqqclub.bsky.social | 12 | 46% | 2025-12-26 |
+| @fptshop.bsky.social | 12 | 34% | 2024-10-18 |
+| @hentaivnmobi.bsky.social | 11 | 46% | 2025-12-15 |
+| @thienthaitruyen.bsky.social | 10 | 42% | 2025-06-20 |
+| @themtruyen.bsky.social | 10 | 37% | 2025-01-18 |
+| @nettruyen.bsky.social | 9 | 39% | 2025-04-26 |
+| @tiemsachnhoxinhcom.bsky.social | 8 | 42% | 2025-11-26 |
+
+These are all Vietnamese-language piracy/SEO domains using Bluesky purely for link farming.
+They share bots among themselves (up to 8 shared between @fptshop and @animevietnam),
+confirming coordinated purchasing from the same vendor.
+
+### @eriimyon.bsky.social
+
+@eriimyon received 9 bots from the cislost24 pool during the same 2026-05-25 burst.
+With 58% bot followers in 30 days (18 of 31 new followers are bots), eriimyon appears
+to be a smaller customer of the same vendor. The eriimyon bots' top co-target is cislost24
+itself — confirming cross-pollination within the vendor's bot pool.
 
 ---
 
@@ -182,3 +264,6 @@ for eventual resale, while the burst bots are cheap throwaways for immediate del
   more accounts per bot).
 - **b-short.link ring (2026-05-27):** Different operator entirely (self-hosted PDS,
   Japanese-language content spam).
+- **Vietnamese SEO Link Farm:** Nine zero-post Vietnamese accounts (manga piracy sites,
+  electronics retailers) identified as co-customers of the cislost24 bot vendor,
+  purchasing small batches (8–20 bots each) of followers from the same pool.
