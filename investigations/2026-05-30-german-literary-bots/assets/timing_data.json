@@ -1,0 +1,506 @@
+[
+  {
+    "did":"did:plc:ssi5lbrlise2g5b32hqzdbb4",
+    "follow_count":11,
+    "duration_sec":20,
+    "first_ts":"2026-05-02 07:20:17.537183+00:00",
+    "last_ts":"2026-05-02 07:20:37.342296+00:00"
+  },
+  {
+    "did":"did:plc:65q2qee2gxvnok2x3xphwthw",
+    "follow_count":11,
+    "duration_sec":9199,
+    "first_ts":"2026-05-04 06:15:21.535169+00:00",
+    "last_ts":"2026-05-04 08:48:40.004106+00:00"
+  },
+  {
+    "did":"did:plc:rcldqbs7pb7cy7qoerqseupi",
+    "follow_count":9,
+    "duration_sec":251,
+    "first_ts":"2026-05-04 09:43:34.237435+00:00",
+    "last_ts":"2026-05-04 09:47:45.938920+00:00"
+  },
+  {
+    "did":"did:plc:rl6vzcrfdtojj5giapo725se",
+    "follow_count":3,
+    "duration_sec":20,
+    "first_ts":"2026-05-04 18:57:25.872250+00:00",
+    "last_ts":"2026-05-04 18:57:45.743096+00:00"
+  },
+  {
+    "did":"did:plc:cnutfhmchccmcdjruirpzmi2",
+    "follow_count":12,
+    "duration_sec":454701,
+    "first_ts":"2026-05-05 07:54:35.034808+00:00",
+    "last_ts":"2026-05-10 14:12:56.143397+00:00"
+  },
+  {
+    "did":"did:plc:noek7tphr5se6gq2qksllzyz",
+    "follow_count":12,
+    "duration_sec":76,
+    "first_ts":"2026-05-05 12:28:00.316241+00:00",
+    "last_ts":"2026-05-05 12:29:16.552422+00:00"
+  },
+  {
+    "did":"did:plc:dvrdsjhdnoq2pxkt6mhkqpo5",
+    "follow_count":13,
+    "duration_sec":2136386,
+    "first_ts":"2026-05-05 13:44:29.197156+00:00",
+    "last_ts":"2026-05-30 07:10:55.244783+00:00"
+  },
+  {
+    "did":"did:plc:slk45chuftu2vtgnnqs75inu",
+    "follow_count":11,
+    "duration_sec":2152478,
+    "first_ts":"2026-05-05 17:36:58.985015+00:00",
+    "last_ts":"2026-05-30 15:31:36.209069+00:00"
+  },
+  {
+    "did":"did:plc:qro34ghwoxxafec7t43ep7dw",
+    "follow_count":6,
+    "duration_sec":70,
+    "first_ts":"2026-05-05 20:15:19.837116+00:00",
+    "last_ts":"2026-05-05 20:16:29.640039+00:00"
+  },
+  {
+    "did":"did:plc:mk44yxqgs67qlxc2uq3h6l34",
+    "follow_count":16,
+    "duration_sec":48466,
+    "first_ts":"2026-05-05 23:18:10.030437+00:00",
+    "last_ts":"2026-05-06 12:45:56.893922+00:00"
+  },
+  {
+    "did":"did:plc:obwdfs6rvdepvjpmcywm4dtt",
+    "follow_count":11,
+    "duration_sec":33,
+    "first_ts":"2026-05-06 09:52:04.535005+00:00",
+    "last_ts":"2026-05-06 09:52:37.638182+00:00"
+  },
+  {
+    "did":"did:plc:6jsncbx7i6pktiu7dxp7ijef",
+    "follow_count":11,
+    "duration_sec":18,
+    "first_ts":"2026-05-06 10:05:47.134338+00:00",
+    "last_ts":"2026-05-06 10:06:05.932612+00:00"
+  },
+  {
+    "did":"did:plc:cispioecoxj4klrcisfbzes4",
+    "follow_count":3,
+    "duration_sec":910,
+    "first_ts":"2026-05-06 11:44:54.732319+00:00",
+    "last_ts":"2026-05-06 12:00:04.737908+00:00"
+  },
+  {
+    "did":"did:plc:jz2u2nmndf6vasvoswuzofvu",
+    "follow_count":11,
+    "duration_sec":14,
+    "first_ts":"2026-05-06 13:10:50.041582+00:00",
+    "last_ts":"2026-05-06 13:11:04.634823+00:00"
+  },
+  {
+    "did":"did:plc:uovnv3tb53slxoo4mglwkya2",
+    "follow_count":12,
+    "duration_sec":90,
+    "first_ts":"2026-05-06 13:30:39.249996+00:00",
+    "last_ts":"2026-05-06 13:32:09.139958+00:00"
+  },
+  {
+    "did":"did:plc:ofv4yvd3haiw46ze2atyyrj7",
+    "follow_count":11,
+    "duration_sec":1819604,
+    "first_ts":"2026-05-07 12:00:55.936531+00:00",
+    "last_ts":"2026-05-28 13:27:39.139056+00:00"
+  },
+  {
+    "did":"did:plc:e7tdgwzt3v7cnypx5jsicile",
+    "follow_count":12,
+    "duration_sec":394,
+    "first_ts":"2026-05-09 12:29:00.636911+00:00",
+    "last_ts":"2026-05-09 12:35:34.385953+00:00"
+  },
+  {
+    "did":"did:plc:giwlrfe4tgh2n4uwas7jzjof",
+    "follow_count":18,
+    "duration_sec":108155,
+    "first_ts":"2026-05-09 17:22:16.476441+00:00",
+    "last_ts":"2026-05-10 23:24:51.850964+00:00"
+  },
+  {
+    "did":"did:plc:j2z7aau4ws7cxyjz33vbevci",
+    "follow_count":15,
+    "duration_sec":12350,
+    "first_ts":"2026-05-10 11:17:17.533718+00:00",
+    "last_ts":"2026-05-10 14:43:07.339689+00:00"
+  },
+  {
+    "did":"did:plc:ok4yo7nnfokwlkidbphzcw7z",
+    "follow_count":11,
+    "duration_sec":27,
+    "first_ts":"2026-05-10 11:19:57.042417+00:00",
+    "last_ts":"2026-05-10 11:20:24.230209+00:00"
+  },
+  {
+    "did":"did:plc:f7bdywro2tdvtipyaun2qkkq",
+    "follow_count":10,
+    "duration_sec":0,
+    "first_ts":"2026-05-10 11:29:18.127553+00:00",
+    "last_ts":"2026-05-10 11:29:18.129695+00:00"
+  },
+  {
+    "did":"did:plc:gzgfiqfvqx7od4yq2yp4yfeb",
+    "follow_count":11,
+    "duration_sec":46,
+    "first_ts":"2026-05-11 05:58:33.644732+00:00",
+    "last_ts":"2026-05-11 05:59:19.033911+00:00"
+  },
+  {
+    "did":"did:plc:23xzi5wfeuyby4mneb4ynb6y",
+    "follow_count":10,
+    "duration_sec":0,
+    "first_ts":"2026-05-11 19:02:54.602626+00:00",
+    "last_ts":"2026-05-11 19:02:54.605630+00:00"
+  },
+  {
+    "did":"did:plc:fxfbugni26dtsu5zjfwwjkcm",
+    "follow_count":7,
+    "duration_sec":923,
+    "first_ts":"2026-05-12 05:30:06.861859+00:00",
+    "last_ts":"2026-05-12 05:45:29.135720+00:00"
+  },
+  {
+    "did":"did:plc:lk5nfw5mmlxmoay4hzygb4uh",
+    "follow_count":12,
+    "duration_sec":533397,
+    "first_ts":"2026-05-13 08:34:04.253933+00:00",
+    "last_ts":"2026-05-19 12:44:01.440643+00:00"
+  },
+  {
+    "did":"did:plc:jmcmoote3jsur66b6vibbsya",
+    "follow_count":21,
+    "duration_sec":93,
+    "first_ts":"2026-05-14 07:53:54.739328+00:00",
+    "last_ts":"2026-05-14 07:55:27.534397+00:00"
+  },
+  {
+    "did":"did:plc:4r3lwwwds6pul7p7hsxmwoz5",
+    "follow_count":11,
+    "duration_sec":150,
+    "first_ts":"2026-05-14 10:14:04.242883+00:00",
+    "last_ts":"2026-05-14 10:16:34.443602+00:00"
+  },
+  {
+    "did":"did:plc:ickuyup65ugmu7yeglclsqbc",
+    "follow_count":11,
+    "duration_sec":26,
+    "first_ts":"2026-05-14 12:28:48.960416+00:00",
+    "last_ts":"2026-05-14 12:29:14.436412+00:00"
+  },
+  {
+    "did":"did:plc:fkhoi7d54ttbceisnq3ubf5t",
+    "follow_count":11,
+    "duration_sec":23,
+    "first_ts":"2026-05-14 12:30:56.636095+00:00",
+    "last_ts":"2026-05-14 12:31:19.553555+00:00"
+  },
+  {
+    "did":"did:plc:adi6pwwivfl36rl5pc6k3obw",
+    "follow_count":18,
+    "duration_sec":691,
+    "first_ts":"2026-05-14 12:36:17.535148+00:00",
+    "last_ts":"2026-05-14 12:47:48.832295+00:00"
+  },
+  {
+    "did":"did:plc:nbnmezq4cwcmn7o6douiz7jt",
+    "follow_count":11,
+    "duration_sec":21,
+    "first_ts":"2026-05-15 06:34:23.145238+00:00",
+    "last_ts":"2026-05-15 06:34:44.438380+00:00"
+  },
+  {
+    "did":"did:plc:jkawembn7hhxl7yxjjs2q2od",
+    "follow_count":19,
+    "duration_sec":421921,
+    "first_ts":"2026-05-15 15:39:59.043067+00:00",
+    "last_ts":"2026-05-20 12:52:00.737059+00:00"
+  },
+  {
+    "did":"did:plc:qybbddw6wk3jtxlkwz6sfhzs",
+    "follow_count":11,
+    "duration_sec":39,
+    "first_ts":"2026-05-15 16:07:22.747788+00:00",
+    "last_ts":"2026-05-15 16:08:01.343107+00:00"
+  },
+  {
+    "did":"did:plc:y3xtmgmkpk7aw2mrfj3bxank",
+    "follow_count":11,
+    "duration_sec":33,
+    "first_ts":"2026-05-15 16:42:45.810989+00:00",
+    "last_ts":"2026-05-15 16:43:18.425520+00:00"
+  },
+  {
+    "did":"did:plc:fswbuh7amnkjtvcwy36uqmdt",
+    "follow_count":3,
+    "duration_sec":74,
+    "first_ts":"2026-05-15 22:29:37.893064+00:00",
+    "last_ts":"2026-05-15 22:30:51.872777+00:00"
+  },
+  {
+    "did":"did:plc:xfjqbk4yccovib7qudwu4kfk",
+    "follow_count":14,
+    "duration_sec":1122613,
+    "first_ts":"2026-05-16 11:31:27.642655+00:00",
+    "last_ts":"2026-05-29 11:21:40.184523+00:00"
+  },
+  {
+    "did":"did:plc:b354ng2qrnj4cyjekeg47uum",
+    "follow_count":11,
+    "duration_sec":7,
+    "first_ts":"2026-05-16 11:40:33.938541+00:00",
+    "last_ts":"2026-05-16 11:40:40.148322+00:00"
+  },
+  {
+    "did":"did:plc:p7w27lq272ter7plhhonxvuk",
+    "follow_count":11,
+    "duration_sec":32,
+    "first_ts":"2026-05-16 16:01:52.812687+00:00",
+    "last_ts":"2026-05-16 16:02:24.748462+00:00"
+  },
+  {
+    "did":"did:plc:duy5w34fjom4isuw6xkkdpua",
+    "follow_count":13,
+    "duration_sec":29556,
+    "first_ts":"2026-05-17 13:37:33.114537+00:00",
+    "last_ts":"2026-05-17 21:50:09.843158+00:00"
+  },
+  {
+    "did":"did:plc:hpbjbrp52bjquzwbr72mmugq",
+    "follow_count":12,
+    "duration_sec":29518,
+    "first_ts":"2026-05-17 13:38:09.754166+00:00",
+    "last_ts":"2026-05-17 21:50:07.399027+00:00"
+  },
+  {
+    "did":"did:plc:3lnragmbao2ux77qebwgiotj",
+    "follow_count":12,
+    "duration_sec":29487,
+    "first_ts":"2026-05-17 13:38:47.143013+00:00",
+    "last_ts":"2026-05-17 21:50:14.831101+00:00"
+  },
+  {
+    "did":"did:plc:c33psrxudyqodkyhw45eiprl",
+    "follow_count":11,
+    "duration_sec":29448,
+    "first_ts":"2026-05-17 13:39:24.733082+00:00",
+    "last_ts":"2026-05-17 21:50:12.030730+00:00"
+  },
+  {
+    "did":"did:plc:ndg4r7okdgfybpsv5dnwmxww",
+    "follow_count":13,
+    "duration_sec":29415,
+    "first_ts":"2026-05-17 13:39:54.053710+00:00",
+    "last_ts":"2026-05-17 21:50:09.045520+00:00"
+  },
+  {
+    "did":"did:plc:hp46llucun4tnf6arxkcqqik",
+    "follow_count":12,
+    "duration_sec":29372,
+    "first_ts":"2026-05-17 13:40:33.762931+00:00",
+    "last_ts":"2026-05-17 21:50:05.036710+00:00"
+  },
+  {
+    "did":"did:plc:6pk2hyzjmgkeemlxlwpdmqz7",
+    "follow_count":14,
+    "duration_sec":26119,
+    "first_ts":"2026-05-17 15:11:06.938426+00:00",
+    "last_ts":"2026-05-17 22:26:25.540067+00:00"
+  },
+  {
+    "did":"did:plc:arqvdy7smjc5lrzf7vl74ju4",
+    "follow_count":17,
+    "duration_sec":415,
+    "first_ts":"2026-05-17 21:45:09.446370+00:00",
+    "last_ts":"2026-05-17 21:52:04.536986+00:00"
+  },
+  {
+    "did":"did:plc:54qcahircr3gvwv5hfbjeops",
+    "follow_count":15,
+    "duration_sec":503,
+    "first_ts":"2026-05-17 21:47:00.091338+00:00",
+    "last_ts":"2026-05-17 21:55:23.034643+00:00"
+  },
+  {
+    "did":"did:plc:4pnrz2wgykpdd3ryhaw7ubh7",
+    "follow_count":11,
+    "duration_sec":17,
+    "first_ts":"2026-05-18 02:17:54.838248+00:00",
+    "last_ts":"2026-05-18 02:18:11.737366+00:00"
+  },
+  {
+    "did":"did:plc:xyszn6i6eyd6xnxljyen25gm",
+    "follow_count":13,
+    "duration_sec":229,
+    "first_ts":"2026-05-18 20:06:43.648206+00:00",
+    "last_ts":"2026-05-18 20:10:32.132875+00:00"
+  },
+  {
+    "did":"did:plc:6osqaarvduxh7jckawlzjvlz",
+    "follow_count":18,
+    "duration_sec":9030,
+    "first_ts":"2026-05-18 20:06:56.153017+00:00",
+    "last_ts":"2026-05-18 22:37:26.837363+00:00"
+  },
+  {
+    "did":"did:plc:cl67djqvngtdpmb4tz6qa546",
+    "follow_count":11,
+    "duration_sec":47,
+    "first_ts":"2026-05-18 20:21:04.647220+00:00",
+    "last_ts":"2026-05-18 20:21:51.789070+00:00"
+  },
+  {
+    "did":"did:plc:g7whyevhwhee3d3cjmigq2iu",
+    "follow_count":11,
+    "duration_sec":49956,
+    "first_ts":"2026-05-19 04:19:06.944995+00:00",
+    "last_ts":"2026-05-19 18:11:42.291929+00:00"
+  },
+  {
+    "did":"did:plc:mddh2p7ampf4owywpwjefqh2",
+    "follow_count":19,
+    "duration_sec":267794,
+    "first_ts":"2026-05-19 10:00:31.740690+00:00",
+    "last_ts":"2026-05-22 12:23:45.330206+00:00"
+  },
+  {
+    "did":"did:plc:rvibewjprgual7elwghhwqv4",
+    "follow_count":5,
+    "duration_sec":106,
+    "first_ts":"2026-05-19 10:55:22.656546+00:00",
+    "last_ts":"2026-05-19 10:57:08.541841+00:00"
+  },
+  {
+    "did":"did:plc:aetmobua43boofxisj23uw3h",
+    "follow_count":12,
+    "duration_sec":89,
+    "first_ts":"2026-05-19 17:44:05.487428+00:00",
+    "last_ts":"2026-05-19 17:45:34.440533+00:00"
+  },
+  {
+    "did":"did:plc:utubsiazay7lm6dv2huhubqs",
+    "follow_count":13,
+    "duration_sec":343,
+    "first_ts":"2026-05-19 18:31:04.347407+00:00",
+    "last_ts":"2026-05-19 18:36:47.542615+00:00"
+  },
+  {
+    "did":"did:plc:qpagbstrnlzfrb477y5wcdcv",
+    "follow_count":15,
+    "duration_sec":87357,
+    "first_ts":"2026-05-20 18:39:53.137966+00:00",
+    "last_ts":"2026-05-21 18:55:50.740878+00:00"
+  },
+  {
+    "did":"did:plc:siaowobdm7kkgyuhbpt3fv3a",
+    "follow_count":6,
+    "duration_sec":31,
+    "first_ts":"2026-05-20 19:57:11.445435+00:00",
+    "last_ts":"2026-05-20 19:57:42.369179+00:00"
+  },
+  {
+    "did":"did:plc:q5x5fk2ephewpegb3wz2mae6",
+    "follow_count":9,
+    "duration_sec":81,
+    "first_ts":"2026-05-21 15:06:27.045988+00:00",
+    "last_ts":"2026-05-21 15:07:48.047644+00:00"
+  },
+  {
+    "did":"did:plc:cqrs65mnjafpdq7vf6t3fxgd",
+    "follow_count":11,
+    "duration_sec":23,
+    "first_ts":"2026-05-24 07:51:54.533093+00:00",
+    "last_ts":"2026-05-24 07:52:17.833445+00:00"
+  },
+  {
+    "did":"did:plc:w3btbbeqqg74hh5fg3xbzzz5",
+    "follow_count":6,
+    "duration_sec":404054,
+    "first_ts":"2026-05-24 08:01:47.640906+00:00",
+    "last_ts":"2026-05-29 00:16:01.844386+00:00"
+  },
+  {
+    "did":"did:plc:rkgwboht65ufz2i6ffjlisqo",
+    "follow_count":3,
+    "duration_sec":9,
+    "first_ts":"2026-05-26 06:11:17.039257+00:00",
+    "last_ts":"2026-05-26 06:11:26.332512+00:00"
+  },
+  {
+    "did":"did:plc:st72pwy2atpyswi3clf646wl",
+    "follow_count":8,
+    "duration_sec":176,
+    "first_ts":"2026-05-26 11:58:56.137400+00:00",
+    "last_ts":"2026-05-26 12:01:52.244070+00:00"
+  },
+  {
+    "did":"did:plc:tn4h5mjntidylhmjhutn55mc",
+    "follow_count":3,
+    "duration_sec":23,
+    "first_ts":"2026-05-26 16:15:20.940625+00:00",
+    "last_ts":"2026-05-26 16:15:43.035436+00:00"
+  },
+  {
+    "did":"did:plc:tljyfzungrm7j7tpguncuyeb",
+    "follow_count":11,
+    "duration_sec":16,
+    "first_ts":"2026-05-26 23:16:49.654404+00:00",
+    "last_ts":"2026-05-26 23:17:05.237091+00:00"
+  },
+  {
+    "did":"did:plc:rcnbzcgu6tt6i4g63y46arc2",
+    "follow_count":11,
+    "duration_sec":5,
+    "first_ts":"2026-05-27 07:10:12.441820+00:00",
+    "last_ts":"2026-05-27 07:10:17.237464+00:00"
+  },
+  {
+    "did":"did:plc:22qeiy5i6hh2d6lito54tcl7",
+    "follow_count":21,
+    "duration_sec":225389,
+    "first_ts":"2026-05-27 17:32:52.490225+00:00",
+    "last_ts":"2026-05-30 08:09:21.743642+00:00"
+  },
+  {
+    "did":"did:plc:oxzua4bbcmvl6qcomasdv344",
+    "follow_count":11,
+    "duration_sec":27,
+    "first_ts":"2026-05-28 05:26:25.549931+00:00",
+    "last_ts":"2026-05-28 05:26:52.140657+00:00"
+  },
+  {
+    "did":"did:plc:2rj7tzjpyryjc3xjxii453uh",
+    "follow_count":3,
+    "duration_sec":1,
+    "first_ts":"2026-05-28 09:19:59.239113+00:00",
+    "last_ts":"2026-05-28 09:20:00.840185+00:00"
+  },
+  {
+    "did":"did:plc:acypfmy2q5avqnvqvogubxgb",
+    "follow_count":18,
+    "duration_sec":2376,
+    "first_ts":"2026-05-28 10:27:31.639830+00:00",
+    "last_ts":"2026-05-28 11:07:07.533592+00:00"
+  },
+  {
+    "did":"did:plc:m2fhl4lwi5qsf7bo4zeydwc4",
+    "follow_count":11,
+    "duration_sec":49,
+    "first_ts":"2026-05-30 07:33:36.938162+00:00",
+    "last_ts":"2026-05-30 07:34:25.730528+00:00"
+  },
+  {
+    "did":"did:plc:5h7devxtgu7lcxbpfyulxu2s",
+    "follow_count":14,
+    "duration_sec":91,
+    "first_ts":"2026-05-30 09:29:54.645283+00:00",
+    "last_ts":"2026-05-30 09:31:25.532075+00:00"
+  }
+]
