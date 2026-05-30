@@ -156,6 +156,8 @@ per hour.
 
 ## Bot Pool Separation
 
+![Pool Separation](assets/pool_separation.png)
+
 The cislost24 and cookierunkingdom bot pools are **completely separate** — zero overlapping
 bot accounts out of 595 and 1,323 bots respectively. This indicates either different
 vendors or distinct batch allocations from the same vendor.
@@ -168,6 +170,8 @@ vendors or distinct batch allocations from the same vendor.
 ---
 
 ## cislost24 Bot Cluster — Co-Target Mapping
+
+![Co-Follow Targets](assets/cofollow_targets.png)
 
 The 595 cislost24 bots also sprinkle small numbers of follows to other accounts, revealing
 the **vendor's customer list**:
@@ -213,11 +217,15 @@ cislost24 pool, confirming they are customers of the same vendor:
 | @nettruyen.bsky.social | 9 | 39% | 2025-04-26 |
 | @tiemsachnhoxinhcom.bsky.social | 8 | 42% | 2025-11-26 |
 
+![Vietnamese SEO Heatmap](assets/viet_seo_heatmap.png)
+
 These are all Vietnamese-language piracy/SEO domains using Bluesky purely for link farming.
 They share bots among themselves (up to 8 shared between @fptshop and @animevietnam),
 confirming coordinated purchasing from the same vendor.
 
 ### @eriimyon.bsky.social
+
+![Co-Follow Timing](assets/cofollow_timing.png)
 
 @eriimyon received 9 bots from the cislost24 pool during the same 2026-05-25 burst.
 With 58% bot followers in 30 days (18 of 31 new followers are bots), eriimyon appears
