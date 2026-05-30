@@ -1,12 +1,12 @@
 # Deutschsprachiges Literatur-Bot-Netzwerk auf Bluesky
 
-**Datum:** 30. Mai 2026 (aktualisiert: Runde 2)  
+**Datum:** 30. Mai 2026 (aktualisiert: Runde 3 — False-Positive-Prüfung)  
 **Status:** RUHEND — keine neuen Bots in den letzten 48 Stunden  
-**Umfang:** **72 bestätigte Bot-Accounts**, ~780 Fake-Follows an 11 Kern-Ziele  
+**Umfang:** **70 bestätigte Bot-Accounts** (2 False Positives entfernt), ~750 Fake-Follows an 11 Kern-Ziele  
 **Infrastruktur:** Offizielle Bluesky-PDS (bsky.network)  
 **Hinweisgeber:** [@schreibersnaturarium.de](https://bsky.app/profile/schreibersnaturarium.de) (Autorin Jasmin Schreiber)  
 **Verwandt mit anderen Clustern:** Nein — eigenständige Operation, kein Overlap mit Seasoning Rings, Burst-Follow-Spam oder cislost24-Netzwerk  
-**Suspendierungen:** 0 von 72 — alle Accounts weiterhin aktiv
+**Suspendierungen:** 0 von 70 — alle Accounts weiterhin aktiv
 
 ---
 
@@ -35,9 +35,9 @@ feuert alle Follows in unter 2 Minuten ab (Median).
 
 | Signal | Wert |
 |--------|------|
-| Bestätigte Bot-Accounts | **72** |
+| Bestätigte Bot-Accounts | **70** (72 initial, 2 FP entfernt) |
 | Follows pro Bot | 3–20 (Modus: **exakt 11**, 40%) |
-| Geschätzte Fake-Follows | ~780 |
+| Geschätzte Fake-Follows | ~750 |
 | Kampagnenstart | **2. Mai 2026** (erster Follow im Graph) |
 | Letzte Aktivität | **30. Mai 2026** |
 | Posts pro Bot | **0–17** (19 Bots mit Posts, davon 2 mit >10) |
@@ -57,17 +57,17 @@ deutschsprachige Autor:innen, Kulturinstitutionen, Journalist:innen und Politike
 
 | Rang | Account | Bots | Follower | Beschreibung |
 |------|---------|------|----------|--------------|
-| 1 | @schreibersnaturarium.de | 72/72 | 20.514 | Autorin (Hinweisgeberin) |
-| 2 | @colettemschmidt.bsky.social | 72/72 | 11.619 | Journalistin |
-| 3 | @bsky.app | 66/72 | 33.484.526 | Bluesky-Standard-Follow |
-| 4 | @wernerkogler.bsky.social | 58/72 | 9.318 | Österreichischer Politiker |
-| 5 | @datgestruepp.bsky.social | 52/72 | 6.065 | Kultur-Account |
-| 6 | @jungeakademie.bsky.social | 52/72 | 2.774 | Junge Akademie |
-| 7 | @purrtah.bsky.social | 51/72 | 4.902 | Kultur/Illustration |
-| 8 | @musermeku.bsky.social | 45/72 | 3.203 | Museumskultur |
-| 9 | @kunstderfuge.bsky.social | 42/72 | 3.537 | Kunst/Kultur |
-| 10 | @kunstjonas.bsky.social | 42/72 | 2.394 | Kunst |
-| 11 | @elsschot.bsky.social | 39/72 | 9.861 | Literatur |
+| 1 | @schreibersnaturarium.de | 70/70 | 20.514 | Autorin (Hinweisgeberin) |
+| 2 | @colettemschmidt.bsky.social | 70/70 | 11.619 | Journalistin |
+| 3 | @bsky.app | 64/70 | 33.484.526 | Bluesky-Standard-Follow |
+| 4 | @wernerkogler.bsky.social | 57/70 | 9.318 | Österreichischer Politiker |
+| 5 | @datgestruepp.bsky.social | 51/70 | 6.065 | Kultur-Account |
+| 6 | @jungeakademie.bsky.social | 51/70 | 2.774 | Junge Akademie |
+| 7 | @purrtah.bsky.social | 50/70 | 4.902 | Kultur/Illustration |
+| 8 | @musermeku.bsky.social | 44/70 | 3.203 | Museumskultur |
+| 9 | @kunstderfuge.bsky.social | 41/70 | 3.537 | Kunst/Kultur |
+| 10 | @kunstjonas.bsky.social | 41/70 | 2.394 | Kunst |
+| 11 | @elsschot.bsky.social | 38/70 | 9.861 | Literatur |
 
 **Sekundärziele (gelegentlich mitgenommen):** @kattascha (40.098 Follower),
 @golod (24.151), @islieb (15.464), @faznet (19.497), @afelia/Marina Weisband (75.904),
@@ -140,10 +140,10 @@ schnellen Burst ab — nicht über Stunden oder Tage verteilt.
 | Metrik | Wert |
 |--------|------|
 | Median Burst-Dauer | **128 Sekunden** |
-| Abgeschlossen in < 1 Minute | 27/72 (38%) |
-| Abgeschlossen in < 5 Minuten | 40/72 (56%) |
-| Abgeschlossen in < 1 Stunde | 48/72 (67%) |
-| Nahm > 1 Stunde | 24/72 (33%) |
+| Abgeschlossen in < 1 Minute | 27/70 (39%) |
+| Abgeschlossen in < 5 Minuten | 40/70 (57%) |
+| Abgeschlossen in < 1 Stunde | 48/70 (69%) |
+| Nahm > 1 Stunde | 22/70 (31%) |
 
 Die Bots mit langer Gesamtdauer (Stunden/Tage) wurden für **mehrere Wellen** reaktiviert:
 Erst folgten sie den initialen 11 Kern-Zielen, Tage später wurden die Goth-Girl-Spam-
@@ -169,14 +169,14 @@ Die Bot-Accounts zeigen ein überraschend hohes Profil-Ausstattungsniveau:
 | Display-Name | 22/66 (33%) |
 | Beschreibung/Bio | 12/66 (18%) |
 | Mindestens 1 Post | 19/66 (29%) |
-| Suspendiert/Gelöscht | **0/72** (0%) |
+| Suspendiert/Gelöscht | **0/70** (0%) |
 
 ### Zwei Bot-Populationen im selben Cluster
 
 **Population A — „Deutschsprachige Tarnbots":**
-- Plausible deutsche Handles: `miahungrigesherz`, `fraurollmops`, `jens-kessler`
-- Manche mit echtwirkenden Bios: „Lehrkraft für Politik und Geschichte", „Fußgängerin, Serienkuckerin"
-- Einige mit realen Posts (bis zu 17)
+- Plausible deutsche Handles: `miahungrigesherz`, `fraurollmops`, `fckafdemail`
+- Manche mit echtwirkenden Bios: „Fußgängerin, Serienkuckerin"
+- Einige mit realen Posts (bis zu 7)
 - Avatare vorhanden, aber generisch
 
 **Population B — „Goth Girl"-Spam:**
@@ -186,13 +186,14 @@ Die Bot-Accounts zeigen ein überraschend hohes Profil-Ausstattungsniveau:
 - Alle verweisen auf Instagram/Telegram (Social-Engineering → Krypto-/Romance-Scam)
 
 **Bemerkenswerte Bots mit Posts:**
-- `alerta93.bsky.social` — 14 Posts
-- `jens-kessler.bsky.social` — 17 Posts („Lehrkraft für Politik und Geschichte")
-- `derrechtenutzer.bsky.social` — 7 Posts
-- `fckafdemail.bsky.social` — 5 Posts
+- `fckafdemail.bsky.social` — 5 Posts (10 Follows im selben Millisekunden-Burst → Bot)
+- `derrechtenutzer.bsky.social` — 7 Posts (14 Follows in 91 Sekunden → Bot)
+- `fraurollmops.bsky.social` — 3 Posts, plausible Bio (10 Follows im selben Millisekunden-Burst → Bot)
+- `sylveev2justexists.bsky.social` — 1 Post, „Pokemon Nerd" (10 Follows im selben ms → Bot, hat nachträglich alle Targets entfolgt)
 
-Die Accounts mit vielen Posts könnten **kompromittierte echte Accounts** oder besonders
-gut vorbereitete Sock-Puppets sein.
+**Entfernte False Positives** (siehe Abschnitt unten):
+- `jens-kessler.bsky.social` — 17 Posts, echte Person (Lehrkraft)
+- `alerta93.bsky.social` — 14 Posts, echte Person (politischer Account)
 
 ## Hypothese: Geschäftsmodell
 
@@ -220,32 +221,31 @@ Neuankömmling. Die eigentlichen Kunden sind die „Goth Girl"-Spam-Profile.
 
 ## Handle-Muster (vollständige Liste)
 
-Alle 66 über API aufgelösten Bot-Handles (alphabetisch):
+Alle 64 über API aufgelösten Bot-Handles (alphabetisch):
 
 ```
-a-hmadsaleem        adr46              alerta93            anianina
-avawilander         bennymy            berger51            boogibomber
-casimiruua          catzastrophe       derglsndb           derrechtenutzer
-drabons             dro36              ella-aust           fckafdemail
-fraurollmops        gothgirlrileyy     gothgirlrumi        guidohoes
-haasbarbara         hasipups           heinerthiel         hiep54
-holgergollnast61    improvisando       iskanderfrancis     itssophiierose
-itsvanessabeckerr   jajhahja           janhoekema          jens-kessler
-jokon84             kaatvndveld        knight-of-justice   knut44
-kopprene566-83      kuchenzahn-club    lisamarinna         lobsi
-mafabuh             malte161           martin-daniel       matthes-young
-miahungrigesherz    moebes             ni-els              nittsmav
-nornadim2320-90     pilot-747-check    rileyraygoth        rudi62
-scarredfury         sergiusch          skunny22            sophierosegoth
-sophierosenurse     sylveev2justexists timo1980            tobias-namenlos
-vanessabeckrr       veraenderung       veraltetgianni      whitewinterowl
-willykaufmann       zoeymyheart
+a-hmadsaleem        adr46              anianina            avawilander
+bennymy             berger51           boogibomber         casimiruua
+catzastrophe        derglsndb          derrechtenutzer     drabons
+dro36               ella-aust          fckafdemail         fraurollmops
+gothgirlrileyy      gothgirlrumi       guidohoes           haasbarbara
+hasipups            heinerthiel        hiep54              holgergollnast61
+improvisando        iskanderfrancis    itssophiierose      itsvanessabeckerr
+jajhahja            janhoekema         jokon84             kaatvndveld
+knight-of-justice   knut44             kopprene566-83      kuchenzahn-club
+lisamarinna         lobsi              mafabuh             malte161
+martin-daniel       matthes-young      miahungrigesherz    moebes
+ni-els              nittsmav           nornadim2320-90     pilot-747-check
+rileyraygoth        rudi62             scarredfury         sergiusch
+skunny22            sophierosegoth     sophierosenurse     sylveev2justexists
+timo1980            tobias-namenlos    vanessabeckrr       veraenderung
+veraltetgianni      whitewinterowl     willykaufmann       zoeymyheart
 ```
 
 **Muster:**
-- 66/66 rein lowercase
-- 16/66 enthalten Ziffern (24%)
-- 5/66 englische Spam-Pattern (`gothgirl*`, `riley*`, `sophie*`)
+- 64/70 rein lowercase (6 nicht auflösbar)
+- 16/64 enthalten Ziffern (25%)
+- 5/64 englische Spam-Pattern (`gothgirl*`, `riley*`, `sophie*`)
 - Rest: plausible deutsche/niederländische Personennamen
 
 ## Abgrenzung zu anderen Netzwerken
@@ -272,24 +272,78 @@ Dieses Cluster ist besonders schwer zu erkennen, weil:
 5. **Mischnutzung:** Echte Kultur-Accounts als Tarnung neben Spam-Zielen
 
 **Erkennung gelang durch:**
-- Co-Follow-Analyse: 72/72 Bots folgen @schreibersnaturarium.de UND @colettemschmidt → statistisch unmöglich zufällig
+- Co-Follow-Analyse: 70/70 Bots folgen @schreibersnaturarium.de UND @colettemschmidt → statistisch unmöglich zufällig
 - Fixed follow count: 40% folgen exakt 11 Accounts
 - Burst-Timing: Alle Follows eines Bots in < 2 Minuten (Median)
 - Community-Hinweis (Jasmin Schreiber)
 - API-Verifizierung: Kein einziger Bot ist suspendiert oder gelöscht
 
+## False-Positive-Prüfung (Runde 3)
+
+Alle 72 Cluster-Accounts wurden systematisch auf False Positives untersucht:
+
+**Methodik:**
+1. Scoring: Posts, Follower, Follows, Bio-Qualität, Account-Alter
+2. Deep-Dive: Vollständige Follow-Listen der verdächtigen Accounts über API
+3. Timing-Analyse: Burst-Muster vs. organisches Verhalten (Kusto)
+4. Starter-Pack-Prüfung: Ob Targets in gemeinsamen Starter Packs erscheinen
+
+### Entfernte Accounts (bestätigte False Positives)
+
+| Account | Grund | Timing | Evidenz |
+|---------|-------|--------|----------|
+| @jens-kessler.bsky.social | Echte Lehrkraft | 13,9h Gesamtdauer mit 9,6h Nachtpause | 17 Posts, 7 organische Follows (dt. Lehrer:innen), nur 3/11 Targets |
+| @alerta93.bsky.social | Echter politischer Account | 1,7s-Median natürlicher Klickrhythmus | 14 Posts, 8 diverse Non-Cluster-Follows, nur 3/11 Targets |
+
+**@jens-kessler** folgte am 19.05. um 04:19 Uhr morgens — burst-artig 8 Accounts in 55s
+(konsistent mit manuellem Onboarding), dann 4,3h und 9,6h Pausen vor den nächsten Follows.
+Seine 7 Non-Cluster-Follows sind ausschließlich deutsche Lehrkräfte (HerrHeldt, Jessica Hilbert,
+Jan-Martin Klinge) — kein Bot folgt gezielt dem deutschen #BlueLZ-Netzwerk.
+
+**@alerta93** folgte die 2 Kern-Ziele + bsky.app am 05.05. mit natürlichem 1,7s-Rhythmus.
+25 Tage später (30.05.) folgten 7 politische Accounts (Georg Diez, Kreativ gegen Rechts) —
+typisches Verhalten eines gelegentlichen Nutzers, der in Wellen stöbert.
+
+### Bestätigte Bots trotz hohem Score
+
+| Account | Score | Bot-Beweis |
+|---------|-------|------------|
+| @sophierosenurse.bsky.social | 8 | 15 Follows in 503s, 10s-Takt — Goth-Girl-Spam-Node |
+| @fckafdemail.bsky.social | 4 | 10 Follows im SELBEN Millisekunden-Timestamp (17:22:16.476–478) |
+| @gothgirlrumi.bsky.social | 4 | Burst 21:46–21:50, 10,7s Median — Spam-Node |
+| @fraurollmops.bsky.social | 3 | 10 Follows im SELBEN ms (13:44:29.197–199) trotz dt. Bio |
+| @sylveev2justexists.bsky.social | 3 | 10 Follows im selben ms; hat alle Targets nachträglich entfolgt |
+| @derrechtenutzer.bsky.social | 3 | 14 Follows in 91s (heute erstellt, 0 Non-Cluster-Follows) |
+
+**Schlüssel-Erkenntnis:** Millisekunden-identische Timestamps (Δt < 1ms zwischen Follows)
+sind unmöglich manuell — sie verraten API-Batch-Operationen. Accounts wie @fraurollmops
+haben trotz authentisch wirkender deutscher Bios dieses harte Bot-Signal.
+
+### Starter-Pack-Ausschluss
+
+Eine alternative Erklärung für Co-Follows wäre ein gemeinsamer Starter Pack. Prüfung:
+
+- **Starter Packs der Targets:** 3 von 10 Targets haben Packs erstellt, aber keiner
+  enthält mehr als 1 anderes Target.
+- **Bot-Profiles:** Keiner der 70 Bots zeigt eine `joinedViaStarterPack`-Markierung.
+- **Community-Packs geprüft:** kattascha, suhrkamp.de, afelia, golod, 54books —
+  keine enthalten die Target-Kombination.
+
+→ **Ausgeschlossen:** Das Co-Follow-Muster ist nicht durch Starter Packs erklärbar.
+
 ## Nächste Schritte
 
-- [x] Bot-DIDs exportiert (72 DIDs in `bot_dids.json`)
+- [x] Bot-DIDs exportiert (70 DIDs in `bot_dids.json`)
 - [x] Timing-Daten exportiert (`assets/timing_data.json`)
+- [x] False-Positive-Prüfung abgeschlossen (2 entfernt)
+- [x] Starter-Pack-Hypothese ausgeschlossen
 - [ ] Bot-DIDs zur Moderations-Blockliste hinzufügen
 - [ ] Breitere Suche: Cluster-Erweiterung über Sekundärziele (kattascha, golod, islieb)
 - [ ] Monitoring: Tägliche Erkennung neuer Accounts mit diesem Fingerprint
 - [ ] Meldung an Bluesky Trust & Safety
-- [ ] Untersuchung der „kompromittiert?"-Accounts (jens-kessler, alerta93)
 
 ---
 
 *Analyse erstellt am 30. Mai 2026 auf Basis von Bluesky-Firehose-Daten (Kusto/Fabric)
-und öffentlicher Bluesky-API-Abfragen. Runde 2 ergänzt mit vollständiger API-
-Profilauflösung und korrigierter Timing-Analyse.*
+und öffentlicher Bluesky-API-Abfragen. Runde 2: API-Profilauflösung und Timing-Korrektur.
+Runde 3: False-Positive-Prüfung, Starter-Pack-Ausschluss, Cluster auf 70 Accounts bereinigt.*
