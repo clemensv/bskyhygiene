@@ -10,7 +10,22 @@
 
 ![Ring-Architektur](assets/ring_hierarchy_expanded.png)
 
-## Hauptaccount
+## Hauptaccount: smatsto
+
+| Feld | Wert |
+|------|------|
+| Handle | `smatsto.bsky.social` |
+| DID | `did:plc:gjcwwrezaz5qdcjn3347qvtl` |
+| Erstellt | 20.11.2024 |
+| Follower | 22 |
+| Folgt | 0 |
+| Beiträge | 0 |
+| Blocks gesamt | **495.878** |
+| Labels | — |
+
+Ein **reiner Infrastruktur-Account** — null Beiträge, folgt niemandem, 22 Follower. Dient als zentraler Aggregationsknoten, der Blocklisten von 14+ Upstream-Crawlern sammelt und an 8+ Downstream-Konsumenten verteilt. Der größte einzelne Blocking-Account auf Bluesky.
+
+## Ausgangspunkt: louisbetonberlin
 
 | Feld | Wert |
 |------|------|
@@ -24,9 +39,23 @@
 | Bio | Silver-Jews-Zitat + „Santiago (Chile) & Hamburg & Frankfurt Main & Hildesheim & Berlin" |
 | Labels | `!no-unauthenticated` |
 
-Der Account ist ein **realer, aktiver menschlicher Nutzer** (97 % deutsche Beiträge, 40–58/Woche) — kein Bot. Ein menschlicher Nutzer, der API-Automatisierung für Massenblocking einsetzt, während er eine normale Social-Media-Präsenz beibehält.
+Der Account, der diese Untersuchung ausgelöst hat. Ein **realer, aktiver menschlicher Nutzer** (97 % deutsche Beiträge, 40–58/Woche), der als Downstream-Konsument im Ring operiert — importiert aggregierte Blocklisten via SkyRewall mit ~10 Tagen Verzögerung nach smatsto.
 
 ## Nachweis der Automatisierung
+
+### smatsto (Aggregator)
+
+| Metrik | Wert |
+|--------|------|
+| Blocks gesamt | 495.878 |
+| Medianer Inter-Block-Abstand | **197 ms** |
+| % Blocks mit <200ms Abstand | 52 % |
+| Account-Alter bei erstem Block | 5 Monate |
+| Beiträge / Folgt | 0 / 0 |
+
+Ein zweckgebauter Blocking-Account — erstellt Nov. 2024, begann Massenblocking am 28. Apr. 2026. Null soziale Aktivität; existiert ausschließlich zum Aggregieren und Verteilen von Blocks.
+
+### louisbetonberlin (Downstream-Konsument)
 
 Die zeitlichen Abstände zwischen den Blocks machen eine manuelle Bedienung physisch unmöglich:
 
