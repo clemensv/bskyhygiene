@@ -217,7 +217,13 @@ def main():
         sys.exit(1)
 
     blocklist_data = json.loads(blocklist_path.read_text(encoding="utf-8"))
-    target_dids = set(account["did"] for account in blocklist_data.get("accounts", []))
+    if "accounts" in blocklist_data:
+        target_dids = set(account["did"] for account in blocklist_data["accounts"])
+    elif "dids" in blocklist_data:
+        target_dids = set(blocklist_data["dids"])
+    else:
+        print("ERROR: Unrecognized blocklist format", file=sys.stderr)
+        sys.exit(1)
     print(f"Blocklist contains {len(target_dids)} DIDs", file=sys.stderr)
 
     if args.dry_run:

@@ -6,7 +6,8 @@
 **Infrastruktur:** Offizielle Bluesky-PDS (bsky.network)  
 **Hinweisgeber:** [@schreibersnaturarium.de](https://bsky.app/profile/schreibersnaturarium.de) (Autorin Jasmin Schreiber)  
 **Verwandt mit anderen Clustern:** Nein — eigenständige Operation, kein Overlap mit Seasoning Rings, Burst-Follow-Spam oder cislost24-Netzwerk  
-**Suspendierungen:** 0 von 70 — alle Accounts weiterhin aktiv
+**Suspendierungen:** 0 von 70 — alle Accounts weiterhin aktiv  
+**Moderationsliste:** [Literatur-Bot-Netzwerk auf Bluesky](https://bsky.app/profile/clemens.vasters.com/lists/3mn3vdgnkf72n)
 
 ---
 
@@ -337,7 +338,7 @@ Eine alternative Erklärung für Co-Follows wäre ein gemeinsamer Starter Pack. 
 - [x] Timing-Daten exportiert (`assets/timing_data.json`)
 - [x] False-Positive-Prüfung abgeschlossen (2 entfernt)
 - [x] Starter-Pack-Hypothese ausgeschlossen
-- [ ] Bot-DIDs zur Moderations-Blockliste hinzufügen
+- [x] Bot-DIDs zur Moderations-Blockliste hinzufügen (Liste: [Literatur-Bot-Netzwerk](https://bsky.app/profile/clemens.vasters.com/lists/3mn3vdgnkf72n))
 - [ ] Breitere Suche: Cluster-Erweiterung über Sekundärziele (kattascha, golod, islieb)
 - [ ] Monitoring: Tägliche Erkennung neuer Accounts mit diesem Fingerprint
 - [ ] Meldung an Bluesky Trust & Safety
