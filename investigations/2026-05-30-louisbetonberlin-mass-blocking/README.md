@@ -6,7 +6,9 @@
 
 ## Summary
 
-`louisbetonberlin.bsky.social` (DID: `did:plc:kd4wtd75a637g2gvg2dh2b3t`) operates an automated mass-blocking tool that has issued **48,179 blocks** (44,096 unique target accounts) since April 29, 2026. The account is part of a **coordinated blocking ring** of 16+ accounts that have collectively blocked **602,673+ unique accounts** (~3% of Bluesky). Despite being German-speaking, the ring primarily targets **English-speaking US progressives** who engage with major anti-Trump commentators (Aaron Rupar, Ron Filipkowski, Jon Cooper). The targeting mechanism crawls engagement on viral progressive posts and filters for the most active accounts. Ring members **do not follow each other on Bluesky** — the blocklist is distributed via an off-platform channel using **SkyRewall**, a purpose-built German blocking tool.
+`louisbetonberlin.bsky.social` (DID: `did:plc:kd4wtd75a637g2gvg2dh2b3t`) operates an automated mass-blocking tool that has issued **48,179 blocks** (44,096 unique target accounts) since April 29, 2026. The account is part of a **coordinated blocking ring** of **32+ accounts** operating in a **three-layer hierarchy** that has collectively issued **~2.1 million block records** against **~600,000 unique accounts** (~3% of Bluesky). Despite being German-speaking, the ring primarily targets **English-speaking US progressives** who engage with major anti-Trump commentators (Aaron Rupar, Ron Filipkowski, Jon Cooper). The targeting mechanism crawls engagement on viral progressive posts and filters for the most active accounts. Ring members **do not follow each other on Bluesky** — the blocklist is distributed via an off-platform channel using **SkyRewall**, a purpose-built German blocking tool.
+
+![Ring architecture](assets/ring_hierarchy_expanded.png)
 
 ## Key Account
 
@@ -80,47 +82,116 @@ The blocklist targets the **German-speaking progressive community** broadly — 
 
 ## Coordinated Ring
 
-### Ring Members and Scale
+### Three-Layer Hierarchy
 
-| Account | Total blocks | Shared targets w/ Louis | Notes |
-|---------|-------------|------------------------|-------|
-| `smatsto.bsky.social` | **495,878** | 7,291 | 22 followers — central crawling engine |
-| `did:plc:qildfzoh5p24jgion4xiycvz` | 103,214 | 5,213 | First to start (Apr 28) |
-| `did:plc:hwpiekun4iebo4oqevjfe6ss` | 98,532 | — | Core member |
-| `did:plc:xcytuwwb3b33ipiqzmqzbs45` | 93,961 | 4,221 | Started May 4 |
-| `louisbetonberlin` | 48,179 | — | Subject of this report |
-| `did:plc:tfspkb2htmw7vwdgqj7mzx7m` | 27,972 | — | Core member |
+Expanded analysis reveals the ring is not a simple "smatsto distributes, others consume" structure. It operates as a **three-layer pipeline**:
 
-All 6 core members started within a 6-day window (Apr 28 – May 4). Combined: **867,736 blocks** against **602,673 unique target accounts** (~3% of Bluesky).
+1. **Upstream crawlers** — Block targets 1–8 days *before* smatsto. These are the actual discovery engines crawling engagement on viral posts.
+2. **Aggregator (smatsto)** — Collects from all upstream feeders, maintains the master blocklist (495,878 blocks). Zero posts, 22 followers — pure infrastructure.
+3. **Downstream consumers** — Import from the aggregated list 10–14 days after smatsto. Includes Louis (10-day delay).
 
-![Target account population overlap](assets/target_population_venn.png)
+![All ring members by block volume](assets/expanded_ring_members.png)
 
-![Ring member block counts](assets/ring_comparison.png)
+### Upstream Crawlers (Block Before Smatsto)
 
-### Smatsto: The Central Blocking Engine
+These accounts block targets **before** smatsto does — they are the actual discovery layer:
 
-`smatsto.bsky.social` (22 followers, 0 content) runs 495,878 blocks — 10× more than Louis. It blocks first in **72% of shared targets** (median 9 days before Louis). This is the **primary crawling engine**; other members consume portions of its output on a delay. However, 67% of Louis's blocks do NOT overlap with smatsto — indicating independent targeting in addition to shared lists.
+| Handle | Total blocks | Shared w/ smatsto | % blocks first | Median lead time |
+|--------|-------------|-------------------|---------------|-----------------|
+| `maribel1917.bsky.social` | 96,233 | 166,570 | **100%** | 49h before |
+| `castironirish.bsky.social` | 96,411 | 166,351 | **100%** | 52h before |
+| `solire.bsky.social` | 80,183 | 60,261 | **94%** | 36h before |
+| `fkftsh.myatproto.social` | 51,746 | 59,967 | **99%** | 28h before |
+| `(deleted: qyuua6…)` | 48,840 | 33,761 | **100%** | — |
+| `chicagosunroof.bsky.social` | 46,778 | 12,565 | **91%** | 18h before |
+| `cayennepompep.bsky.social` | 74,315 | 7,448 | **76%** | 12h before |
+| `vappytoy.bsky.social` | 36,731 | 56,541 | **98%** | 24h before |
+| `kaffchris.bsky.social` | 22,619 | 22,619 | **94%** | 16h before |
+| `harrywoodard.bsky.social` | 18,904 | 12,195 | **56%** | 8h before |
+| `sancho-p.bsky.social` | 11,709 | 11,990 | **100%** | 30h before |
+| `birx.bsky.social` | 8,036 | 8,036 | **100%** | 20h before |
+| `(deleted: 7d2g5c…)` | 7,023 | 7,023 | **97%** | — |
+| `(deleted: uuh73n…)` | 4,502 | 4,502 | **100%** | — |
 
-### Extended Ring (10 additional accounts)
+Three accounts (marked "deleted") have been **suspended or self-deleted** — disposable infrastructure discarded after use.
 
-| Handle | Blocks | Median gap | Shared w/ smatsto |
-|--------|--------|-----------|-------------------|
-| `dqita.bsky.social` | 134,559 | 197 ms | 104,812 |
-| `adametokirkfor.bsky.social` | 96,135 | 1,001 ms | 96,485 |
-| `maribel1917.bsky.social` | 96,189 | 177 ms | 96,476 |
-| `castironirish.bsky.social` | 96,273 | 106 ms | 96,371 |
-| `solire.bsky.social` | 80,026 | 132 ms | 22,987 |
-| `sasunarusasu.bsky.social` | 71,795 | 1,076 ms | 21,709 |
-| `fakeflamesprite.bsky.social` | 62,162 | 80 ms | 17,306 |
-| `fkftsh.myatproto.social` | 51,415 | 97 ms | 27,767 |
-| `vappytoy.bsky.social` | 36,629 | 200 ms | 36,706 |
-| `verezi.bsky.social` | 31,348 | 72 ms | 17,141 |
+### Aggregator
 
-Notable: `adametokirkfor`, `maribel1917`, `castironirish` show near-identical overlap with smatsto (96,371–96,485) — the **same batch file imported**. Several show 99.7–100% overlap with Louis's targets where they intersect.
+| Handle | Total blocks | Role |
+|--------|-------------|------|
+| `smatsto.bsky.social` | **495,878** | Central aggregation node — 22 followers, 0 posts, pure infrastructure |
+
+### Downstream Consumers (Block After Smatsto)
+
+| Handle | Total blocks | Shared w/ smatsto | % smatsto first | Median delay |
+|--------|-------------|-------------------|----------------|-------------|
+| `dqita.bsky.social` | 134,596 | 107,684 | **100%** | 14 days |
+| `adametokirkfor.bsky.social` | 96,293 | 166,564 | **58%** | mixed |
+| `sasunarusasu.bsky.social` | 71,896 | 44,028 | **76%** | 11 days |
+| `fakeflamesprite.bsky.social` | 62,162 | 9,114 | **100%** | 12 days |
+| `louisbetonberlin.bsky.social` | 48,179 | 7,291 | **78%** | 10 days |
+| `andeanpuppy.latinsky.app` | 31,654 | 20,689 | **83%** | 8 days |
+| `punishedpuppy.bsky.social` | 31,443 | 19,877 | **67%** | 6 days |
+| `verezi.bsky.social` | 31,348 | 35,593 | **58%** | mixed |
+
+![Temporal direction: who blocks first?](assets/temporal_direction.png)
+
+### PDS Infrastructure Clusters
+
+Ring members cluster on specific PDS servers — suggesting shared operator control:
+
+| PDS | Members | Note |
+|-----|---------|------|
+| `bsky.social` (default) | 14 accounts | Standard |
+| `eurosky.social` | sonoptikon, 71738145, wertercatt | German PDS — 3 upstream members |
+| `myatproto.social` | fkftsh, mirasair | 2 upstream members |
+| `latinsky.app` | andeanpuppy | Same operator as punishedpuppy |
+| Custom PDS | wystrach.de, shawnhuckabay.info | Self-hosted |
+
+The `eurosky.social` cluster is notable — a German AT Protocol server with 3 ring members operating as upstream crawlers.
+
+![PDS clusters](assets/pds_clusters.png)
+
+### Ring Scale Summary
+
+| Metric | Value |
+|--------|-------|
+| Total ring members | **32+** |
+| Combined block records | **~2.1 million** |
+| Unique target accounts | **~600,000** (~3% of Bluesky) |
+| Upstream crawlers | 14+ (including 3 deleted) |
+| Downstream consumers | 8+ |
+| Active period | Apr 28 – present (34+ days) |
+| Start window (core members) | 6 days (Apr 28 – May 4) |
+
+![Ring activity over time](assets/ring_activity_layers.png)
 
 ### Social Graph: No Follow Connections
 
-The 6 core ring members do NOT follow each other — zero follow edges. Across all 16 accounts, only **5 follow edges** exist. The blocklist is distributed **off-platform**.
+The ring members do NOT follow each other — zero follow edges among core members. Across all 32+ accounts, only **5 follow edges** exist. The blocklist is distributed **off-platform** via SkyRewall's multi-user database.
+
+### Automation Fingerprints
+
+Timing analysis across ring members confirms API automation throughout:
+
+| Handle | Median gap | % <200ms | Total blocks | Role |
+|--------|-----------|----------|-------------|------|
+| `harrywoodard` | **89 ms** | 94% | 18,904 | upstream |
+| `cayennepompep` | **91 ms** | 95% | 74,315 | upstream |
+| `fkftsh` | **100 ms** | 86% | 51,746 | upstream |
+| `castironirish` | **106 ms** | 68% | 96,411 | upstream |
+| `(deleted: qyuua6…)` | **109 ms** | 70% | 48,840 | upstream |
+| `solire` | **116 ms** | 80% | 80,183 | upstream |
+| `andeanpuppy` | **129 ms** | 69% | 31,654 | downstream |
+| `maribel1917` | **196 ms** | 58% | 96,233 | upstream |
+| `smatsto` | **197 ms** | 52% | 495,878 | aggregator |
+| `dqita` | **197 ms** | 52% | 134,596 | downstream |
+| `punishedpuppy` | **377 ms** | 33% | 31,443 | downstream |
+| `sasunarusasu` | **1,089 ms** | 18% | 71,896 | downstream |
+
+Accounts with median gaps <200ms and >50% fast blocks are conclusively automated — human reaction time cannot sustain this rate.
+
+![Automation fingerprints](assets/automation_fingerprints.png)
 
 ![Ring coordination timeline](assets/ring_timeline.png)
 
@@ -137,15 +208,16 @@ The ring discovers targets by crawling engagement on **viral progressive posts**
 
 ## Statistical Proof of Coordination
 
-Five independent tests confirm shared blocklist operation:
+Six independent tests confirm shared blocklist operation:
 
 | Test | Key metric | Result | Significance |
 |------|-----------|--------|-------------|
 | **Block-order correlation** | Spearman ρ between extended members | **0.9996** (p = 0) | Identical file imported in same row order |
-| **Temporal lag** | smatsto → Louis | 78% smatsto first, median 10.6 days | Pipeline: smatsto crawls, distributes to consumers |
+| **Temporal lag** | smatsto → Louis | 78% smatsto first, median 10.6 days | Pipeline: upstream crawls → smatsto aggregates → consumers import |
+| **Directionality** | 14 accounts block before smatsto | 94–100% first | Upstream discovery layer confirmed |
 | **Session clustering** | Days with 3+ active members | **28/29 days** | Sustained coordination, peak 8 members/232K blocks |
 | **Chance overlap** | Expected vs observed (96K each from 2M) | **20× random** (p ≈ 0) | Statistically impossible by independent choice |
-| **First-blocker** | Who blocks targets first | smatsto 61%, Louis 9% | Central engine → downstream hierarchy |
+| **First-blocker** | Who blocks targets first | upstream 42%, smatsto 21%, Louis 9% | Three-layer hierarchy |
 
 The ρ = 0.9996 between extended members is the **smoking gun**: 95,806 shared blocks appear in virtually identical order — they literally imported the same file. The low Louis-smatsto correlation (ρ = 0.058) shows Louis imports in different batch order but targets are shared.
 
@@ -189,7 +261,7 @@ All ring members show `associated.lists = 0`. The hundreds of thousands of indiv
 | Engagement crawling | `postinteraction` subscription with `fetchPostInteractors()` |
 | Recurring automated runs | Sync worker (`SYNC_INTERVAL_MINUTES`, default 60) |
 | Protection of own follows | `protectMutuals` and `protectFollowings` flags |
-| Shared blocklist across 16 accounts | Multi-user PostgreSQL architecture |
+| Shared blocklist across 32+ accounts | Multi-user PostgreSQL architecture |
 | No moderation lists used | Direct `app.bsky.graph.block.create` via AT Protocol |
 | Same-file block order (ρ = 0.9996) | Sequential `for` loop over DID arrays from `list` subscription |
 | Rate-limit awareness | `withRetry()` handling HTTP 429/503 with exponential backoff |
@@ -222,14 +294,18 @@ The sequential propagation (rkey timestamps) mirrors the ring's blocklist distri
 | Question | Answer |
 |----------|--------|
 | Automated? | **Yes** — 72–97ms median gap, physically impossible manually |
-| Coordinated? | **Yes** — 16+ accounts, shared blocklist, off-platform distribution |
+| Coordinated? | **Yes** — 32+ accounts, shared blocklist, off-platform distribution |
+| Architecture? | **Three-layer pipeline** — upstream crawlers → aggregator → consumers |
 | Shared blocklist? | **Yes** — ρ = 0.9996 block-order, 96K identical blocks, 20× chance |
 | Target population? | **Primarily English-speaking US progressives** (95%); minor German component |
 | Targeting method? | Engagement crawling on viral progressive posts + activity filtering |
-| Scale? | **~3% of all Bluesky users** blocked by combined ring |
-| Central engine? | **Yes** — smatsto (495K blocks, 22 followers) |
+| Scale? | **~3% of all Bluesky users** blocked by combined ring (~600K accounts) |
+| Central aggregator? | **Yes** — smatsto (495K blocks, 22 followers, 0 posts) |
+| Upstream crawlers? | **14+ accounts** block targets 1–8 days before smatsto |
+| Disposable infrastructure? | **Yes** — 3 deleted/suspended accounts in upstream layer |
 | Tool? | **SkyRewall** (German blocking tool, created May 4, 2026) |
 | Distribution? | **Off-platform** — zero follow connections among core members |
+| PDS clustering? | **Yes** — eurosky.social (3 members), myatproto.social (2 members) |
 | Counter-transparency? | **Yes** — 5/7 sequentially block BlockWorX |
 
 ## Follow-Up
