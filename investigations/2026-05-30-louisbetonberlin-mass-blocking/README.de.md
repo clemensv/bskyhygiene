@@ -6,15 +6,7 @@
 
 ## Zusammenfassung
 
-`louisbetonberlin.bsky.social` (DID: `did:plc:kd4wtd75a637g2gvg2dh2b3t`) betreibt ein
-automatisiertes Massenblocking-Tool, das seit dem 29. April 2026 **48.179 Blocks** (44.096
-eindeutige Betroffene) ausgeführt hat. Der Account gehört zu einem **koordinierten Blocking-Ring**
-aus 16+ Accounts, die zusammen **602.673+ eindeutige Accounts** (~3 % aller Bluesky-Nutzer)
-blockiert haben. Obwohl der Ring deutschsprachig ist, richtet er sich primär gegen
-**englischsprachige US-Progressive**, die mit prominenten Anti-Trump-Kommentatoren interagieren
-(Aaron Rupar, Ron Filipkowski, Jon Cooper). Der Targeting-Mechanismus crawlt Engagement auf
-viralen progressiven Beiträgen und filtert nach den aktivsten Accounts. Die Ring-Mitglieder
-**folgen einander nicht auf Bluesky** — die Blockliste wird über einen externen Kanal verteilt.
+`louisbetonberlin.bsky.social` (DID: `did:plc:kd4wtd75a637g2gvg2dh2b3t`) betreibt ein automatisiertes Massenblocking-Tool, das seit dem 29. April 2026 **48.179 Blocks** (44.096 eindeutige Zielaccounts) ausgeführt hat. Der Account gehört zu einem **koordinierten Blocking-Ring** aus 16+ Accounts, die zusammen **602.673+ eindeutige Accounts** (~3 % aller Bluesky-Nutzer) blockiert haben. Obwohl der Ring deutschsprachig ist, richtet er sich primär gegen **englischsprachige US-Progressive**, die mit prominenten Anti-Trump-Kommentatoren interagieren (Aaron Rupar, Ron Filipkowski, Jon Cooper). Der Targeting-Mechanismus crawlt Engagement auf viralen progressiven Beiträgen und filtert nach den aktivsten Accounts. Ring-Mitglieder **folgen einander nicht auf Bluesky** — die Blockliste wird über einen externen Kanal mittels **SkyRewall** verteilt, einem speziell entwickelten deutschen Blocking-Tool.
 
 ## Hauptaccount
 
@@ -30,160 +22,50 @@ viralen progressiven Beiträgen und filtert nach den aktivsten Accounts. Die Rin
 | Bio | Silver-Jews-Zitat + „Santiago (Chile) & Hamburg & Frankfurt Main & Hildesheim & Berlin" |
 | Labels | `!no-unauthenticated` |
 
-## Nachweis der Automatisierung
+Der Account ist ein **realer, aktiver menschlicher Nutzer** (97 % deutsche Beiträge, 40–58/Woche) — kein Bot. Ein menschlicher Nutzer, der API-Automatisierung für Massenblocking einsetzt, während er eine normale Social-Media-Präsenz beibehält.
 
-### Timing-Analyse
+## Nachweis der Automatisierung
 
 Die zeitlichen Abstände zwischen den Blocks machen eine manuelle Bedienung physisch unmöglich:
 
 | Metrik | Wert |
 |--------|------|
 | Gesamtblocks | 48.179 |
-| Eindeutige Betroffene | 44.096 |
-| Medianer Inter-Block-Abstand (automatisierte Tage) | **71–97 ms** |
-| P95-Abstand (automatisierte Tage) | 187–265 ms |
-| Blocks mit <100ms Abstand am 27. Mai | 7.945 |
+| Eindeutige Zielaccounts | 44.096 |
+| Medianer Inter-Block-Abstand (autom. Tage) | **71–97 ms** |
 | Tages-Höchstwert (27. Mai) | 11.574 Blocks |
-| Stichprobe: 100 Blocks in 6 Sekunden | Bestätigt |
+| Blocks mit <100ms Abstand am 27. Mai | 7.945 |
 
 ![Tägliches Block-Volumen](assets/daily_blocks.png)
 
-![Verteilung der Inter-Block-Abstände](assets/gap_distribution.png)
-
 ### Phasenübergang: Manuell → Automatisiert
-
-Der Account zeigt einen klaren Phasenübergang von manuellem Blocking zu werkzeuggestütztem
-Massenblocking:
 
 | Zeitraum | Verhalten | Medianer Abstand | Tagesvolumen |
 |----------|-----------|-----------------|--------------|
 | 29. Apr. – 5. Mai | Manuell | 69–279 Sek. | 4–48 Blocks |
 | 6. Mai (Beginn) | Erster Automatisierungslauf | **94 ms** | 1.714 Blocks |
-| 7.–12. Mai | Gemischt manuell/auto | Variabel | 1–109 |
 | Ab 13. Mai | Regelmäßige automatisierte Läufe | **71–97 ms** | 446–11.574 |
 
-### Betriebszeiten
+Alle automatisierten Sitzungen finden während **deutscher Tageszeiten** statt (12:00–23:00 MEZ), konsistent mit der Zeitzone Hamburg/Berlin.
 
-Alle automatisierten Blocking-Sitzungen finden während **deutscher Tageszeiten** statt
-(12:00–23:00 MEZ), konzentriert auf 13:00–22:00, konsistent mit der Zeitzone Hamburg/Berlin.
+![Phasenübergang: Manuell → Automatisiert](assets/phase_transition.png)
 
 ![Stündliches Muster am Spitzentag](assets/peak_day_hourly.png)
 
-## Betroffenenprofil
+## Profil der Zielaccounts
 
 Stichprobe von 100 blockierten Accounts (zufällig aus allen Blocks):
 
 | Merkmal | Anteil |
 |---------|--------|
-| Erstellt 2023 | 40 % |
-| Erstellt 2024 | 36 % |
-| Erstellt 2025 | 18 % |
-| Erstellt 2026 | 6 % |
 | **1000+ Follower** | **45 %** |
 | 100–999 Follower | 36 % |
-| 10–99 Follower | 16 % |
-| <10 Follower | 3 % |
+| <100 Follower | 19 % |
 | `!no-unauthenticated`-Label | 30 % |
 
-### Thematisches Profil der Betroffenen
+Die Blockliste zielt auf die **deutschsprachige progressive Community** insgesamt — Klima, Feminismus, Anti-AfD, Grüne, Menschenrechtsverteidiger — plus englischsprachige US-Progressive. Beispiele umfassen Menschenrechtsverteidiger, Klimaaktivisten, Feministinnen, Musiker und Pädagogen.
 
-Beispiele blockierter Accounts:
-
-- **Doro Blancke** (4.275 Follower) — Menschenrechtsverteidigerin, Österreich/Griechenland
-- **Mosie** (4.755 Follower) — „Progressive lefty", über 70
-- **Nosoda** (576 Follower) — „Demokratie, Klimaschutz, AFDNEE"
-- **Todotoday** (402 Follower) — „#Klimakatastrophe / auf der Suche nach Lösungen"
-- **Michael Felzmann** (51 Follower) — „Grüne Mauerbach, Klima und Biodiversität"
-- **Musikschule Bad Salzuflen** (970 Follower) — Musikschule
-- **gammaray** (1.557 Follower) — „Kohlenstoffbasierte Lebensform"
-- **xgrnsxs** (348 Follower) — „Metalhead und ITler mit ADHS"
-- **Fridde** (111 Follower) — „Feministin, Ehefrau, Mutter"
-
-Die Blockliste zielt auf die **deutschsprachige progressive Community** insgesamt — Klima,
-Feminismus, Anti-AfD, Grüne, Menschenrechtsverteidiger und allgemein linke Accounts. Einige
-nicht-deutschsprachige Accounts sind ebenfalls betroffen.
-
-## Koordinierter Ring
-
-### Gemeinsame Opfer-Überschneidung
-
-Dieselbe Blockliste wird von mehreren Accounts verwendet:
-
-| Account | Blocks gesamt (7 Tage) | Gemeinsame Betroffene mit louisbetonberlin |
-|---------|------------------------|--------------------------------------------|
-| `smatsto.bsky.social` | 85.062 | **7.291** |
-| `did:plc:qildfzoh5p24jgion4xiycvz` | 51.019 | 5.213 |
-| `kaffchris.bsky.social` | ~7.270 | 4.252 |
-| `did:plc:xcytuwwb3b33ipiqzmqzbs45` | 43.176 | 4.221 |
-| `wystrach.de` | 14.224 | 3.585 |
-| `did:plc:ajvwz5alprhutyx3zuwrg7dc` | — | 3.333 |
-| `did:plc:gkg3mo2wltuzdzww53rkxfqg` | — | 2.979 |
-| `did:plc:33wcrgvuwuxvzpa74yud37qp` | 33.998 | 2.301 |
-
-### Profile der Ring-Mitglieder
-
-| Handle | Anzeigename | Follower | Labels | Anmerkungen |
-|--------|-------------|----------|--------|-------------|
-| `smatsto.bsky.social` | — | 22 | — | Winziger Account, 85K Blocks |
-| `kaffchris.bsky.social` | Kaffchris | 436 | `!no-unauthenticated` | FC Wacker München |
-| `fuenfuhrteefix.bsky.social` | O'Fünfuhrteefix | 268 | `!no-unauthenticated` | Münster |
-| `holbidope.bsky.social` | Berger Smith | 323 | `!no-unauthenticated` | „stay-in-bed hermit" |
-| `wystrach.de` | Thomas Wystrach | 1.811 | `!no-unauthenticated` | Politik- & Religionsautor |
-| `kunststein.bsky.social` | Kunststein | 171 | `!no-unauthenticated` | „im Verdacht, Antifa zu sein" |
-| `louisbetonberlin.bsky.social` | Louis Beton | 942 | `!no-unauthenticated` | Gegenstand dieses Berichts |
-
-### Ring-Merkmale
-
-- Die meisten Ring-Mitglieder verwenden das `!no-unauthenticated`-Label (datenschutzbewusst)
-- `smatsto.bsky.social` hat nur 22 Follower, aber 85K Blocks — vermutlich ein dedizierter Blocking-Account
-- Die Überschneidung von 7.291 Accounts zwischen den beiden Top-Blockern bestätigt eine **gemeinsame Blocklistenquelle**
-- Alle automatisierten Blocking-Läufe zeigen dasselbe ~70–100ms Inter-Block-Timing-Muster
-
-![Block-Anzahlen der Ring-Mitglieder](assets/ring_comparison.png)
-
-![Koordinations-Zeitstrahl des Rings](assets/ring_timeline.png)
-
-## Targeting-Mechanismus
-
-### Wie Betroffene gefunden werden
-
-Die Untersuchung testete mehrere Hypothesen, wie der Ring Accounts zum Blockieren findet:
-
-| Hypothese | Ergebnis |
-|-----------|----------|
-| Scraping der Follower-Liste eines einzelnen Accounts | **Nein** — kein einzelner Account >3,8 % Überschneidung mit Blockliste |
-| Alphabetisch sortierte DID-Iteration | **Nein** — Korrelation = −0,04 (zufällig) |
-| Sequenzielle Follower-Listen-Reihenfolge | **Nein** — Block-Reihenfolge entspricht nicht den Follow-Zeitstempeln |
-| Eigene Follower blockieren | **Nein** — nur 3 von 44K blockierten Accounts folgen Louis |
-| Einzelne gemeinsame Blockliste | **Teilweise** — nur 17 % von Louis' Blocks überschneiden sich mit smatsto |
-
-### Tatsächlicher Mechanismus: Engagement-Crawling + Aktivitätsfilter
-
-Die Evidenz deutet auf einen **Crawl-und-Filter-Ansatz hin, der Menschen ins Visier nimmt,
-die auf virale progressive Beiträge reagieren**:
-
-1. **Quelle: Engagement auf viralen Beiträgen** — Betroffene antworten überproportional auf
-   Beiträge großer progressiver Accounts:
-   - **Aaron Rupar** (`atrupar.com`, 950K Follower) — unabhängiger Journalist
-   - **Ron Filipkowski** (782K Follower) — MeidasNews-Redakteur
-   - **Jon Cooper** (524K Follower) — Demokratischer Stratege
-   - **Hoodlum** (250K Follower) — progressiver Kommentator
-   - **Raider** (80K Follower) — progressiver Aktivist
-
-2. **Filter: Aktivitätsniveau** — Blockierte Accounts sind **2× aktiver** als nicht-blockierte
-   Antwortende auf dieselben Beiträge (Median 284 Posts/Monat vs. 109). Das Tool wählt die
-   aktivsten Accounts aus.
-
-   ![Vergleich Aktivitätsfilter](assets/activity_filter.png)
-
-3. **Blocking-Rate bei viralen Beiträgen**: Ungefähr **12 %** aller Antwortenden auf große
-   progressive Beiträge werden blockiert — nicht alle, aber die aktivsten.
-
-4. **Stapelverarbeitung**: Blocks kommen in deutlichen Stapeln mit 5–30+ Minuten Pausen
-   dazwischen an, mit Spitzenraten von 1.116 Blocks/Minute innerhalb eines Stapels. Am
-   27. Mai gab es 18 Pausen >5 Minuten über die 11.485 Blocks des Tages.
-
-### Sprachprofil der Betroffenen (Beiträge im Mai 2026)
+### Sprachprofil der Zielaccounts (Beiträge im Mai 2026)
 
 | Sprache | Beiträge |
 |---------|----------|
@@ -191,351 +73,172 @@ die auf virale progressive Beiträge reagieren**:
 | Spanisch | 326.046 |
 | Deutsch | 293.444 |
 | Französisch | 153.797 |
-| Niederländisch | 123.936 |
 
-**Haupterkenntnis**: Obwohl der Ring deutschsprachig ist, ist die überwiegende Mehrheit der
-Betroffenen **englischsprachige US-Progressive**. Deutsche Accounts machen nur ~5 % des
-Zielpools aus. Dies ist eine **international angelegte politische Blocking-Kampagne** — kein
-innerdeutscher Community-Streit.
+**Haupterkenntnis**: Obwohl der Ring deutschsprachig ist, sind **95 % der Zielaccounts englischsprachige US-Progressive**. Deutsche Accounts machen nur ~5 % des Zielpools aus. Dies ist eine **international angelegte politische Blocking-Kampagne**.
 
-![Sprachen der Betroffenen-Beiträge](assets/victim_languages.png)
+![Sprachen der Zielaccount-Beiträge](assets/victim_languages.png)
 
-### Koordinations-Zeitstrahl des Rings
+## Koordinierter Ring
 
-| DID/Account | Erster Block | Letzter Block | Blocks gesamt |
-|-------------|--------------|---------------|---------------|
-| `did:plc:qildfzoh5p24jgion4xiycvz` | 28. Apr. | 30. Mai | 103.214 |
-| `louisbetonberlin` | 29. Apr. | 30. Mai | 48.179 |
-| `did:plc:hwpiekun4iebo4oqevjfe6ss` | 29. Apr. | 30. Mai | 98.532 |
-| `did:plc:tfspkb2htmw7vwdgqj7mzx7m` | 29. Apr. | 30. Mai | 27.972 |
-| `smatsto.bsky.social` | 1. Mai | 30. Mai | **495.878** |
-| `did:plc:xcytuwwb3b33ipiqzmqzbs45` | 4. Mai | 30. Mai | 93.961 |
+### Ring-Mitglieder und Ausmaß
 
-Alle 6 Mitglieder starteten innerhalb eines 6-Tage-Fensters (28. Apr. – 4. Mai). Zusammen
-hat der Ring **867.736 Blocks** gegen **602.673 eindeutige Accounts** ausgeführt — ca. 3 %
-aller Bluesky-Nutzer.
+| Account | Blocks gesamt | Gemeinsame Ziele mit Louis | Anmerkungen |
+|---------|---------------|---------------------------|-------------|
+| `smatsto.bsky.social` | **495.878** | 7.291 | 22 Follower — zentrale Crawling-Engine |
+| `did:plc:qildfzoh5p24jgion4xiycvz` | 103.214 | 5.213 | Erster Start (28. Apr.) |
+| `did:plc:hwpiekun4iebo4oqevjfe6ss` | 98.532 | — | Kernmitglied |
+| `did:plc:xcytuwwb3b33ipiqzmqzbs45` | 93.961 | 4.221 | Start am 4. Mai |
+| `louisbetonberlin` | 48.179 | — | Gegenstand dieses Berichts |
+| `did:plc:tfspkb2htmw7vwdgqj7mzx7m` | 27.972 | — | Kernmitglied |
+
+Alle 6 Kernmitglieder starteten innerhalb eines 6-Tage-Fensters (28. Apr. – 4. Mai). Gesamt: **867.736 Blocks** gegen **602.673 eindeutige Zielaccounts** (~3 % von Bluesky).
+
+![Überlappung der Zielaccount-Populationen](assets/target_population_venn.png)
+
+![Block-Anzahlen der Ring-Mitglieder](assets/ring_comparison.png)
 
 ### Smatsto: Die zentrale Blocking-Engine
 
-`smatsto.bsky.social` (22 Follower, 0 relevante Inhalte) führt **495.878 Blocks** aus — 10×
-mehr als Louis. Die Timing-Analyse zeigt, dass smatsto in **72 % der gemeinsamen Ziele** zuerst
-blockiert (Median 9 Tage vor Louis). Dieser Account scheint die **primäre Crawling-Engine** zu
-sein, die Ziele entdeckt, wobei andere Ring-Mitglieder Teile der Ausgabe zeitversetzt konsumieren.
+`smatsto.bsky.social` (22 Follower, 0 Inhalte) führt 495.878 Blocks aus — 10× mehr als Louis. Smatsto blockiert zuerst in **72 % der gemeinsamen Ziele** (Median 9 Tage vor Louis). Dies ist die **primäre Crawling-Engine**; andere Mitglieder konsumieren Teile der Ausgabe zeitversetzt. Allerdings überschneiden sich 67 % von Louis' Blocks NICHT mit smatsto — was auf zusätzliches unabhängiges Targeting hindeutet.
 
-Allerdings überschneiden sich 67 % von Louis' Blocks (29.992) NICHT mit smatsto — was darauf
-hindeutet, dass Louis auch unabhängiges Targeting betreibt, zusätzlich zum Konsum gemeinsamer Listen.
+### Erweiterter Ring (10 weitere Accounts)
 
-### Infrastruktur
+| Handle | Blocks | Medianer Abstand | Gemeinsam mit smatsto |
+|--------|--------|-----------------|----------------------|
+| `dqita.bsky.social` | 134.559 | 197 ms | 104.812 |
+| `adametokirkfor.bsky.social` | 96.135 | 1.001 ms | 96.485 |
+| `maribel1917.bsky.social` | 96.189 | 177 ms | 96.476 |
+| `castironirish.bsky.social` | 96.273 | 106 ms | 96.371 |
+| `solire.bsky.social` | 80.026 | 132 ms | 22.987 |
+| `sasunarusasu.bsky.social` | 71.795 | 1.076 ms | 21.709 |
+| `fakeflamesprite.bsky.social` | 62.162 | 80 ms | 17.306 |
+| `fkftsh.myatproto.social` | 51.415 | 97 ms | 27.767 |
+| `vappytoy.bsky.social` | 36.629 | 200 ms | 36.706 |
+| `verezi.bsky.social` | 31.348 | 72 ms | 17.141 |
 
-Die Automatisierungsmerkmale sind:
-
-- **Rate-limitierte API-Aufrufe** — 70–100ms Abstand ist konsistent mit `com.atproto.repo.createRecord`-Rate-Limits
-- **Null Moderationslisten** (associated.lists = 0) — direktes API-Blocking, nicht Blueskys native Listenfunktion
-- **Stapel-Import-Muster** — Bursts von Hunderten/Tausenden mit Pausen zum Laden des nächsten Stapels
-- **Deutsche Zeitzone** — alle Läufe zwischen 12:00–23:00 MEZ
-
-## Erweiterter Ring: Zusätzliche Blocklisten-Konsumenten
-
-Über die 6 Kernmitglieder hinaus konsumieren mindestens **10 weitere Accounts** dieselbe
-Blockliste mit automatisierten Timing-Mustern:
-
-| Handle | Blocks | Medianer Abstand | Gemeinsam mit smatsto | Aktiver Zeitraum |
-|--------|--------|-----------------|----------------------|------------------|
-| `dqita.bsky.social` | 134.559 | 197 ms | 104.812 | 9.–11. Mai |
-| `adametokirkfor.bsky.social` | 96.135 | 1.001 ms | 96.485 | 30. Apr. – 30. Mai |
-| `maribel1917.bsky.social` | 96.189 | 177 ms | 96.476 | 6.–23. Mai |
-| `castironirish.bsky.social` | 96.273 | 106 ms | 96.371 | 1.–30. Mai |
-| `solire.bsky.social` | 80.026 | 132 ms | 22.987 | 29. Apr. – 29. Mai |
-| `sasunarusasu.bsky.social` | 71.795 | 1.076 ms | 21.709 | 4.–23. Mai |
-| `fakeflamesprite.bsky.social` | 62.162 | 80 ms | 17.306 | 29. Apr. – 30. Mai |
-| `fkftsh.myatproto.social` | 51.415 | 97 ms | 27.767 | 30. Apr. – 30. Mai |
-| `vappytoy.bsky.social` | 36.629 | 200 ms | 36.706 | 30. Apr. – 30. Mai |
-| `verezi.bsky.social` | 31.348 | 72 ms | 17.141 | 30. Apr. – 24. Mai |
-
-Auffällige Merkmale:
-- `dqita` („Dept of Queer, Intersex…") — 134K Blocks in **nur 2 Tagen**, 48 Follower
-- `adametokirkfor`, `maribel1917`, `castironirish` — je 96K Blocks, nahezu identische
-  Überschneidung mit smatsto (96.371–96.485), was auf den **Import derselben Batch-Datei** hindeutet
-- `vappytoy` — 3 Follower, 0 Beiträge, `!no-unauthenticated` — reine Blocking-Marionette
-- `wertercatt.eurosky.social` — vom Label-Service als `bot` markiert, 1.387 Follower aber 9.231 Following
-
-### Überschneidung mit louisbetonberlins Zielen
-
-| Handle | Gemeinsam mit Louis | Blocks gesamt | Überschneidung % |
-|--------|---------------------|---------------|------------------|
-| `sasunarusasu` | 4.600 | 4.610 | 99,8 % |
-| `solire` | 3.770 | 4.919 | 76,6 % |
-| `dqita` | 3.386 | 3.592 | 94,3 % |
-| `adametokirkfor` | 3.226 | 3.225 | 100,0 % |
-| `castironirish` | 3.186 | 3.195 | 99,7 % |
-| `maribel1917` | 3.161 | 3.169 | 99,7 % |
-| `fkftsh` | 3.139 | 3.272 | 95,9 % |
-| `vappytoy` | 1.447 | 1.448 | 99,9 % |
-
-Mehrere Accounts zeigen **99,7–100 % Überschneidung** mit Louis' Zielen (im Schnittbereich),
-was eine identische Blocklistenquelle bestätigt.
+Auffällig: `adametokirkfor`, `maribel1917`, `castironirish` zeigen nahezu identische Überschneidung mit smatsto (96.371–96.485) — dieselbe **Batch-Datei importiert**. Mehrere zeigen 99,7–100 % Überschneidung mit Louis' Zielen im Schnittbereich.
 
 ### Sozialer Graph: Keine Follow-Verbindungen
 
-**Die 6 Kern-Ring-Mitglieder folgen einander NICHT** — null Follow-Kanten untereinander.
+Die 6 Kern-Ring-Mitglieder folgen einander NICHT — null Follow-Kanten. Über alle 16 Accounts existieren nur **5 Follow-Kanten**. Die Blockliste wird **außerhalb der Plattform** verteilt.
 
-Über alle 16 Accounts (6 Kern + 10 erweitert) existieren nur **5 Follow-Kanten**:
+![Koordinations-Zeitstrahl des Rings](assets/ring_timeline.png)
 
-| Von | Zu | Typ |
-|-----|----|-----|
-| `fuenfuhrteefix` | `adametokirkfor` | einseitig |
-| `fuenfuhrteefix` | `fkftsh` | → |
-| `fkftsh` | `fuenfuhrteefix` | ← (gegenseitig) |
-| `fkftsh` | `adametokirkfor` | → |
-| `adametokirkfor` | `fkftsh` | ← (gegenseitig) |
+## Targeting-Mechanismus: Engagement-Crawling
 
-Das bedeutet: Die Blockliste wird **außerhalb der Plattform** verteilt — die Teilnehmer teilen
-das Tool oder die Blockliste über einen externen Kanal (Discord, Telegram oder ein Web-Tool),
-nicht über Blueskys soziale Funktionen.
+Der Ring entdeckt Zielaccounts durch Crawling von Engagement auf **viralen progressiven Beiträgen** und Filterung nach den aktivsten Accounts:
+
+1. **Quelle**: Zielaccounts antworten überproportional auf Aaron Rupar (950K), Ron Filipkowski (782K), Jon Cooper (524K), Hoodlum (250K), Raider (80K)
+2. **Aktivitätsfilter**: Blockierte Accounts sind **2× aktiver** als nicht-blockierte Antwortende (Median 284 Posts/Monat vs. 109)
+3. **Blocking-Rate**: ~12 % aller Antwortenden auf große progressive Posts werden blockiert — die aktivsten
+4. **Stapelverarbeitung**: Bursts von Hunderten/Tausenden mit 5–30 Min. Pausen; 18 Pausen >5 Min. am Spitzentag (11.485 Blocks)
+
+![Vergleich Aktivitätsfilter](assets/activity_filter.png)
 
 ## Statistischer Beweis der Koordination
 
-Fünf unabhängige statistische Tests bestätigen, dass diese Accounts von einer gemeinsamen
-Blockliste aus operieren und nicht unabhängig zu denselben Zielen gelangen.
+Fünf unabhängige Tests bestätigen den Betrieb mit gemeinsamer Blockliste:
 
-### Test 1: Block-Reihenfolge-Korrelation (Spearman-Rang)
+| Test | Schlüsselmetrik | Ergebnis | Bedeutung |
+|------|----------------|----------|-----------|
+| **Block-Reihenfolge** | Spearman ρ zwischen erweiterten Mitgliedern | **0,9996** (p = 0) | Identische Datei in gleicher Zeilenreihenfolge importiert |
+| **Zeitlicher Versatz** | smatsto → Louis | 78 % smatsto zuerst, Median 10,6 Tage | Pipeline: smatsto crawlt, verteilt an Konsumenten |
+| **Session-Clustering** | Tage mit 3+ aktiven Mitgliedern | **28/29 Tage** | Anhaltende Koordination, Spitze 8 Mitglieder/232K Blocks |
+| **Zufalls-Überschneidung** | Erwartet vs. beobachtet (je 96K aus 2M) | **20× Zufall** (p ≈ 0) | Statistisch unmöglich bei unabhängiger Wahl |
+| **Erst-Blocker** | Wer blockiert Ziele zuerst | smatsto 61 %, Louis 9 % | Zentrale Engine → Downstream-Hierarchie |
 
-Wenn zwei Accounts unabhängig entscheiden, wen sie blockieren, ist die Reihenfolge, in der
-sie gemeinsame Opfer blockieren, zufällig (ρ ≈ 0). Importieren sie dieselbe Listendatei,
-blockieren sie in derselben Sequenz (ρ ≈ 1,0).
-
-| Paar | Gemeinsame Opfer | Spearman ρ | p-Wert | Interpretation |
-|------|-----------------|-----------|--------|----------------|
-| Louis vs. smatsto | 7.341 | 0,058 | 8,4×10⁻⁷ | Schwach — gemeinsame Ziele, andere Importreihenfolge |
-| Erweitertes Mitglied A vs. B | 95.806 | **0,9996** | 0 | **Identische Listendatei in gleicher Zeilenreihenfolge importiert** |
-
-Das ρ = 0,9996 zwischen zwei erweiterten Ring-Mitgliedern ist der **rauchende Colt**: Diese
-Accounts haben buchstäblich dieselbe Datei mit Opfern in derselben Reihenfolge importiert. Die
-95.806 gemeinsamen Blocks erscheinen in praktisch identischer Reihenfolge — das kann nicht
-durch unabhängige Entscheidungsfindung entstehen.
-
-Die niedrige Korrelation zwischen Louis und smatsto (ρ = 0,058) zeigt, dass Louis die Liste
-in einer **anderen Batch-Reihenfolge** importiert (umgemischt oder Teilextraktion), aber die
-Ziele selbst sind identisch.
+Das ρ = 0,9996 zwischen erweiterten Mitgliedern ist der **rauchende Colt**: 95.806 gemeinsame Blocks erscheinen in praktisch identischer Reihenfolge — sie haben buchstäblich dieselbe Datei importiert. Die niedrige Louis-smatsto-Korrelation (ρ = 0,058) zeigt, dass Louis in anderer Batch-Reihenfolge importiert, aber die Ziele identisch sind.
 
 ![Streudiagramme Block-Reihenfolge-Rangkorrelation](assets/block_order_correlation.png)
 
-### Test 2: Zeitlicher Versatz (smatsto → Louis)
+![Histogramm zeitlicher Versatz](assets/temporal_lag_histogram.png)
 
-Für die 7.341 Opfer, die sowohl von smatsto als auch von Louis blockiert wurden:
+## Warum dies keine nativen Bluesky-Moderationslisten sind
 
-| Metrik | Wert |
-|--------|------|
-| smatsto blockiert zuerst | **78,1 %** der gemeinsamen Ziele |
-| Louis blockiert zuerst | 21,9 % |
-| Medianer Versatz | **254 Stunden** (~10,6 Tage) |
-| IQR | 83–454 Stunden (3,5–19 Tage) |
-
-Versatz-Verteilung:
-
-| Kategorie | Anzahl |
-|-----------|--------|
-| smatsto zuerst um >14 Tage | 3.033 |
-| smatsto zuerst um 7–14 Tage | 1.818 |
-| smatsto zuerst um 3–7 Tage | 664 |
-| smatsto zuerst um 1–3 Tage | 103 |
-| Gleiche Stunde | 1 |
-| Louis zuerst um <1 Tag | 134 |
-| Louis zuerst um 1–7 Tage | 858 |
-| Louis zuerst um >7 Tage | 613 |
-
-**Interpretation:** smatsto entdeckt Ziele zuerst in 78 % der Fälle, mit einer
-charakteristischen ~10-Tage-Verzögerung bis Louis importiert. Dies ist die Signatur einer
-Pipeline: smatsto crawlt und generiert die Liste, verteilt sie dann an Konsumenten, die
-Tage später importieren.
-
-![Histogramm zeitlicher Versatz — smatsto blockiert zuerst](assets/temporal_lag_histogram.png)
-
-### Test 3: Multi-Account-Session-Clustering
-
-Tage, an denen 3+ Ring-Mitglieder je >100 automatisierte Blocks ausführten:
-
-| Zeitraum | Tage mit 3+ aktiven | Spitzentag | Max. gleichzeitige Mitglieder |
-|----------|---------------------|------------|-------------------------------|
-| 2.–30. Mai | **28 von 29 Tagen** | 10. Mai | 8 Mitglieder, 232.272 Blocks |
-| Durchschnitt | — | — | 5 Mitglieder/Tag, 61K Blocks/Tag |
-
-An 28 von 29 Tagen führten mindestens 3 Ring-Mitglieder automatisierte Blocking-Sitzungen
-durch. Die Spitzen-Koordination sah **8 Accounts, die 232K Ziele an einem einzigen Tag
-blockierten**. Unabhängige Akteure zeigen dieses Maß an zeitlichem Clustering über einen
-längeren Zeitraum nicht.
-
-![Ring-Aktivitäts-Heatmap — 28/29 Tage koordiniert](assets/coordination_heatmap.png)
-
-### Test 4: Statistische Unmöglichkeit einer zufälligen Überschneidung
-
-| Parameter | Wert |
-|-----------|------|
-| Universum (eindeutig blockierte Accounts, 28. Apr.–30. Mai) | 1.946.818 |
-| Blocks durch Account A | ~96.000 |
-| Blocks durch Account B | ~96.000 |
-| Erwartete Überschneidung bei Zufall | **4.734** |
-| Beobachtete Überschneidung | **96.000** |
-| Verhältnis (beobachtet / erwartet) | **20×** |
-| p-Wert (hypergeometrischer Test) | ≈ 0 |
-
-Zwei Accounts, die je 96K von ~2M möglichen Zielen blockieren, würden rein zufällig nur
-~4.700 gemeinsam haben. Die beobachtete Überschneidung von 96.000 ist **20-mal die
-Zufallserwartung** — eine Wahrscheinlichkeit so klein, dass sie rechnerisch von Null nicht
-zu unterscheiden ist.
-
-![Zufall vs. beobachtete Überschneidung — 20× Zufallserwartung](assets/chance_vs_observed.png)
-
-### Test 5: Erst-Blocker-Analyse
-
-Unter allen gemeinsamen Zielen über 4 Ring-Mitglieder (Louis, smatsto und 2 erweiterte):
-
-| Account | Mal Erst-Blocker | Rolle |
-|---------|-----------------|-------|
-| smatsto | **261.428** (61 %) | Primäre Entdeckungs-Engine |
-| Erweitertes Mitglied B | 96.211 (22 %) | Sekundärer Importeur |
-| Louis | 38.751 (9 %) | Downstream-Konsument |
-| Erweitertes Mitglied A | 32.414 (8 %) | Downstream-Konsument |
-
-smatsto ist der erste Account, der ein bestimmtes Ziel blockiert, in **61 % aller Fälle**,
-was seine Rolle als zentrale Crawling-Engine bestätigt. Andere Mitglieder konsumieren seine
-Ausgabe mit charakteristischen Verzögerungen.
-
-![Erst-Blocker-Analyse — smatsto als Entdeckungs-Engine](assets/first_blocker.png)
-
-### Koordinations-Schlussfolgerung
-
-Die fünf Tests zusammen belegen:
-
-1. **Gemeinsame Listendatei** — ρ = 0,9996 Block-Reihenfolge-Korrelation beweist identischen Datei-Import
-2. **Zentrale Engine** — smatsto blockiert zuerst in 78 % der Fälle, mit 10 Tagen medianem Versatz zu Konsumenten
-3. **Anhaltende Koordination** — 28/29 Tage mit 3+ gleichzeitig aktiven Mitgliedern
-4. **Statistische Unmöglichkeit** — 20× Zufallserwartung schließt Zufall aus (p ≈ 0)
-5. **Verteilungshierarchie** — smatsto → erweiterte Mitglieder → Kernmitglieder (Louis)
-
-Diese Accounts gelangen nicht unabhängig zu denselben Schlüssen. Sie konsumieren dieselbe
-maschinengenerierte Blockliste aus einer gemeinsamen Quelle, importiert via API-Automatisierung.
-
-## Ausschluss von Blueskys nativer Moderationslisten-Funktion
-
-Eine naheliegende Alternativhypothese ist, dass die Ring-Mitglieder einfach eine gemeinsame
-Bluesky-Moderationsliste abonniert haben (`app.bsky.graph.list` mit Zweck
-`app.bsky.graph.defs#modlist`). Diese Erklärung wird durch mehrere unabhängige Beobachtungen
-ausgeschlossen:
-
-### 1. Keine Listen-Einträge im AT-Protocol-Firehose
-
-Blueskys native Moderationslisten funktionieren über `app.bsky.graph.listblock` — ein Nutzer
-abonniert eine Liste, und Blocks werden *über das Abonnement* angewandt. Dieser Mechanismus
-erzeugt **keine** individuellen `app.bsky.graph.block`-Einträge im Firehose. Die Daten zeigen
-Hunderttausende individueller Block-Einträge pro Account — diese können nur durch explizite
-`com.atproto.repo.createRecord`-API-Aufrufe für jedes Ziel erstellt werden.
-
-### 2. Null assoziierte Listen in Profildaten
-
-Die Bluesky-API-Profildaten zeigen `associated.lists = 0` für alle Ring-Mitglieder. Sie
-erstellen keine Moderationslisten und abonnieren auch keine.
-
-### 3. Timing inkompatibel mit Listen-Abonnements
-
-Ein Listen-Abonnement wendet alle bestehenden Blocks **sofort** zum Abonnementzeitpunkt an.
-Neue Einträge des Listenpflegers werden bei Hinzufügung angewandt. Dies würde erzeugen:
-- Gleichzeitige Anwendung bei allen Abonnenten (nicht 10-Tage-Versatz)
-- Keine 70–100 ms sequenziellen Inter-Block-Abstände (die API-Rate-Limiting-Signatur)
-- Keine Stapel-Import-Bursts gefolgt von minutenlangen Pausen
-
-Alle drei Muster sind in den Daten vorhanden und sind mit Listen-Abonnements unvereinbar.
-
-### 4. Block-Reihenfolge-Korrelation schließt Listen-Mechanismus aus
-
-Listen-Abonnements bewahren oder offenbaren keine Einfügereihenfolge für Abonnenten. Die
-ρ = 0,9996 Spearman-Rangkorrelation zwischen erweiterten Ring-Mitgliedern beweist, dass sie
-dieselbe **geordnete Datei sequenziell lesen** — ein Listen-Abonnement kann keine
-Zeilenreihenfolge-Bewahrung erzeugen.
-
-### 5. Zusammenfassung: Externe Liste ≠ native Liste
-
-Der Ring konsumiert eine gemeinsame Zielliste — aber sie wird **außerhalb der Plattform**
-(über externen Kanal) verteilt und über **direkte API-Automatisierung** importiert, wobei
-Blueskys native Moderationslisten-Funktion bewusst umgangen wird. Diese Unterscheidung ist
-bedeutsam:
-
-| | Native Bluesky-Moderationsliste | Was dieser Ring tut |
+| | Native Bluesky-Liste | Was dieser Ring tut |
 |---|---|---|
-| Transparenz | Listenersteller sichtbar, Liste öffentlich einsehbar | Keine Zuordnung, nicht erkennbar |
-| Rechenschaftspflicht | Bluesky kann missbräuchliche Listen moderieren | Plattform kann nicht eingreifen |
-| Mechanismus | Einzelner `listblock`-Abonnement-Eintrag | 600K+ individuelle `block`-Einträge pro Mitglied |
+| Mechanismus | Einzelner `listblock`-Eintrag | 600K+ individuelle `block`-Records pro Mitglied |
+| Transparenz | Listenersteller sichtbar, öffentlich einsehbar | Keine Zuordnung, nicht erkennbar |
+| Timing | Sofortige Anwendung | 70–100ms sequenzielle Abstände (API-Rate-Limiting) |
+| Reihenfolge | Keine Einfügereihenfolge für Abonnenten | ρ = 0,9996 Zeilenreihenfolge-Bewahrung |
+| Ausmaß | Typischerweise Hunderte bis niedrige Tausende | 600K+ via automatisiertes Crawling |
 | Erkennung | Über Listen-Metadaten identifizierbar | Erfordert Firehose-Timing-Analyse |
-| Ziele | Kuratiert, typischerweise Hunderte bis niedrige Tausende | 600K+ via automatisiertes Crawling |
 
-Der Ring vermeidet gezielt die native Listenfunktion, um Transparenz und Plattformaufsicht
-zu umgehen, während er in einem Maßstab (3 % aller Nutzer) operiert, den keine native
-Moderationsliste erreicht.
+Alle Ring-Mitglieder zeigen `associated.lists = 0`. Die Hunderttausenden individuellen `app.bsky.graph.block`-Records können nur durch explizite `com.atproto.repo.createRecord`-API-Aufrufe erstellt werden — nicht durch Listen-Abonnements.
+
+## Externes Tool: SkyRewall
+
+**Repository:** [github.com/Elmontag/skyrewall](https://github.com/Elmontag/skyrewall)  
+**Erstellt:** 4. Mai 2026 — während der aktiven Kampagne des Rings  
+**Stack:** Next.js 15 / TypeScript / PostgreSQL / Docker / `@atproto/api`  
+
+### Zeitliche Korrelation
+
+| Datum | SkyRewall | Ring |
+|-------|-----------|------|
+| 28. Apr | — | Ring beginnt |
+| 4. Mai | **Repo erstellt** | Erweiterte Mitglieder starten |
+| 6. Mai | 20+ Commits: Sync-Worker, Rate-Limits, Abos | **Erster autom. Lauf von Louis** (1.714 Blocks) |
+| 9. Mai | „cache agent per user per sync run" | Bestätigt Multi-User-Betrieb |
+
+### Funktionsabgleich
+
+| Ring-Verhalten (beobachtet) | SkyRewall-Funktion |
+|-----------------------------|-------------------|
+| 70–100ms Inter-Block-Timing | `blockAccounts()`: Stapel 10, `Promise.allSettled`, 500ms Pause |
+| Engagement-Crawling | `postinteraction`-Abo mit `fetchPostInteractors()` |
+| Wiederkehrende automatisierte Läufe | Sync-Worker (`SYNC_INTERVAL_MINUTES`, Standard 60) |
+| Schutz eigener Follows | `protectMutuals`- und `protectFollowings`-Flags |
+| Geteilte Blockliste über 16 Accounts | Multi-User-PostgreSQL-Architektur |
+| Keine Moderationslisten genutzt | Direktes `app.bsky.graph.block.create` via AT Protocol |
+| Identische Block-Reihenfolge (ρ = 0,9996) | Sequentielle `for`-Schleife über DID-Arrays aus `list`-Abo |
+| Rate-Limit-Bewusstsein | `withRetry()` mit HTTP 429/503 + exponentielles Backoff |
+| 10-Tage-Versatz (smatsto → Louis) | Verschiedene Abo-Configs, verschiedene Sync-Intervalle |
+
+### Zentrale Belege
+
+- User-Agent: `'SkyRewall/1.0'`
+- Pro-Block-Timing: 10 parallele Aufrufe / 500ms = 50–100ms pro Block (entspricht Beobachtung)
+- Commit vom 9. Mai bestätigt **mehrere Nutzer auf einer Instanz** — exakt das Modell des Rings
+- 0 Sterne, 0 Forks — nur Kleingruppenverteilung
+- Durchgehend deutschsprachig — passt zu Ring-Mitgliedern
+
+### Gegen-Transparenz: Ring vs. BlockWorX
+
+**5 von 7 Kern-Ring-Mitgliedern blockieren BlockWorX** (deutschen Blocking-Transparenz-Account):
+
+| Mitglied | Blockiert BlockWorX | Reihenfolge |
+|----------|--------------------:|:-----------:|
+| kunststein | JA | 1. |
+| wystrach.de | JA | 2. |
+| fuenfuhrteefix | JA | 3. |
+| kaffchris | JA | 4. |
+| louisbetonberlin | JA | 5. |
+
+Die sequenzielle Verbreitung (rkey-Zeitstempel) spiegelt das Blocklisten-Verteilungsmuster des Rings wider — koordiniertes Anti-Überwachungs-Verhalten.
 
 ## Bewertung
 
 | Frage | Antwort |
 |-------|---------|
-| Ist dies automatisiert? | **Ja** — manuell physisch unmöglich (72–197ms medianer Abstand) |
-| Ist dies koordiniert? | **Ja** — 16+ Accounts, gemeinsame Blockliste, externe Verteilung |
-| Ist dies eine gemeinsame Blockliste? | **Ja** — Top-4 erweiterte Accounts zeigen 96K+ identische Blocks mit smatsto |
-| Was wird ins Visier genommen? | **Primär englischsprachige US-Progressive** (95 % Englisch); geringer deutscher Anteil |
-| Wie werden Ziele gefunden? | Crawling von Engagement auf viralen progressiven Beiträgen, Filterung nach Hochaktivitäts-Accounts |
-| Was ist das Ausmaß? | **~3 % aller Bluesky-Nutzer** vom kombinierten Ring blockiert |
-| Gibt es eine zentrale Engine? | **Ja** — smatsto (495K Blocks, 22 Follower) ist der primäre Crawler |
-| Ist ein Tool beteiligt? | **Ja** — maßgeschneiderte API-Automatisierung mit Stapelverarbeitung |
-| Folgen Ring-Mitglieder einander? | **Nein** — null Follow-Verbindungen unter 6 Kernmitgliedern |
-| Verteilungskanal? | **Extern** — nur 5 Follow-Kanten über 16 Accounts |
-| Verstoß gegen Bluesky-TOS? | Blockieren erlaubt; massenautomatisiertes Blockieren ist mehrdeutig |
-| Ist dies schädlich? | Blockierung von 3 % der Plattform beeinträchtigt den Netzwerknutzen für Betroffene |
-
-## Account-Inhaltsanalyse
-
-Der Account ist ein **realer, aktiver menschlicher Nutzer** — kein Bot. Beiträge sind zu 97 %
-deutsch, durchschnittlich 40–58 Beiträge/Woche (Mix aus Originalen und Antworten). Der Inhalt
-ist lockeres persönliches Posten:
-
-### Beitragsstatistiken
-
-| Metrik | Wert |
-|--------|------|
-| Sprache | 97,9 % Deutsch, 2,1 % Englisch |
-| Wöchentliches Volumen | 40–58 Beiträge |
-| Antworten vs. Originale | ~40 % Antworten, 60 % Originale |
-| Inhaltstypen | 54 % nur Text, 21 % externe Links, 12 % Bilder, 10 % Zitat-Posts |
-
-### Inhaltsthemen
-
-Der Account postet über:
-- **Popkultur & Musik** — Krautrock, Hamburger Schule, Udo Lindenberg, Iggy Pop, Silver Jews, Metal
-- **Alltag** — Bolognese kochen, Bibliotheksbesuche, Vorstellungsgespräche, Bauchschmerzen bei Hitze
-- **Deutsche Politik (mild)** — FDP/Kubicki-Kritik, Anti-AfD-Haltung, Bundeswehr/Zivi-Nostalgie
-- **Literatur & Film** — Flann O'Brien, Almodóvar-DVDs, ARD-Mediathek-Dokumentationen
-- **Humor** — Star-Wars-Wurst, „AuraChirurgie"-Werbung, Skateboarden mit über 40
-
-### Beispiel-Beiträge
-
-> „Falls wer irgendwelche Promille & Kubicki Witze machen mag, das blocke ich alle weg, just saying."
-
-> „Öffentliche Bibliotheken sind das KaDeWe des armen Mannes"
-
-> „Die FDP gibt genug Anlass zur Kritik, da muss man für ein paar Klicks nicht die mögliche Suchterkrankung einer Person bekalauern, imho"
-
-> „Schaue noch mal die BBC Krautrock Doku & auf dem Herd blubbert lecker Bolognese"
-
-### Bewertung: Inhalt vs. Blocking-Verhalten
-
-Der Account ist eindeutig eine **reale Person** (kulturelle Referenzen, persönliche Anekdoten,
-echte Gespräche). Der Beitrag über „blocke ich alle weg" bestätigt das Bewusstsein über und
-die Absicht hinter dem Blocking-Verhalten.
-
-Dies ist **kein Bot-Account** — es ist ein menschlicher Nutzer, der API-Automatisierungstools
-für Massenblocking einsetzt, während er eine normale Social-Media-Präsenz beibehält.
+| Automatisiert? | **Ja** — 72–97ms medianer Abstand, manuell physisch unmöglich |
+| Koordiniert? | **Ja** — 16+ Accounts, gemeinsame Blockliste, externe Verteilung |
+| Gemeinsame Blockliste? | **Ja** — ρ = 0,9996 Block-Reihenfolge, 96K identische Blocks, 20× Zufall |
+| Zielpopulation? | **Primär englischsprachige US-Progressive** (95 %); geringer deutscher Anteil |
+| Targeting-Methode? | Engagement-Crawling auf viralen progressiven Posts + Aktivitätsfilter |
+| Ausmaß? | **~3 % aller Bluesky-Nutzer** vom kombinierten Ring blockiert |
+| Zentrale Engine? | **Ja** — smatsto (495K Blocks, 22 Follower) |
+| Tool? | **SkyRewall** (deutsches Blocking-Tool, erstellt 4. Mai 2026) |
+| Verteilung? | **Extern** — null Follow-Verbindungen unter Kernmitgliedern |
+| Gegen-Transparenz? | **Ja** — 5/7 blockieren sequenziell BlockWorX |
 
 ## Nächste Schritte
 
+- [x] ~~Feststellen, ob ein öffentliches Blocklisten-Dokument geteilt wird~~ → **SkyRewall-Tool identifiziert**
+- [x] ~~Ring-Mitglieder gegen Blocking-Transparenz-Accounts prüfen~~ → **5/7 blockieren BlockWorX**
 - [ ] Überwachen, ob die Blockliste weiter wächst
-- [ ] Feststellen, ob ein öffentliches Blocklisten-Dokument/-Liste geteilt wird
-- [ ] Prüfen, ob Ring-Mitglieder bekannte politische Akteure sind
+- [ ] Feststellen, ob die SkyRewall-Instanz öffentlich zugänglich oder nur auf Einladung ist
+- [ ] Prüfen, ob Ring-Mitglied-Handles in SkyRewall-Datenbank oder Test-Fixtures vorkommen
 - [ ] Meldung an Bluesky Trust & Safety, falls Automatisierung Plattformmissbrauch darstellt
 - [ ] Abgleich mit der `haruhwa`-Untersuchung (ähnliche deutsche politische Blocking-Muster)
+- [ ] BlockWorX's 11 Moderationslisten auf Ring-Mitglieder-Präsenz untersuchen
