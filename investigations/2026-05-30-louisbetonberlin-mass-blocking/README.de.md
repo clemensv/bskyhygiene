@@ -1,6 +1,6 @@
 # Koordinierter automatisierter Massenblocking-Ring — Internationales Targeting progressiver Accounts
 
-**Datum:** 30.05.2026 (aktualisiert 31.05.2026)  
+**Datum:** 30.05.2026 (aktualisiert 01.06.2026)  
 **Status:** Bestätigte koordinierte Blocklisten-Automatisierung — **AKTIV**  
 **Auslöser:** Meldung, dass `louisbetonberlin.bsky.social` große Mengen an Accounts blockiert  
 
@@ -253,6 +253,61 @@ Das ρ = 0,9996 zwischen erweiterten Mitgliedern ist der **rauchende Colt**: 95.
 ![Streudiagramme Block-Reihenfolge-Rangkorrelation](assets/block_order_correlation.png)
 
 ![Histogramm zeitlicher Versatz](assets/temporal_lag_histogram.png)
+
+## Schlüssiger Herkunftsnachweis: Temporale Kaskade
+
+Der stärkste Beweis für die Block-Propagierungs-Pipeline ergibt sich aus der **temporalen Kaskadenanalyse** — der Nachverfolgung einzelner Zielaccounts, wie sie von Upstream-Crawlern über smatsto zu Downstream-Konsumenten fließen.
+
+### Drei-Stufen-Kaskade (n = 8.967 Ziele)
+
+Für Zielaccounts, die in allen drei Stufen vorkommen (maribel1917 → smatsto → louisbetonberlin):
+
+| Richtung | Anzahl | Prozent |
+|----------|--------|---------|
+| Korrekte temporale Reihenfolge (Upstream → smatsto → Downstream) | 7.058 | **78,7 %** |
+| Gleichzeitig (innerhalb des selben Fensters) | 1.909 | 21,3 % |
+| Umgekehrte Reihenfolge (Downstream zuerst) | **0** | **0,0 %** |
+
+Die **Null-Umkehrungsrate** ist der definitive Beweis: Bei unabhängigem Blocking müssten ungefähr 33 % zufällig in umgekehrter Reihenfolge auftreten. Die Wahrscheinlichkeit, null Umkehrungen bei 8.967 Zielen unter Unabhängigkeit zu beobachten, ist effektiv null (p < 10⁻¹⁵).
+
+### Ring-exklusive Ziele
+
+**48.003 Accounts** werden von 3+ Ring-Mitgliedern blockiert, aber von **keinem einzigen** Nicht-Ring-Account auf Bluesky. Dies sind Ziele, die ohne den koordinierten Ring nicht blockiert würden:
+
+| Kategorie | Ziele | % der Ring-Ziele |
+|-----------|-------|-----------------|
+| AUSSCHLIESSLICH vom Ring blockiert (0 Nicht-Ring) | 48.003 | 37,6 % |
+| Überwiegend Ring (≤2 Nicht-Ring) | 75.902 | 59,5 % |
+| Auch breit blockiert (>10 Nicht-Ring) | 18.976 | 14,9 % |
+
+Die 48.003 ausschließlich vom Ring blockierten Accounts repräsentieren Blocking-Entscheidungen, die ausschließlich innerhalb der Ring-Infrastruktur entstanden sind — sie sind für die breitere Community unsichtbar.
+
+### Quellenzuordnung für louisbetonberlin
+
+| Quelle | Blocks | % gesamt |
+|--------|--------|----------|
+| **Ring-importiert** (von smatsto/Upstream) | ~15.200 | 34 % |
+| **Persönliche Blocks** (einzigartig für louis, nicht in Ring-Mitgliedern) | ~29.600 | 66 % |
+
+Von den ring-importierten 34 %:
+- **90 %** waren bereits in smatsto, bevor louis sie blockierte
+- Medianer smatsto→louis-Verzögerung: **233 Stunden** (~10 Tage)
+- Nicht-Ring-Blocks haben median **1 weiteren Blockierer** (organisch)
+- Ring-geteilte Blocks haben median **7 Nicht-Ring-Blockierer** (kontroverse Ziele)
+
+![Lineage-Kaskaden-Architektur](assets/lineage_cascade.png)
+
+![Quellenzuordnung und temporale Flussrichtung](assets/source_attribution.png)
+
+### Temporale Verzögerungsverteilung
+
+| Stufenübergang | Mediane Verzögerung | P25 | P75 |
+|----------------|-------------------|-----|-----|
+| Upstream → smatsto | 201h (~8 Tage) | 89h | 380h |
+| Smatsto → Downstream | 218h (~9 Tage) | 96h | 464h |
+| Maribel → louis (direkt) | 421h (~17 Tage) | 295h | 521h |
+
+Das konsistente Verzögerungsmuster (8–10 Tage pro Stufe) mit engem Interquartilsabstand demonstriert **periodische Batch-Importe** — exakt passend zu SkyRewalls `SYNC_INTERVAL_MINUTES` Abonnementmodell.
 
 ## Warum dies keine nativen Bluesky-Moderationslisten sind
 
