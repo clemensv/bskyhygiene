@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-31T07:11:23.040636+00:00",
+    "generated_at": "2026-06-01T07:34:15.092840+00:00",
     "threshold": 0.45,
-    "total_flagged": 1703,
+    "total_flagged": 1696,
     "pds_servers_scanned": [
       "pds.louisvillebsky.app",
       "haruhwa.com",
@@ -13,91 +13,6 @@
     "heuristic_version": "2.0"
   },
   "accounts": [
-    {
-      "did": "did:plc:fvo33rf4o6mup5q7uw6vftjp",
-      "handle": "sybillahsi6.bsky.social",
-      "displayName": "",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_domain",
-        "burst_follow_cluster"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-30T12:40:46.764Z",
-      "rule": "Burst-follow adult spam (watchmelive/livechats)"
-    },
-    {
-      "did": "did:plc:ncrmmslsudpjymibdwxkogwc",
-      "handle": "petronela388k.bsky.social",
-      "displayName": "",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_domain",
-        "burst_follow_cluster"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-30T12:41:13.369Z",
-      "rule": "Burst-follow adult spam (watchmelive/livechats)"
-    },
-    {
-      "did": "did:plc:5y2go7gxafjlfy4vttmocld5",
-      "handle": "felicia0wsv.bsky.social",
-      "displayName": "",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_domain",
-        "burst_follow_cluster"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2025-05-06T03:14:34.477Z",
-      "rule": "Burst-follow adult spam (watchmelive/livechats)"
-    },
-    {
-      "did": "did:plc:xfpdbhugyzinpmw7v7f52ej2",
-      "handle": "annabella0u4p.bsky.social",
-      "displayName": "",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_domain",
-        "burst_follow_cluster"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-30T12:41:01.565Z",
-      "rule": "Burst-follow adult spam (watchmelive/livechats)"
-    },
-    {
-      "did": "did:plc:k4brvhr3pbhgdxvva2cxqhzq",
-      "handle": "petronelars1j.bsky.social",
-      "displayName": "",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_domain",
-        "burst_follow_cluster"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-30T12:40:53.657Z",
-      "rule": "Burst-follow adult spam (watchmelive/livechats)"
-    },
     {
       "did": "did:plc:o7a4e5zsfoevz2hf6tfgvefu",
       "handle": "onyxspring19716.pds.louisvillebsky.app",
@@ -133,23 +48,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:oog2ccbmgpse56dvyo6tfwl3",
-      "handle": "greenridge28844.pds.louisvillebsky.app",
-      "displayName": "りさ",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:33.667Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:py7vr6glwalfsmlcwnnufeuf",
       "handle": "skyray21121.pds.louisvillebsky.app",
       "displayName": "ゆずき🌃",
@@ -164,6 +62,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:48.463Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:oog2ccbmgpse56dvyo6tfwl3",
+      "handle": "greenridge28844.pds.louisvillebsky.app",
+      "displayName": "りさ",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:33.667Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -354,23 +269,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:ql3hpoepavdltbkkgupaat2p",
-      "handle": "keenheath53361.pds.louisvillebsky.app",
-      "displayName": "まお",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:25.067Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:yzmsjvlh5rflr4dj2n5mzbtu",
       "handle": "onyxglade76151.pds.louisvillebsky.app",
       "displayName": "さゆ",
@@ -385,6 +283,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:02:19.157Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:ql3hpoepavdltbkkgupaat2p",
+      "handle": "keenheath53361.pds.louisvillebsky.app",
+      "displayName": "まお",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:25.067Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -728,20 +643,20 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:b6i7mcny2kh4vzks7o6r63l3",
-      "handle": "happystar99146.nightbo.at",
-      "displayName": "りりか🔮",
+      "did": "did:plc:dklimchme36ubsp5bcbkyaig",
+      "handle": "onyxbeam2822.pds.louisvillebsky.app",
+      "displayName": "ゆきほ",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
         "confirmed_spam_link",
         "mutual_follow_ring"
       ],
-      "handlePattern": "compound_number",
+      "handlePattern": "random_alphanum",
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:52.271Z",
+      "createdAt": "2026-05-27T00:51:30.455Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -759,23 +674,6 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:57.475Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:dklimchme36ubsp5bcbkyaig",
-      "handle": "onyxbeam2822.pds.louisvillebsky.app",
-      "displayName": "ゆきほ",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:30.455Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -810,6 +708,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:02:30.459Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:b6i7mcny2kh4vzks7o6r63l3",
+      "handle": "happystar99146.nightbo.at",
+      "displayName": "りりか🔮",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:52.271Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -898,23 +813,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:gwnnnbp4rmiwxyqmmjyyi5h7",
-      "handle": "onyxdawn8216.kimbia.social",
-      "displayName": "いつき🎶",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:59.558Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:3s6dtunoosvxwfrhpjuxstof",
       "handle": "mightybeam9323.cupcap.org",
       "displayName": "ゆず💕",
@@ -932,20 +830,20 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:kq275han23hvxeiya4p3wzl4",
-      "handle": "calmbird26744.familiar.bond",
-      "displayName": "ちはる💕",
+      "did": "did:plc:gwnnnbp4rmiwxyqmmjyyi5h7",
+      "handle": "onyxdawn8216.kimbia.social",
+      "displayName": "いつき🎶",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
         "confirmed_spam_link",
         "mutual_follow_ring"
       ],
-      "handlePattern": "compound_number",
+      "handlePattern": "random_alphanum",
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:50.064Z",
+      "createdAt": "2026-05-27T00:51:59.558Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -980,6 +878,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T00:51:46.370Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:kq275han23hvxeiya4p3wzl4",
+      "handle": "calmbird26744.familiar.bond",
+      "displayName": "ちはる💕",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:50.064Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -1034,23 +949,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:2j4tptil7k6fgvthgd5lgy5g",
-      "handle": "tinybeam6935.bsky.nrbrtspvk.com",
-      "displayName": "あいる🎵",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:46.462Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:oe6hjhjkylodvqkaaawqdrlr",
       "handle": "rubyfrost3686.pds.louisvillebsky.app",
       "displayName": "ゆきは🫧",
@@ -1065,6 +963,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T00:51:30.158Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:2j4tptil7k6fgvthgd5lgy5g",
+      "handle": "tinybeam6935.bsky.nrbrtspvk.com",
+      "displayName": "あいる🎵",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:46.462Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -1119,40 +1034,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:3x4qjyxwazb6altxrdsrkw4d",
-      "handle": "keengrove15362.pds.dadavidtseng.com",
-      "displayName": "みずき🍑",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:48.272Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:v6caqxrwl7pwklyba64pi6hj",
-      "handle": "fluxflame45942.pds.louisvillebsky.app",
-      "displayName": "ひまり🌸",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:00.676Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:aypvlksyyfmgsr237c2itawx",
       "handle": "luckyray89990.coseeker.org",
       "displayName": "つかさ🐬",
@@ -1184,6 +1065,40 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:36.456Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:v6caqxrwl7pwklyba64pi6hj",
+      "handle": "fluxflame45942.pds.louisvillebsky.app",
+      "displayName": "ひまり🌸",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:00.676Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:3x4qjyxwazb6altxrdsrkw4d",
+      "handle": "keengrove15362.pds.dadavidtseng.com",
+      "displayName": "みずき🍑",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:48.272Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -1272,23 +1187,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:zxn6hcew2z4jqaa4adhgo6v6",
-      "handle": "happybeam4753.pds.louisvillebsky.app",
-      "displayName": "あすか🎀",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:29.658Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:3xptp62g4lx2co332a2ywklb",
       "handle": "greenwave21040.familiar.bond",
       "displayName": "みずほ",
@@ -1320,6 +1218,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:25.667Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:zxn6hcew2z4jqaa4adhgo6v6",
+      "handle": "happybeam4753.pds.louisvillebsky.app",
+      "displayName": "あすか🎀",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:29.658Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -1391,6 +1306,23 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:ewklwotonouvh3zey4k37bt3",
+      "handle": "silentstar6434.familiar.bond",
+      "displayName": "みほの🐱",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:58:44.871Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:k6ai6mwv6f5q4rrain7i7wjd",
       "handle": "softcat62918.kimbia.social",
       "displayName": "さら🕊️",
@@ -1408,9 +1340,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:ewklwotonouvh3zey4k37bt3",
-      "handle": "silentstar6434.familiar.bond",
-      "displayName": "みほの🐱",
+      "did": "did:plc:acjfeznjshxl7ixuom3eia7m",
+      "handle": "jadedawn98859.kimbia.social",
+      "displayName": "りえ",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -1421,7 +1353,7 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:58:44.871Z",
+      "createdAt": "2026-05-27T13:02:05.375Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -1459,23 +1391,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:acjfeznjshxl7ixuom3eia7m",
-      "handle": "jadedawn98859.kimbia.social",
-      "displayName": "りえ",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:05.375Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:xwoejfa5m5lomahdirl43zzu",
       "handle": "plumcloud33781.pds.goldentooth.net",
       "displayName": "ゆりあ💜",
@@ -1490,40 +1405,6 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:49.262Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:aumses3r3r6dudmz4jjd77zq",
-      "handle": "blueisle21473.bsky.nrbrtspvk.com",
-      "displayName": "りこな🌙",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:25.971Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:zbwmc57af6cgyvdzamrljtz5",
-      "handle": "aquafrost9992.pds.louisvillebsky.app",
-      "displayName": "みずき🍑",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:29.558Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -1544,6 +1425,23 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:zbwmc57af6cgyvdzamrljtz5",
+      "handle": "aquafrost9992.pds.louisvillebsky.app",
+      "displayName": "みずき🍑",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:29.558Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:ozayo6xh3bjt42dpisz5igll",
       "handle": "neodell12662.coseeker.org",
       "displayName": "なおみ🐱",
@@ -1558,6 +1456,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:02:05.361Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:aumses3r3r6dudmz4jjd77zq",
+      "handle": "blueisle21473.bsky.nrbrtspvk.com",
+      "displayName": "りこな🌙",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:25.971Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -1578,23 +1493,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:5xt4pha4cm7rl2nhkv3sd5my",
-      "handle": "peachridge63617.pds.louisvillebsky.app",
-      "displayName": "あやせ",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:17.563Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:e7dwmwrbqv73p26dex7gkurn",
       "handle": "aquacat3232.coseeker.org",
       "displayName": "つばさ🐱",
@@ -1609,6 +1507,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T00:52:04.256Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:5xt4pha4cm7rl2nhkv3sd5my",
+      "handle": "peachridge63617.pds.louisvillebsky.app",
+      "displayName": "あやせ",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:17.563Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -1884,23 +1799,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:3hdhaa3xrrdkrqlbmsvkxq4u",
-      "handle": "mintjade43480.bsky.nrbrtspvk.com",
-      "displayName": "のの🌴",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:43.769Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:l7s7vxbeynyx5zcoqpalen7s",
       "handle": "skydawn64798.ridgeway.dev",
       "displayName": "いちか💛",
@@ -1918,9 +1816,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:tp4z3t2yetnftadtipglepx4",
-      "handle": "fastmeadow28499.bsky.nrbrtspvk.com",
-      "displayName": "ちえり☁️",
+      "did": "did:plc:3hdhaa3xrrdkrqlbmsvkxq4u",
+      "handle": "mintjade43480.bsky.nrbrtspvk.com",
+      "displayName": "のの🌴",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -1931,7 +1829,7 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:40.670Z",
+      "createdAt": "2026-05-27T13:01:43.769Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -2003,6 +1901,23 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:tp4z3t2yetnftadtipglepx4",
+      "handle": "fastmeadow28499.bsky.nrbrtspvk.com",
+      "displayName": "ちえり☁️",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:40.670Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:gisoxuamaavzzloznokf2qmn",
       "handle": "neospring8538.pds.louisvillebsky.app",
       "displayName": "ひな💕",
@@ -2017,23 +1932,6 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T00:05:44.961Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:qpdfj3rj7u25z6hpzsk45mwz",
-      "handle": "tinygrove18884.pds.louisvillebsky.app",
-      "displayName": "もえ",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:51.856Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -2054,20 +1952,20 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:t2mo7cjk5jamcdbxgkfplpyz",
-      "handle": "rubyglow3650.coseeker.org",
-      "displayName": "あや",
+      "did": "did:plc:qpdfj3rj7u25z6hpzsk45mwz",
+      "handle": "tinygrove18884.pds.louisvillebsky.app",
+      "displayName": "もえ",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
         "confirmed_spam_link",
         "mutual_follow_ring"
       ],
-      "handlePattern": "random_alphanum",
+      "handlePattern": "compound_number",
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:52:07.461Z",
+      "createdAt": "2026-05-27T13:01:51.856Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -2085,6 +1983,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:26.770Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:t2mo7cjk5jamcdbxgkfplpyz",
+      "handle": "rubyglow3650.coseeker.org",
+      "displayName": "あや",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:52:07.461Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -2190,6 +2105,23 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:iiakmacdgvcbc5hupp47edfi",
+      "handle": "skyjade13800.bsky.nrbrtspvk.com",
+      "displayName": "れな🍵",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:56.159Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:nsb6vmdnxyxccswmw5wz5eqh",
       "handle": "bluebreeze96413.nightbo.at",
       "displayName": "まほ",
@@ -2221,23 +2153,6 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:34.370Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:iiakmacdgvcbc5hupp47edfi",
-      "handle": "skyjade13800.bsky.nrbrtspvk.com",
-      "displayName": "れな🍵",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:56.159Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -2360,40 +2275,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:knapsnl6woczfo4zhtc7eopo",
-      "handle": "greenwave86297.pds.goldentooth.net",
-      "displayName": "りんか",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:48.056Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:sqnpllhm5xpjvgl3tfm2csma",
-      "handle": "neoheath54561.pds.goldentooth.net",
-      "displayName": "のん🐱",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:49.262Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:sy7yc32muhssoualjlpf2wsf",
       "handle": "coolriver8514.ridgeway.dev",
       "displayName": "ぱる🌾",
@@ -2428,9 +2309,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:3cl2bf3dxffz5dyfc5dlgljl",
-      "handle": "mightygrove10053.ridgeway.dev",
-      "displayName": "しずな🐱",
+      "did": "did:plc:knapsnl6woczfo4zhtc7eopo",
+      "handle": "greenwave86297.pds.goldentooth.net",
+      "displayName": "りんか",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -2441,24 +2322,24 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:11.057Z",
+      "createdAt": "2026-05-27T13:01:48.056Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:zxnqpq6rp6f5q2tpzmwrzpve",
-      "handle": "jadewave2452.pds.dadavidtseng.com",
-      "displayName": "ゆうこ",
+      "did": "did:plc:sqnpllhm5xpjvgl3tfm2csma",
+      "handle": "neoheath54561.pds.goldentooth.net",
+      "displayName": "のん🐱",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
         "confirmed_spam_link",
         "mutual_follow_ring"
       ],
-      "handlePattern": "random_alphanum",
+      "handlePattern": "compound_number",
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:58:46.968Z",
+      "createdAt": "2026-05-27T13:01:49.262Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -2496,9 +2377,26 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:y7mgjmj733sakmavhpdgy7kh",
-      "handle": "roseoak72717.kimbia.social",
-      "displayName": "ひな🌕",
+      "did": "did:plc:3cl2bf3dxffz5dyfc5dlgljl",
+      "handle": "mightygrove10053.ridgeway.dev",
+      "displayName": "しずな🐱",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:11.057Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:zxnqpq6rp6f5q2tpzmwrzpve",
+      "handle": "jadewave2452.pds.dadavidtseng.com",
+      "displayName": "ゆうこ",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -2509,7 +2407,7 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:08.567Z",
+      "createdAt": "2026-05-27T00:58:46.968Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -2527,6 +2425,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:46.975Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:y7mgjmj733sakmavhpdgy7kh",
+      "handle": "roseoak72717.kimbia.social",
+      "displayName": "ひな🌕",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:08.567Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -2561,23 +2476,6 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:38.862Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:prflggpjyisx5m2pw7q772ji",
-      "handle": "jadefox84032.coseeker.org",
-      "displayName": "ちえり",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:55.078Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -2683,9 +2581,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:b5ux7wqmj3cryqdz5x6kmzgt",
-      "handle": "neojade60974.coseeker.org",
-      "displayName": "なつめ☁️",
+      "did": "did:plc:prflggpjyisx5m2pw7q772ji",
+      "handle": "jadefox84032.coseeker.org",
+      "displayName": "ちえり",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -2696,7 +2594,7 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:03.161Z",
+      "createdAt": "2026-05-27T13:01:55.078Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -2717,6 +2615,23 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:b5ux7wqmj3cryqdz5x6kmzgt",
+      "handle": "neojade60974.coseeker.org",
+      "displayName": "なつめ☁️",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:03.161Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:atg5aazmifwi3mnqj3webrwc",
       "handle": "fastisle48937.coseeker.org",
       "displayName": "まなえ🍰",
@@ -2731,6 +2646,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:32.870Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:f3xxuyf3xypwndh2nzhrk4gf",
+      "handle": "coolstar1495.familiar.bond",
+      "displayName": "はなこ",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:58:47.160Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -2765,23 +2697,6 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:02:14.358Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:f3xxuyf3xypwndh2nzhrk4gf",
-      "handle": "coolstar1495.familiar.bond",
-      "displayName": "はなこ",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:58:47.160Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -2870,23 +2785,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:vueotmsk2prcvnni5qnb6pd3",
-      "handle": "luckyflame59275.coseeker.org",
-      "displayName": "えりか😴",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:21.573Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:vlpjrv52rry67xfauzm5y65y",
       "handle": "fluxdusk6652.ridgeway.dev",
       "displayName": "かな🪄",
@@ -2901,6 +2799,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T00:51:34.466Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:vueotmsk2prcvnni5qnb6pd3",
+      "handle": "luckyflame59275.coseeker.org",
+      "displayName": "えりか😴",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:21.573Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -4298,6 +4213,23 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:jqoxrzrmb6dmvylatsaapm42",
+      "handle": "calmbeam59306.bsky.nrbrtspvk.com",
+      "displayName": "あずさ🐦",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:18.156Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:ptozzrkzcqtvt27hlejpehii",
       "handle": "keenmoon89746.ridgeway.dev",
       "displayName": "こと",
@@ -4332,20 +4264,37 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:jqoxrzrmb6dmvylatsaapm42",
-      "handle": "calmbeam59306.bsky.nrbrtspvk.com",
-      "displayName": "あずさ🐦",
+      "did": "did:plc:qyyl5ist6jahqz3wgmf2jsg4",
+      "handle": "coolfox11659.pds.dadavidtseng.com",
+      "displayName": "ちさき☕",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
         "confirmed_spam_link",
         "mutual_follow_ring"
       ],
-      "handlePattern": "compound_number",
+      "handlePattern": "random_alphanum",
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:18.156Z",
+      "createdAt": "2026-05-27T13:02:05.358Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:nyxaztd66ni25vivks7yjeis",
+      "handle": "aquairon4593.ridgeway.dev",
+      "displayName": "せり",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:37.157Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -4417,40 +4366,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:qyyl5ist6jahqz3wgmf2jsg4",
-      "handle": "coolfox11659.pds.dadavidtseng.com",
-      "displayName": "ちさき☕",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:05.358Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:nyxaztd66ni25vivks7yjeis",
-      "handle": "aquairon4593.ridgeway.dev",
-      "displayName": "せり",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:37.157Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:qwogdqakmoqxtta6kzyi4re2",
       "handle": "fastbird63004.ridgeway.dev",
       "displayName": "いくみ",
@@ -4465,23 +4380,6 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:49.259Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:rmamllawnz2ibxkxjbr55uxl",
-      "handle": "reddell44996.nightbo.at",
-      "displayName": "さおり",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:36.673Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -4553,6 +4451,40 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:rmamllawnz2ibxkxjbr55uxl",
+      "handle": "reddell44996.nightbo.at",
+      "displayName": "さおり",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:36.673Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:shopi5sf3otzzfifxuretbk6",
+      "handle": "jaderiver12034.familiar.bond",
+      "displayName": "ゆきな",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:40.457Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:6nq3t5mdc5fc5aowfafijkvg",
       "handle": "peachspring82532.pds.dadavidtseng.com",
       "displayName": "ゆうみ",
@@ -4587,20 +4519,20 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:shopi5sf3otzzfifxuretbk6",
-      "handle": "jaderiver12034.familiar.bond",
-      "displayName": "ゆきな",
+      "did": "did:plc:tfhl4q24uzu7es24qpvcyjop",
+      "handle": "keencat51649.pds.dadavidtseng.com",
+      "displayName": "のの🍁",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
         "confirmed_spam_link",
         "mutual_follow_ring"
       ],
-      "handlePattern": "compound_number",
+      "handlePattern": "random_alphanum",
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:40.457Z",
+      "createdAt": "2026-05-27T13:01:43.558Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -4652,40 +4584,6 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:02:06.868Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:tfhl4q24uzu7es24qpvcyjop",
-      "handle": "keencat51649.pds.dadavidtseng.com",
-      "displayName": "のの🍁",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:43.558Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:xqfmrqq6pbt3yfu63nifz4f6",
-      "handle": "rubyflame57381.familiar.bond",
-      "displayName": "そよか🍫",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:06.863Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -4774,6 +4672,23 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:xqfmrqq6pbt3yfu63nifz4f6",
+      "handle": "rubyflame57381.familiar.bond",
+      "displayName": "そよか🍫",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:06.863Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:bcwuagttyfgavcotyvwygvwn",
       "handle": "rubybeam14904.ridgeway.dev",
       "displayName": "さちこ🌸",
@@ -4842,23 +4757,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:m7buxw7qqg3f45h6nptfho4v",
-      "handle": "sagemeadow47782.ridgeway.dev",
-      "displayName": "つむぎ💕",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:38.771Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:nae2q5hcyepqze2m7xfqvrta",
       "handle": "keenfrost98922.pds.goldentooth.net",
       "displayName": "えま🦢",
@@ -4924,6 +4822,57 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:02:07.775Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:m7buxw7qqg3f45h6nptfho4v",
+      "handle": "sagemeadow47782.ridgeway.dev",
+      "displayName": "つむぎ💕",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:38.771Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:finu53i4e3lnfh66fy66viom",
+      "handle": "wisedawn8293.pds.louisvillebsky.app",
+      "displayName": "おとは",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:05:20.258Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:iqdyjphkfg4n3dpte3ynuifj",
+      "handle": "plumoak2278.ridgeway.dev",
+      "displayName": "ひなの🌷",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:38.562Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -5026,74 +4975,6 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:32.870Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:finu53i4e3lnfh66fy66viom",
-      "handle": "wisedawn8293.pds.louisvillebsky.app",
-      "displayName": "おとは",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:05:20.258Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:iqdyjphkfg4n3dpte3ynuifj",
-      "handle": "plumoak2278.ridgeway.dev",
-      "displayName": "ひなの🌷",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:38.562Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:doip7fc26cjgxvtvrecxdx3d",
-      "handle": "rosenode81563.pds.goldentooth.net",
-      "displayName": "ゆきな💛",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:26.074Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:4mcf7l6l6zhgp2opj2mmtoms",
-      "handle": "sageglow12179.pds.goldentooth.net",
-      "displayName": "れいな",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:04.667Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -5301,9 +5182,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:ivv6oorkjokbm6cnxjcernpb",
-      "handle": "tinystar42911.pds.dadavidtseng.com",
-      "displayName": "りりか🔮",
+      "did": "did:plc:doip7fc26cjgxvtvrecxdx3d",
+      "handle": "rosenode81563.pds.goldentooth.net",
+      "displayName": "ゆきな💛",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -5314,24 +5195,24 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:31.756Z",
+      "createdAt": "2026-05-27T13:01:26.074Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:fd3v5r7jkdg7qtcdkazapg3i",
-      "handle": "rosenode9005.pds.dadavidtseng.com",
-      "displayName": "あさみ",
+      "did": "did:plc:4mcf7l6l6zhgp2opj2mmtoms",
+      "handle": "sageglow12179.pds.goldentooth.net",
+      "displayName": "れいな",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
         "confirmed_spam_link",
         "mutual_follow_ring"
       ],
-      "handlePattern": "random_alphanum",
+      "handlePattern": "compound_number",
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:58:51.360Z",
+      "createdAt": "2026-05-27T13:02:04.667Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -5369,9 +5250,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:5lpqeeul5z7cfj4tkym4zw22",
-      "handle": "plumnode67961.pds.dadavidtseng.com",
-      "displayName": "さわ",
+      "did": "did:plc:ivv6oorkjokbm6cnxjcernpb",
+      "handle": "tinystar42911.pds.dadavidtseng.com",
+      "displayName": "りりか🔮",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -5382,13 +5263,13 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:54.570Z",
+      "createdAt": "2026-05-27T13:02:31.756Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:f6ubvmwcbykg6trixkhoom73",
-      "handle": "skystar5804.ridgeway.dev",
-      "displayName": "みこと",
+      "did": "did:plc:fd3v5r7jkdg7qtcdkazapg3i",
+      "handle": "rosenode9005.pds.dadavidtseng.com",
+      "displayName": "あさみ",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -5399,24 +5280,7 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:34.163Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:o3fadc5wtmxrwxojcfgvyd3v",
-      "handle": "sageglow49873.pds.dadavidtseng.com",
-      "displayName": "せり🐬",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:59.263Z",
+      "createdAt": "2026-05-27T00:58:51.360Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -5468,6 +5332,57 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:37.674Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:5lpqeeul5z7cfj4tkym4zw22",
+      "handle": "plumnode67961.pds.dadavidtseng.com",
+      "displayName": "さわ",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:54.570Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:f6ubvmwcbykg6trixkhoom73",
+      "handle": "skystar5804.ridgeway.dev",
+      "displayName": "みこと",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:34.163Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:o3fadc5wtmxrwxojcfgvyd3v",
+      "handle": "sageglow49873.pds.dadavidtseng.com",
+      "displayName": "せり🐬",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:59.263Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -5539,23 +5454,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:hn2qv6ilup3sspajhqplwgbb",
-      "handle": "neoheath91127.familiar.bond",
-      "displayName": "しずな🌻",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:48.063Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:2khuv5ost53w2hek3z7qyro5",
       "handle": "cooloak22873.pds.goldentooth.net",
       "displayName": "なな🌼",
@@ -5624,9 +5522,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:dutvxgvzwrr7i4nyczjz6nll",
-      "handle": "greenleaf12579.ridgeway.dev",
-      "displayName": "かすみ💎",
+      "did": "did:plc:hn2qv6ilup3sspajhqplwgbb",
+      "handle": "neoheath91127.familiar.bond",
+      "displayName": "しずな🌻",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -5637,7 +5535,7 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:16.074Z",
+      "createdAt": "2026-05-27T13:01:48.063Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -5692,9 +5590,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:yxjtxp4aqlpo4uslm34i6ppg",
-      "handle": "keenjade81072.ridgeway.dev",
-      "displayName": "かなえ🐱",
+      "did": "did:plc:dutvxgvzwrr7i4nyczjz6nll",
+      "handle": "greenleaf12579.ridgeway.dev",
+      "displayName": "かすみ💎",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -5705,7 +5603,7 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:53.861Z",
+      "createdAt": "2026-05-27T13:02:16.074Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -5726,9 +5624,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:zn3yikw7noixchl2qg242mxt",
-      "handle": "rosemeadow10328.pds.dadavidtseng.com",
-      "displayName": "あん🐬",
+      "did": "did:plc:i2slzf7afpheitw4r3t4b3kr",
+      "handle": "silentfrost82586.nightbo.at",
+      "displayName": "つばさ🐱",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -5739,24 +5637,7 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:21.375Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:xjki2tdavjbhgzqhohqhul22",
-      "handle": "softriver66008.pds.dadavidtseng.com",
-      "displayName": "みつき",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:13.164Z",
+      "createdAt": "2026-05-27T13:02:10.364Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -5777,9 +5658,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:i2slzf7afpheitw4r3t4b3kr",
-      "handle": "silentfrost82586.nightbo.at",
-      "displayName": "つばさ🐱",
+      "did": "did:plc:xjki2tdavjbhgzqhohqhul22",
+      "handle": "softriver66008.pds.dadavidtseng.com",
+      "displayName": "みつき",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -5790,30 +5671,13 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:10.364Z",
+      "createdAt": "2026-05-27T13:02:13.164Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:r27yf6hz3c7ydgblpol56rzp",
-      "handle": "aquastar6259.bsky.chrise.com",
-      "displayName": "やよい",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:34.356Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:fibz7p4btuihxp2jgu53djmq",
-      "handle": "jadespring38854.nightbo.at",
-      "displayName": "あきほ",
+      "did": "did:plc:zn3yikw7noixchl2qg242mxt",
+      "handle": "rosemeadow10328.pds.dadavidtseng.com",
+      "displayName": "あん🐬",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -5824,41 +5688,7 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:17.062Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:h5k5i2r2kce7h4prhpmecgjc",
-      "handle": "neosage9256.pds.goldentooth.net",
-      "displayName": "のん🐱",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:40.156Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:bwfm5c6hyowqjklzevr7katz",
-      "handle": "rubymoon3263.bsky.nrbrtspvk.com",
-      "displayName": "いとは🍃",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:01.258Z",
+      "createdAt": "2026-05-27T13:02:21.375Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -5879,6 +5709,57 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:fibz7p4btuihxp2jgu53djmq",
+      "handle": "jadespring38854.nightbo.at",
+      "displayName": "あきほ",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:17.062Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:bwfm5c6hyowqjklzevr7katz",
+      "handle": "rubymoon3263.bsky.nrbrtspvk.com",
+      "displayName": "いとは🍃",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:01.258Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:r27yf6hz3c7ydgblpol56rzp",
+      "handle": "aquastar6259.bsky.chrise.com",
+      "displayName": "やよい",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:34.356Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:7bg23d7nh32npawlo4taookb",
       "handle": "aquabird2678.pds.riyo.net",
       "displayName": "のあ🌊",
@@ -5893,6 +5774,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T00:58:52.359Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:h5k5i2r2kce7h4prhpmecgjc",
+      "handle": "neosage9256.pds.goldentooth.net",
+      "displayName": "のん🐱",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:40.156Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -5947,6 +5845,23 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:pczrto4or5flriu6lpk6sue5",
+      "handle": "fluxmoon45467.familiar.bond",
+      "displayName": "ことり🍰",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:43.358Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:kzoyxihbrqnsakvzomy3o3ly",
       "handle": "happyheath59192.ridgeway.dev",
       "displayName": "さとは🌊",
@@ -5961,6 +5876,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:40.670Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:vhxhqvzljhioxyaligdr225b",
+      "handle": "fluxfox4887.cupcap.org",
+      "displayName": "せり🍬",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:52:01.467Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -5998,57 +5930,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:vhxhqvzljhioxyaligdr225b",
-      "handle": "fluxfox4887.cupcap.org",
-      "displayName": "せり🍬",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:52:01.467Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:pczrto4or5flriu6lpk6sue5",
-      "handle": "fluxmoon45467.familiar.bond",
-      "displayName": "ことり🍰",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:43.358Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:iyqgnnwvtvlram6y4jkniaji",
-      "handle": "rosespring79159.nightbo.at",
-      "displayName": "ゆのん🐦",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:04.757Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:m3nlpxilxxtw4kdj6vk2ztsr",
       "handle": "skydawn1600.cupcap.org",
       "displayName": "しずな🌻",
@@ -6080,6 +5961,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:26.262Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:iyqgnnwvtvlram6y4jkniaji",
+      "handle": "rosespring79159.nightbo.at",
+      "displayName": "ゆのん🐦",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:04.757Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -6134,23 +6032,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:6dd4qhtcqj73e4rvjqguoyn6",
-      "handle": "cosmicisle92576.nightbo.at",
-      "displayName": "みちか",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:44.767Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:6nir6qitxwsy3filhqjkr5hk",
       "handle": "plumspring15596.coseeker.org",
       "displayName": "えりか😴",
@@ -6185,9 +6066,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:jgwqwuc6oojhymbfrxcztcdk",
-      "handle": "onyxdawn20580.kimbia.social",
-      "displayName": "ちさき🍙",
+      "did": "did:plc:6dd4qhtcqj73e4rvjqguoyn6",
+      "handle": "cosmicisle92576.nightbo.at",
+      "displayName": "みちか",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -6198,7 +6079,24 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:21.372Z",
+      "createdAt": "2026-05-27T13:01:44.767Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:ihdjgjt2u73esvvfhc4nohxh",
+      "handle": "mintcat5540.ridgeway.dev",
+      "displayName": "わかな🐾",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:39.156Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -6219,20 +6117,37 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:ihdjgjt2u73esvvfhc4nohxh",
-      "handle": "mintcat5540.ridgeway.dev",
-      "displayName": "わかな🐾",
+      "did": "did:plc:jgwqwuc6oojhymbfrxcztcdk",
+      "handle": "onyxdawn20580.kimbia.social",
+      "displayName": "ちさき🍙",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
         "confirmed_spam_link",
         "mutual_follow_ring"
       ],
-      "handlePattern": "random_alphanum",
+      "handlePattern": "compound_number",
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:39.156Z",
+      "createdAt": "2026-05-27T13:02:21.372Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:ql3jn74htcidrxwbu2ytfiw3",
+      "handle": "coolleaf12454.familiar.bond",
+      "displayName": "うさぎ🙃",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:33.375Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -6287,57 +6202,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:ql3jn74htcidrxwbu2ytfiw3",
-      "handle": "coolleaf12454.familiar.bond",
-      "displayName": "うさぎ🙃",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:33.375Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:3qgdybjrlrwykvbvjunxvgot",
-      "handle": "boldstar72183.coseeker.org",
-      "displayName": "るな",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:32.368Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:s77dpbhanfb6greh3hkpiziy",
-      "handle": "pearlstar93337.ridgeway.dev",
-      "displayName": "しおん🍰",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:36.458Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:vynmpag4g5ee23g26nvqdyu6",
       "handle": "fluxnode76435.kimbia.social",
       "displayName": "ゆいな💫",
@@ -6389,6 +6253,40 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:3qgdybjrlrwykvbvjunxvgot",
+      "handle": "boldstar72183.coseeker.org",
+      "displayName": "るな",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:32.368Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:s77dpbhanfb6greh3hkpiziy",
+      "handle": "pearlstar93337.ridgeway.dev",
+      "displayName": "しおん🍰",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:36.458Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:4fvpjgjnmfuud7cexjgjnlzu",
       "handle": "calmbreeze39367.ridgeway.dev",
       "displayName": "みずき🍑",
@@ -6406,23 +6304,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:3om7efnbgpw7idobfqsrvoma",
-      "handle": "skydawn42481.coseeker.org",
-      "displayName": "まなみ",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:08.958Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:bis2pv66gqklk7p2o74oeba3",
       "handle": "greenflame14101.ridgeway.dev",
       "displayName": "さえこ",
@@ -6437,6 +6318,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:02:18.157Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:3om7efnbgpw7idobfqsrvoma",
+      "handle": "skydawn42481.coseeker.org",
+      "displayName": "まなみ",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:08.958Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -6474,57 +6372,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:y25u66xcjn2dc6ox4bnirk6l",
-      "handle": "rosefox7979.pds.dadavidtseng.com",
-      "displayName": "りこ🌤️",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:58:49.265Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:63jyaycmc7fzx7facb4rfz73",
-      "handle": "rubymoon93853.bsky.chrise.com",
-      "displayName": "ゆうり🍵",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:25.475Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:7pylt3tuzzw5bdifduljoopw",
-      "handle": "fastdusk37267.kimbia.social",
-      "displayName": "このか💗",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:05.375Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:ugzetl2ldi2hq5dffgto2kmi",
       "handle": "aqualeaf9487.coseeker.org",
       "displayName": "のあ🌊",
@@ -6559,9 +6406,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:wzjsctixei7wkhzhj53vvwhy",
-      "handle": "happyridge9441.pds.louisvillebsky.app",
-      "displayName": "ほのか🌃",
+      "did": "did:plc:7pylt3tuzzw5bdifduljoopw",
+      "handle": "fastdusk37267.kimbia.social",
+      "displayName": "このか💗",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -6572,7 +6419,41 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:05:23.865Z",
+      "createdAt": "2026-05-27T13:02:05.375Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:63jyaycmc7fzx7facb4rfz73",
+      "handle": "rubymoon93853.bsky.chrise.com",
+      "displayName": "ゆうり🍵",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:25.475Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:y25u66xcjn2dc6ox4bnirk6l",
+      "handle": "rosefox7979.pds.dadavidtseng.com",
+      "displayName": "りこ🌤️",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:58:49.265Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -6593,23 +6474,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:t5i7fsr3lxcjhqqfzmi4koo6",
-      "handle": "jadebreeze75775.familiar.bond",
-      "displayName": "りり🕊️",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:18.159Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:hufudb5nbvfj2l2ermwu66ah",
       "handle": "onyxgrove74824.nightbo.at",
       "displayName": "ちはる🎹",
@@ -6627,20 +6491,37 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:4ytbxrwzk7nyani2hmg77zte",
-      "handle": "neocloud8463.nightbo.at",
-      "displayName": "とわ🐰",
+      "did": "did:plc:wzjsctixei7wkhzhj53vvwhy",
+      "handle": "happyridge9441.pds.louisvillebsky.app",
+      "displayName": "ほのか🌃",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
         "confirmed_spam_link",
         "mutual_follow_ring"
       ],
-      "handlePattern": "random_alphanum",
+      "handlePattern": "compound_number",
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:50.543Z",
+      "createdAt": "2026-05-27T00:05:23.865Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:t5i7fsr3lxcjhqqfzmi4koo6",
+      "handle": "jadebreeze75775.familiar.bond",
+      "displayName": "りり🕊️",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:02:18.159Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -6658,6 +6539,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:02:18.873Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:4ytbxrwzk7nyani2hmg77zte",
+      "handle": "neocloud8463.nightbo.at",
+      "displayName": "とわ🐰",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:50.543Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -6746,6 +6644,23 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:mpuhzbybahlotne6iht6ef6y",
+      "handle": "fastnode717.kimbia.social",
+      "displayName": "つきの🐣",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:54.765Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:3j3wtlkwic5zppbiardugdix",
       "handle": "keenleaf79087.nightbo.at",
       "displayName": "はな🐣",
@@ -6777,23 +6692,6 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T00:52:04.356Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:mpuhzbybahlotne6iht6ef6y",
-      "handle": "fastnode717.kimbia.social",
-      "displayName": "つきの🐣",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:54.765Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -6831,6 +6729,23 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:lchrngbdqlenmpnlh6mgdzgx",
+      "handle": "fluxfrost8946.kimbia.social",
+      "displayName": "ゆきみ🍃",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:56.767Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:h3lzmsjksqlzdbxoq4b64wmj",
       "handle": "neostar82859.familiar.bond",
       "displayName": "あのん",
@@ -6848,20 +6763,20 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:lchrngbdqlenmpnlh6mgdzgx",
-      "handle": "fluxfrost8946.kimbia.social",
-      "displayName": "ゆきみ🍃",
+      "did": "did:plc:qcaql6yoxaj23jyeze6zv65s",
+      "handle": "skyglade162.pds.louisvillebsky.app",
+      "displayName": "ありな⭐",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
         "confirmed_spam_link",
         "mutual_follow_ring"
       ],
-      "handlePattern": "compound_number",
+      "handlePattern": "random_alphanum",
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:56.767Z",
+      "createdAt": "2026-05-27T00:05:20.758Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -6899,9 +6814,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:qcaql6yoxaj23jyeze6zv65s",
-      "handle": "skyglade162.pds.louisvillebsky.app",
-      "displayName": "ありな⭐",
+      "did": "did:plc:wfyjug3yds67i35iqgbnkb4z",
+      "handle": "neoglow61373.coseeker.org",
+      "displayName": "まさみ💕",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -6912,7 +6827,7 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:05:20.758Z",
+      "createdAt": "2026-05-27T13:02:03.266Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -6933,23 +6848,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:wsl6x4ll7sgfoc37rnkwrtxg",
-      "handle": "tinyvale22558.familiar.bond",
-      "displayName": "ひとみ",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:49.676Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:wkwy4m5po73mujpzq2cpuqkq",
       "handle": "skyglade77453.familiar.bond",
       "displayName": "みなと",
@@ -6964,23 +6862,6 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:02:11.364Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:xoz7qu4hjqttf2owwdqcsq6y",
-      "handle": "fastjade1288.pds.goldentooth.net",
-      "displayName": "あい",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:42.558Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -7001,26 +6882,26 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:wfyjug3yds67i35iqgbnkb4z",
-      "handle": "neoglow61373.coseeker.org",
-      "displayName": "まさみ💕",
+      "did": "did:plc:wsl6x4ll7sgfoc37rnkwrtxg",
+      "handle": "tinyvale22558.familiar.bond",
+      "displayName": "ひとみ",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
         "confirmed_spam_link",
         "mutual_follow_ring"
       ],
-      "handlePattern": "random_alphanum",
+      "handlePattern": "compound_number",
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:03.266Z",
+      "createdAt": "2026-05-27T13:01:49.676Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:ajpodtguz4fdo5nawkwgrel2",
-      "handle": "coolray5679.pds.dadavidtseng.com",
-      "displayName": "すず🐶",
+      "did": "did:plc:xoz7qu4hjqttf2owwdqcsq6y",
+      "handle": "fastjade1288.pds.goldentooth.net",
+      "displayName": "あい",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -7031,7 +6912,7 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:58:50.858Z",
+      "createdAt": "2026-05-27T00:51:42.558Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -7049,6 +6930,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T00:52:04.364Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:ajpodtguz4fdo5nawkwgrel2",
+      "handle": "coolray5679.pds.dadavidtseng.com",
+      "displayName": "すず🐶",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:58:50.858Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -7086,6 +6984,23 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:5cloveh4ava4o4ookuzjoz4i",
+      "handle": "wisecat6934.familiar.bond",
+      "displayName": "りこ🍙",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T13:01:31.282Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:l6wdspkkkfvfrvji62vs7mua",
       "handle": "silentbreeze77443.familiar.bond",
       "displayName": "なぎ",
@@ -7120,125 +7035,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:yr67idrzpmv374xnzte4xbsa",
-      "handle": "cosmicstar6931.nightbo.at",
-      "displayName": "ことり🌻",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:50.956Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:5cloveh4ava4o4ookuzjoz4i",
-      "handle": "wisecat6934.familiar.bond",
-      "displayName": "りこ🍙",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:31.282Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:sevkjfjbsdpuzpaas4v62cv7",
-      "handle": "aquaray7883.coseeker.org",
-      "displayName": "ふみか",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:52:06.062Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:5ldhk2gxw3yhqkze2km6des6",
-      "handle": "redwave48741.familiar.bond",
-      "displayName": "ゆきほ",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:31.365Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:rlmav5ch6qmlda5megrwyjv4",
-      "handle": "peachisle2349.ridgeway.dev",
-      "displayName": "おとは",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:02:04.061Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:abun3ubuzz63m6vill23fn63",
-      "handle": "mintmeadow51245.ridgeway.dev",
-      "displayName": "りりか🔮",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:33.269Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:jebn57s6w4o6qbx3hixrnowa",
-      "handle": "mightybird7957.familiar.bond",
-      "displayName": "ひなの",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:58:45.858Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:sb6arnyllle7v6uqncvoilvi",
       "handle": "luckyglade85907.nightbo.at",
       "displayName": "みさき💜",
@@ -7270,6 +7066,40 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:02:29.373Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:jebn57s6w4o6qbx3hixrnowa",
+      "handle": "mightybird7957.familiar.bond",
+      "displayName": "ひなの",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:58:45.858Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:yr67idrzpmv374xnzte4xbsa",
+      "handle": "cosmicstar6931.nightbo.at",
+      "displayName": "ことり🌻",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:50.956Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -8021,23 +7851,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:cjmiapmfy5znxl56pcxh56nx",
-      "handle": "plumbird78382.coseeker.org",
-      "displayName": "たまき🌹",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T13:01:54.769Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:gwnewrouyuvzeringomgktpx",
       "handle": "silentfox3889.pds.riyo.net",
       "displayName": "のん🐱",
@@ -8072,20 +7885,20 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:dpylcxcv6ofafwlgavvf2ex3",
-      "handle": "cooloak7242.nightbo.at",
-      "displayName": "ひとみ🌤️",
+      "did": "did:plc:cjmiapmfy5znxl56pcxh56nx",
+      "handle": "plumbird78382.coseeker.org",
+      "displayName": "たまき🌹",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
         "confirmed_spam_link",
         "mutual_follow_ring"
       ],
-      "handlePattern": "random_alphanum",
+      "handlePattern": "compound_number",
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:51:49.968Z",
+      "createdAt": "2026-05-27T13:01:54.769Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -8103,6 +7916,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:02:18.674Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:dpylcxcv6ofafwlgavvf2ex3",
+      "handle": "cooloak7242.nightbo.at",
+      "displayName": "ひとみ🌤️",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:51:49.968Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -8225,6 +8055,23 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:r54ioqkmqs5fvmeol3k2znrj",
+      "handle": "neovale5329.pds.louisvillebsky.app",
+      "displayName": "あすみ",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:05:37.655Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
       "did": "did:plc:dvgbd2i4pwbjs7n3elsby6lc",
       "handle": "tinybeam9376.familiar.bond",
       "displayName": "なつは💙",
@@ -8256,23 +8103,6 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": "2026-05-27T13:01:57.168Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
-      "did": "did:plc:r54ioqkmqs5fvmeol3k2znrj",
-      "handle": "neovale5329.pds.louisvillebsky.app",
-      "displayName": "あすみ",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:05:37.655Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -8633,9 +8463,9 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:ijgkzqp2chhtf45tvtnxhwis",
+      "did": "did:plc:oj4gt3uyvafrmam2cyarzc4j",
       "handle": "handle.invalid",
-      "displayName": "あさみ",
+      "displayName": "みゆき💤",
       "pds": "bsky.network",
       "botScore": 1.0,
       "signals": [
@@ -8646,7 +8476,7 @@
       "postsCount": 0,
       "followersCount": 0,
       "followsCount": 0,
-      "createdAt": "2026-05-27T00:05:59.266Z",
+      "createdAt": "2026-05-27T00:05:17.363Z",
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
@@ -8667,23 +8497,6 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
-      "did": "did:plc:oj4gt3uyvafrmam2cyarzc4j",
-      "handle": "handle.invalid",
-      "displayName": "みゆき💤",
-      "pds": "bsky.network",
-      "botScore": 1.0,
-      "signals": [
-        "confirmed_spam_link",
-        "mutual_follow_ring"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": "2026-05-27T00:05:17.363Z",
-      "rule": "Japanese mutual-follow ring (b-short.link)"
-    },
-    {
       "did": "did:plc:kmjojgykwnhpxtd6x3zsyf7y",
       "handle": "handle.invalid",
       "displayName": "あゆな",
@@ -8701,6 +8514,39 @@
       "rule": "Japanese mutual-follow ring (b-short.link)"
     },
     {
+      "did": "did:plc:ijgkzqp2chhtf45tvtnxhwis",
+      "handle": "handle.invalid",
+      "displayName": "あさみ",
+      "pds": "bsky.network",
+      "botScore": 1.0,
+      "signals": [
+        "confirmed_spam_link",
+        "mutual_follow_ring"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-05-27T00:05:59.266Z",
+      "rule": "Japanese mutual-follow ring (b-short.link)"
+    },
+    {
+      "did": "did:plc:5ldhk2gxw3yhqkze2km6des6",
+      "handle": "redwave48741.familiar.bond",
+      "displayName": "ゆきほ",
+      "pds": "pds.familiar.bond",
+      "botScore": 1.0,
+      "signals": [
+        "co_follow_ring_bio_match"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 7,
+      "followersCount": 36,
+      "followsCount": 50,
+      "createdAt": "2026-05-27T13:01:31.365Z",
+      "rule": "Japanese mutual-follow ring (co-follow expansion)"
+    },
+    {
       "did": "did:plc:ck37ldm4dkvwq4wqiyso4vru",
       "handle": "mightyiron623.pds.goldentooth.net",
       "displayName": "ゆきみ",
@@ -8714,6 +8560,54 @@
       "followersCount": 43,
       "followsCount": 50,
       "createdAt": "2026-05-27T00:51:43.664Z",
+      "rule": "Japanese mutual-follow ring (co-follow expansion)"
+    },
+    {
+      "did": "did:plc:abun3ubuzz63m6vill23fn63",
+      "handle": "mintmeadow51245.ridgeway.dev",
+      "displayName": "りりか🔮",
+      "pds": "pds.ridgeway.dev",
+      "botScore": 1.0,
+      "signals": [
+        "co_follow_ring_bio_match"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 7,
+      "followersCount": 40,
+      "followsCount": 50,
+      "createdAt": "2026-05-27T13:01:33.269Z",
+      "rule": "Japanese mutual-follow ring (co-follow expansion)"
+    },
+    {
+      "did": "did:plc:yxjtxp4aqlpo4uslm34i6ppg",
+      "handle": "keenjade81072.ridgeway.dev",
+      "displayName": "かなえ🐱",
+      "pds": "pds.ridgeway.dev",
+      "botScore": 1.0,
+      "signals": [
+        "co_follow_ring_bio_match"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 7,
+      "followersCount": 40,
+      "followsCount": 50,
+      "createdAt": "2026-05-27T13:01:53.861Z",
+      "rule": "Japanese mutual-follow ring (co-follow expansion)"
+    },
+    {
+      "did": "did:plc:rlmav5ch6qmlda5megrwyjv4",
+      "handle": "peachisle2349.ridgeway.dev",
+      "displayName": "おとは",
+      "pds": "pds.ridgeway.dev",
+      "botScore": 1.0,
+      "signals": [
+        "co_follow_ring_bio_match"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 7,
+      "followersCount": 37,
+      "followsCount": 50,
+      "createdAt": "2026-05-27T13:02:04.061Z",
       "rule": "Japanese mutual-follow ring (co-follow expansion)"
     },
     {
@@ -8903,12 +8797,12 @@
         "no_display_name",
         "handle_pattern:random_alphanum",
         "zero_posts",
-        "elevated_follow_ratio:8.5",
+        "elevated_follow_ratio:8.3",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 44,
+      "followersCount": 45,
       "followsCount": 373,
       "createdAt": "2026-04-22T09:22:18.242Z"
     },
@@ -12347,6 +12241,25 @@
       "createdAt": "2026-04-21T19:39:16.751Z"
     },
     {
+      "did": "did:plc:uajeauayyacsyn25l33mshdc",
+      "handle": "jidkfgv.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.6,
+      "signals": [
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "very_few_posts",
+        "high_follow_ratio:10.1"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 3,
+      "followersCount": 18,
+      "followsCount": 182,
+      "createdAt": "2026-04-21T20:03:05.650Z"
+    },
+    {
       "did": "did:plc:27fneyte7pejmb3ncang5ydn",
       "handle": "qksjjdjj.haruhwa.com",
       "displayName": "",
@@ -12548,7 +12461,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 3,
+      "followersCount": 4,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -12605,7 +12518,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 42,
+      "followersCount": 43,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -12700,7 +12613,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 11,
+      "followersCount": 12,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -12738,7 +12651,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 15,
+      "followersCount": 16,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -13650,7 +13563,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -13669,7 +13582,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 38,
+      "followersCount": 39,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -13688,7 +13601,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 30,
+      "followersCount": 31,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -13840,7 +13753,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 20,
+      "followersCount": 21,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -13916,7 +13829,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 17,
+      "followersCount": 18,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -13992,7 +13905,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 34,
+      "followersCount": 35,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -14068,7 +13981,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 20,
+      "followersCount": 21,
       "followsCount": 10,
       "createdAt": ""
     },
@@ -14505,7 +14418,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 8,
+      "followersCount": 9,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -14714,7 +14627,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 9,
+      "followersCount": 10,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -14885,7 +14798,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 25,
+      "followersCount": 26,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -15132,7 +15045,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 13,
+      "followersCount": 14,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -15189,7 +15102,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 19,
+      "followersCount": 20,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -15265,7 +15178,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 15,
+      "followersCount": 16,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -15303,7 +15216,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 28,
+      "followersCount": 29,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -15322,7 +15235,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 13,
+      "followersCount": 14,
       "followsCount": 10,
       "createdAt": ""
     },
@@ -15360,7 +15273,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 11,
+      "followersCount": 12,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -15413,11 +15326,11 @@
         "no_description",
         "no_display_name",
         "handle_pattern:random_alphanum",
-        "elevated_follow_ratio:7.0"
+        "elevated_follow_ratio:5.6"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 4,
+      "followersCount": 5,
       "followsCount": 28,
       "createdAt": ""
     },
@@ -15621,12 +15534,12 @@
         "no_description",
         "no_display_name",
         "zero_posts",
-        "elevated_follow_ratio:6.3",
+        "elevated_follow_ratio:6.5",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "other",
       "postsCount": 0,
-      "followersCount": 34,
+      "followersCount": 33,
       "followsCount": 214,
       "createdAt": "2026-04-17T09:34:14.544Z"
     },
@@ -15640,12 +15553,12 @@
         "no_description",
         "no_display_name",
         "zero_posts",
-        "elevated_follow_ratio:8.7",
+        "elevated_follow_ratio:8.2",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "other",
       "postsCount": 0,
-      "followersCount": 38,
+      "followersCount": 40,
       "followsCount": 329,
       "createdAt": "2026-04-17T09:40:14.646Z"
     },
@@ -16620,25 +16533,6 @@
       "createdAt": "2026-04-11T16:46:54.055Z"
     },
     {
-      "did": "did:plc:uajeauayyacsyn25l33mshdc",
-      "handle": "jidkfgv.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.54,
-      "signals": [
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "very_few_posts",
-        "elevated_follow_ratio:9.6"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 2,
-      "followersCount": 19,
-      "followsCount": 182,
-      "createdAt": "2026-04-21T20:03:05.650Z"
-    },
-    {
       "did": "did:plc:guf2ohptbn3doqqghueshqbz",
       "handle": "greeniron1867.pds.louisvillebsky.app",
       "displayName": "",
@@ -16765,7 +16659,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 16,
-      "followersCount": 34,
+      "followersCount": 38,
       "followsCount": 27,
       "createdAt": ""
     },
@@ -16801,7 +16695,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 15,
-      "followersCount": 19,
+      "followersCount": 21,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -16819,7 +16713,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 11,
-      "followersCount": 23,
+      "followersCount": 26,
       "followsCount": 26,
       "createdAt": ""
     },
@@ -16837,7 +16731,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 17,
+      "followersCount": 19,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -16855,7 +16749,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 15,
-      "followersCount": 17,
+      "followersCount": 19,
       "followsCount": 28,
       "createdAt": ""
     },
@@ -16891,7 +16785,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 16,
-      "followersCount": 15,
+      "followersCount": 17,
       "followsCount": 35,
       "createdAt": ""
     },
@@ -16963,7 +16857,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 29,
+      "followersCount": 31,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -16999,7 +16893,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 50,
+      "followersCount": 52,
       "followsCount": 29,
       "createdAt": ""
     },
@@ -17017,7 +16911,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 17,
+      "followersCount": 18,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -17035,7 +16929,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 14,
-      "followersCount": 28,
+      "followersCount": 29,
       "followsCount": 33,
       "createdAt": ""
     },
@@ -17053,7 +16947,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 14,
-      "followersCount": 19,
+      "followersCount": 20,
       "followsCount": 37,
       "createdAt": ""
     },
@@ -17071,7 +16965,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 15,
+      "followersCount": 16,
       "followsCount": 30,
       "createdAt": ""
     },
@@ -17089,7 +16983,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 15,
-      "followersCount": 16,
+      "followersCount": 17,
       "followsCount": 31,
       "createdAt": ""
     },
@@ -17125,7 +17019,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 14,
-      "followersCount": 13,
+      "followersCount": 14,
       "followsCount": 23,
       "createdAt": ""
     },
@@ -17179,7 +17073,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 22,
+      "followersCount": 24,
       "followsCount": 35,
       "createdAt": ""
     },
@@ -17197,7 +17091,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 24,
+      "followersCount": 26,
       "followsCount": 28,
       "createdAt": ""
     },
@@ -17215,7 +17109,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 12,
+      "followersCount": 14,
       "followsCount": 37,
       "createdAt": ""
     },
@@ -17269,7 +17163,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 15,
-      "followersCount": 19,
+      "followersCount": 20,
       "followsCount": 33,
       "createdAt": ""
     },
@@ -17341,7 +17235,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 32,
+      "followersCount": 35,
       "followsCount": 29,
       "createdAt": ""
     },
@@ -17359,7 +17253,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 46,
+      "followersCount": 47,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -17377,7 +17271,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 15,
+      "followersCount": 16,
       "followsCount": 26,
       "createdAt": ""
     },
@@ -17395,7 +17289,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 35,
+      "followersCount": 38,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -17431,7 +17325,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 17,
+      "followersCount": 19,
       "followsCount": 27,
       "createdAt": ""
     },
@@ -17467,7 +17361,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 23,
+      "followersCount": 24,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -17485,7 +17379,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 7,
+      "followersCount": 9,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -17503,7 +17397,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 14,
-      "followersCount": 22,
+      "followersCount": 23,
       "followsCount": 38,
       "createdAt": ""
     },
@@ -17521,7 +17415,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 11,
-      "followersCount": 19,
+      "followersCount": 21,
       "followsCount": 28,
       "createdAt": ""
     },
@@ -17575,7 +17469,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 17,
+      "followersCount": 18,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -17593,7 +17487,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 10,
-      "followersCount": 10,
+      "followersCount": 11,
       "followsCount": 26,
       "createdAt": ""
     },
@@ -17611,7 +17505,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 6,
-      "followersCount": 36,
+      "followersCount": 38,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -17629,7 +17523,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 8,
+      "followersCount": 9,
       "followsCount": 18,
       "createdAt": ""
     },
@@ -17665,7 +17559,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 18,
+      "followersCount": 20,
       "followsCount": 23,
       "createdAt": ""
     },
@@ -17685,24 +17579,6 @@
       "postsCount": 7,
       "followersCount": 11,
       "followsCount": 22,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:5ykkkw6nnnquqhfodw32v22o",
-      "handle": "flare9675.pds.louisvillebsky.app",
-      "displayName": "",
-      "pds": "pds.louisvillebsky.app",
-      "botScore": 0.5,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 9,
-      "followersCount": 6,
-      "followsCount": 26,
       "createdAt": ""
     },
     {
@@ -17737,7 +17613,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 10,
-      "followersCount": 23,
+      "followersCount": 24,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -17755,7 +17631,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 12,
+      "followersCount": 13,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -17827,7 +17703,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 19,
+      "followersCount": 21,
       "followsCount": 23,
       "createdAt": ""
     },
@@ -17935,7 +17811,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 24,
+      "followersCount": 26,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -18115,7 +17991,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -18133,7 +18009,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -18151,7 +18027,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 7,
+      "followersCount": 9,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -18187,7 +18063,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 25,
+      "followersCount": 26,
       "followsCount": 20,
       "createdAt": ""
     },
@@ -18205,7 +18081,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 6,
+      "followersCount": 9,
       "followsCount": 20,
       "createdAt": ""
     },
@@ -18223,7 +18099,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 26,
+      "followersCount": 28,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -18241,7 +18117,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 23,
+      "followersCount": 25,
       "followsCount": 15,
       "createdAt": ""
     },
@@ -18259,7 +18135,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 6,
-      "followersCount": 17,
+      "followersCount": 20,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -18403,7 +18279,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 18,
+      "followersCount": 19,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -18421,7 +18297,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 23,
+      "followersCount": 24,
       "followsCount": 19,
       "createdAt": ""
     },
@@ -18529,7 +18405,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 17,
+      "followersCount": 18,
       "followsCount": 20,
       "createdAt": ""
     },
@@ -18788,7 +18664,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 18,
+      "followersCount": 19,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -19204,7 +19080,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 24,
+      "followersCount": 25,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -19337,7 +19213,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 23,
+      "followersCount": 24,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -19356,7 +19232,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 15,
+      "followersCount": 16,
       "followsCount": 10,
       "createdAt": ""
     },
@@ -19731,11 +19607,11 @@
         "no_description",
         "no_display_name",
         "handle_pattern:firstname_number",
-        "elevated_follow_ratio:8.0"
+        "elevated_follow_ratio:6.4"
       ],
       "handlePattern": "firstname_number",
       "postsCount": 15,
-      "followersCount": 4,
+      "followersCount": 5,
       "followsCount": 32,
       "createdAt": ""
     },
@@ -20340,7 +20216,7 @@
       ],
       "handlePattern": "compound_number",
       "postsCount": 6,
-      "followersCount": 54,
+      "followersCount": 55,
       "followsCount": 59,
       "createdAt": ""
     },
