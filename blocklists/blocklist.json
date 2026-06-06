@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-05T07:20:18.525789+00:00",
+    "generated_at": "2026-06-06T06:57:55.312930+00:00",
     "threshold": 0.45,
     "total_flagged": 1186,
     "pds_servers_scanned": [
@@ -44,12 +44,12 @@
         "no_display_name",
         "handle_pattern:consonant_cluster",
         "zero_posts",
-        "elevated_follow_ratio:5.9",
+        "elevated_follow_ratio:5.7",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "consonant_cluster",
       "postsCount": 0,
-      "followersCount": 27,
+      "followersCount": 28,
       "followsCount": 159,
       "createdAt": "2026-04-17T10:15:41.440Z"
     },
@@ -84,12 +84,12 @@
         "no_display_name",
         "handle_pattern:consonant_cluster",
         "zero_posts",
-        "elevated_follow_ratio:6.1",
+        "elevated_follow_ratio:5.9",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "consonant_cluster",
       "postsCount": 0,
-      "followersCount": 29,
+      "followersCount": 30,
       "followsCount": 176,
       "createdAt": "2026-04-22T09:12:38.445Z"
     },
@@ -184,12 +184,12 @@
         "no_display_name",
         "handle_pattern:random_alphanum",
         "zero_posts",
-        "elevated_follow_ratio:7.6",
+        "elevated_follow_ratio:7.5",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 49,
+      "followersCount": 50,
       "followsCount": 373,
       "createdAt": "2026-04-22T09:22:18.242Z"
     },
@@ -204,12 +204,12 @@
         "no_display_name",
         "handle_pattern:random_alphanum",
         "zero_posts",
-        "elevated_follow_ratio:7.6",
+        "elevated_follow_ratio:7.4",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 37,
+      "followersCount": 38,
       "followsCount": 281,
       "createdAt": "2026-04-22T09:23:23.441Z"
     },
@@ -244,12 +244,12 @@
         "no_display_name",
         "handle_pattern:random_alphanum",
         "zero_posts",
-        "elevated_follow_ratio:8.6",
+        "elevated_follow_ratio:8.3",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 25,
+      "followersCount": 26,
       "followsCount": 215,
       "createdAt": "2026-04-22T09:29:46.346Z"
     },
@@ -1274,12 +1274,12 @@
         "no_description",
         "no_display_name",
         "zero_posts",
-        "high_follow_ratio:14.8",
+        "high_follow_ratio:11.1",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "other",
       "postsCount": 0,
-      "followersCount": 45,
+      "followersCount": 60,
       "followsCount": 666,
       "createdAt": "2026-05-24T02:50:11.069Z"
     },
@@ -1293,12 +1293,12 @@
         "no_description",
         "no_display_name",
         "zero_posts",
-        "high_follow_ratio:11.0",
+        "high_follow_ratio:10.7",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "other",
       "postsCount": 0,
-      "followersCount": 36,
+      "followersCount": 37,
       "followsCount": 397,
       "createdAt": "2026-04-17T10:00:10.848Z"
     },
@@ -3810,7 +3810,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 23,
+      "followersCount": 24,
       "followsCount": 10,
       "createdAt": ""
     },
@@ -3962,7 +3962,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 10,
+      "followersCount": 11,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -4019,7 +4019,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 11,
+      "followersCount": 12,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -4038,7 +4038,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 7,
+      "followersCount": 8,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -4076,7 +4076,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 32,
+      "followersCount": 33,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -4114,7 +4114,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 51,
+      "followersCount": 52,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -4133,7 +4133,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 29,
+      "followersCount": 30,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -4285,7 +4285,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 33,
+      "followersCount": 34,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -4304,7 +4304,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 13,
+      "followersCount": 14,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -4323,7 +4323,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 32,
+      "followersCount": 33,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -4437,7 +4437,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 30,
+      "followersCount": 31,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -4494,7 +4494,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 29,
+      "followersCount": 30,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -4646,7 +4646,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 8,
+      "followersCount": 9,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -4741,7 +4741,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 13,
+      "followersCount": 14,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -4874,7 +4874,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 8,
+      "followersCount": 9,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -5026,7 +5026,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 21,
+      "followersCount": 23,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -5045,7 +5045,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -5121,7 +5121,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 28,
+      "followersCount": 29,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -5159,7 +5159,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 22,
+      "followersCount": 23,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -5178,7 +5178,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 22,
+      "followersCount": 24,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -5197,7 +5197,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 13,
+      "followersCount": 15,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -5501,7 +5501,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 10,
+      "followersCount": 11,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -5615,7 +5615,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 26,
+      "followersCount": 27,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -5786,7 +5786,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 13,
+      "followersCount": 14,
       "followsCount": 3,
       "createdAt": ""
     },
@@ -5862,7 +5862,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 31,
+      "followersCount": 32,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -6014,7 +6014,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 28,
+      "followersCount": 29,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -6128,7 +6128,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 28,
+      "followersCount": 29,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -6185,7 +6185,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 32,
+      "followersCount": 33,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -6204,7 +6204,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 34,
+      "followersCount": 35,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -6622,7 +6622,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 22,
+      "followersCount": 23,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -6769,12 +6769,12 @@
         "no_description",
         "no_display_name",
         "zero_posts",
-        "elevated_follow_ratio:8.6",
+        "elevated_follow_ratio:6.7",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "other",
       "postsCount": 0,
-      "followersCount": 7,
+      "followersCount": 9,
       "followsCount": 60,
       "createdAt": "2026-05-25T20:11:01.857Z"
     },
@@ -6826,12 +6826,12 @@
         "no_description",
         "no_display_name",
         "zero_posts",
-        "elevated_follow_ratio:7.6",
+        "elevated_follow_ratio:7.3",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "other",
       "postsCount": 0,
-      "followersCount": 28,
+      "followersCount": 29,
       "followsCount": 213,
       "createdAt": "2026-04-17T10:01:29.141Z"
     },
@@ -6845,12 +6845,12 @@
         "no_description",
         "no_display_name",
         "zero_posts",
-        "elevated_follow_ratio:8.8",
+        "elevated_follow_ratio:8.5",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "other",
       "postsCount": 0,
-      "followersCount": 26,
+      "followersCount": 27,
       "followsCount": 230,
       "createdAt": "2026-04-22T09:14:59.947Z"
     },
@@ -7741,11 +7741,11 @@
         "no_display_name",
         "handle_pattern:random_alphanum",
         "very_few_posts",
-        "elevated_follow_ratio:8.2"
+        "elevated_follow_ratio:7.5"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 3,
-      "followersCount": 85,
+      "followersCount": 92,
       "followsCount": 694,
       "createdAt": "2026-05-18T11:28:26.455Z"
     },
@@ -7934,7 +7934,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 16,
-      "followersCount": 45,
+      "followersCount": 46,
       "followsCount": 27,
       "createdAt": ""
     },
@@ -8006,7 +8006,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 25,
+      "followersCount": 26,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -8204,7 +8204,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 55,
+      "followersCount": 57,
       "followsCount": 29,
       "createdAt": ""
     },
@@ -8240,7 +8240,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 14,
-      "followersCount": 29,
+      "followersCount": 30,
       "followsCount": 33,
       "createdAt": ""
     },
@@ -8258,7 +8258,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 14,
-      "followersCount": 20,
+      "followersCount": 21,
       "followsCount": 37,
       "createdAt": ""
     },
@@ -8312,7 +8312,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 17,
-      "followersCount": 16,
+      "followersCount": 17,
       "followsCount": 32,
       "createdAt": ""
     },
@@ -8330,7 +8330,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 14,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 23,
       "createdAt": ""
     },
@@ -8348,7 +8348,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 11,
-      "followersCount": 9,
+      "followersCount": 10,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -8402,7 +8402,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 36,
+      "followersCount": 37,
       "followsCount": 28,
       "createdAt": ""
     },
@@ -8420,7 +8420,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 17,
+      "followersCount": 18,
       "followsCount": 37,
       "createdAt": ""
     },
@@ -8456,7 +8456,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 41,
+      "followersCount": 42,
       "followsCount": 32,
       "createdAt": ""
     },
@@ -8510,7 +8510,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 11,
-      "followersCount": 28,
+      "followersCount": 29,
       "followsCount": 33,
       "createdAt": ""
     },
@@ -8600,7 +8600,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 38,
+      "followersCount": 39,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -8708,7 +8708,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 14,
-      "followersCount": 27,
+      "followersCount": 28,
       "followsCount": 38,
       "createdAt": ""
     },
@@ -8744,7 +8744,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 10,
+      "followersCount": 11,
       "followsCount": 18,
       "createdAt": ""
     },
@@ -8888,7 +8888,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 13,
+      "followersCount": 14,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -8924,7 +8924,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 10,
-      "followersCount": 29,
+      "followersCount": 30,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -9122,7 +9122,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 27,
+      "followersCount": 29,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -9140,7 +9140,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 33,
+      "followersCount": 34,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -9176,7 +9176,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 6,
-      "followersCount": 29,
+      "followersCount": 30,
       "followsCount": 19,
       "createdAt": ""
     },
@@ -9212,7 +9212,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 19,
+      "followersCount": 20,
       "followsCount": 18,
       "createdAt": ""
     },
@@ -9464,7 +9464,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 33,
+      "followersCount": 34,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -9482,7 +9482,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 30,
+      "followersCount": 31,
       "followsCount": 15,
       "createdAt": ""
     },
@@ -9680,7 +9680,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 13,
+      "followersCount": 14,
       "followsCount": 23,
       "createdAt": ""
     },
@@ -10067,7 +10067,7 @@
       ],
       "handlePattern": "firstname_number",
       "postsCount": 1,
-      "followersCount": 21,
+      "followersCount": 23,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -10407,7 +10407,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 17,
+      "followersCount": 18,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -10502,7 +10502,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 23,
+      "followersCount": 24,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -10559,7 +10559,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 26,
+      "followersCount": 27,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -10615,7 +10615,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 21,
+      "followersCount": 22,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -10805,7 +10805,7 @@
       ],
       "handlePattern": "firstname_number",
       "postsCount": 1,
-      "followersCount": 4,
+      "followersCount": 5,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -10824,7 +10824,7 @@
       ],
       "handlePattern": "firstname_number",
       "postsCount": 1,
-      "followersCount": 18,
+      "followersCount": 19,
       "followsCount": 8,
       "createdAt": ""
     },
