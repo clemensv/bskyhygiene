@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-06-08T07:31:26.080885+00:00",
+    "generated_at": "2026-06-09T07:05:47.267435+00:00",
     "threshold": 0.45,
-    "total_flagged": 1190,
+    "total_flagged": 1200,
     "pds_servers_scanned": [
       "pds.louisvillebsky.app",
       "haruhwa.com",
@@ -1199,11 +1199,11 @@
         "no_description",
         "no_display_name",
         "handle_pattern:random_alphanum",
-        "high_follow_ratio:16.5"
+        "high_follow_ratio:11.0"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 2,
+      "followersCount": 3,
       "followsCount": 33,
       "createdAt": ""
     },
@@ -1218,11 +1218,11 @@
         "no_description",
         "no_display_name",
         "handle_pattern:random_alphanum",
-        "high_follow_ratio:41.0"
+        "high_follow_ratio:20.5"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 11,
-      "followersCount": 1,
+      "followersCount": 2,
       "followsCount": 41,
       "createdAt": ""
     },
@@ -1237,11 +1237,11 @@
         "no_description",
         "no_display_name",
         "handle_pattern:random_alphanum",
-        "high_follow_ratio:27.0"
+        "high_follow_ratio:13.5"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 1,
+      "followersCount": 2,
       "followsCount": 27,
       "createdAt": ""
     },
@@ -1294,11 +1294,11 @@
         "no_description",
         "no_display_name",
         "handle_pattern:random_alphanum",
-        "high_follow_ratio:22.0"
+        "high_follow_ratio:11.0"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 1,
+      "followersCount": 2,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -3829,7 +3829,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 25,
+      "followersCount": 26,
       "followsCount": 10,
       "createdAt": ""
     },
@@ -3981,7 +3981,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 11,
+      "followersCount": 12,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -4152,7 +4152,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 31,
+      "followersCount": 32,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -4171,7 +4171,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 19,
+      "followersCount": 20,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -4228,7 +4228,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 24,
+      "followersCount": 25,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -4304,7 +4304,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 34,
+      "followersCount": 35,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -4323,7 +4323,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -4342,7 +4342,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 35,
+      "followersCount": 36,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -4399,7 +4399,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 17,
+      "followersCount": 18,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -4456,7 +4456,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 31,
+      "followersCount": 30,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -4475,7 +4475,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 27,
+      "followersCount": 28,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -4513,7 +4513,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 31,
+      "followersCount": 30,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -4665,7 +4665,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 9,
+      "followersCount": 8,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -4722,7 +4722,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 5,
+      "followersCount": 6,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -4741,7 +4741,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 4,
+      "followersCount": 5,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -4893,7 +4893,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 9,
+      "followersCount": 10,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -5007,7 +5007,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 6,
+      "followersCount": 7,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -5121,7 +5121,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 22,
+      "followersCount": 23,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -5197,7 +5197,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 24,
+      "followersCount": 25,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -5216,7 +5216,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 15,
+      "followersCount": 16,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -5254,7 +5254,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 6,
+      "followersCount": 7,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -5520,7 +5520,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 11,
+      "followersCount": 10,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -5653,7 +5653,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 22,
+      "followersCount": 23,
       "followsCount": 3,
       "createdAt": ""
     },
@@ -5805,7 +5805,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 3,
       "createdAt": ""
     },
@@ -5881,7 +5881,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 32,
+      "followersCount": 33,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -6033,7 +6033,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 30,
+      "followersCount": 31,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -6109,7 +6109,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -6147,7 +6147,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 29,
+      "followersCount": 30,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -6204,7 +6204,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 33,
+      "followersCount": 34,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -6261,7 +6261,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 7,
+      "followersCount": 8,
       "followsCount": 3,
       "createdAt": ""
     },
@@ -6375,7 +6375,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 11,
+      "followersCount": 13,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -6584,7 +6584,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 16,
+      "followersCount": 17,
       "followsCount": 10,
       "createdAt": ""
     },
@@ -6660,7 +6660,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -6760,25 +6760,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:mjimotpychmivwxilham6ly6",
-      "handle": "xylalane.pds.louisvillebsky.app",
-      "displayName": "",
-      "pds": "pds.louisvillebsky.app",
-      "botScore": 0.56,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "elevated_follow_ratio:5.4"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 9,
-      "followersCount": 5,
-      "followsCount": 27,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:sd2j3i26hvn2e3pliylipy3c",
       "handle": "l-hanan.pds.louisvillebsky.app",
       "displayName": "",
@@ -6788,33 +6769,14 @@
         "no_description",
         "no_display_name",
         "zero_posts",
-        "elevated_follow_ratio:9.2",
+        "elevated_follow_ratio:9.1",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "other",
       "postsCount": 0,
-      "followersCount": 72,
+      "followersCount": 73,
       "followsCount": 666,
       "createdAt": "2026-05-24T02:50:11.069Z"
-    },
-    {
-      "did": "did:plc:pdpozjlyfrdgysy7evjwcbjl",
-      "handle": "hanan0.pds.louisvillebsky.app",
-      "displayName": "",
-      "pds": "pds.louisvillebsky.app",
-      "botScore": 0.56,
-      "signals": [
-        "no_description",
-        "no_display_name",
-        "zero_posts",
-        "elevated_follow_ratio:5.5",
-        "mass_follow_zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 11,
-      "followsCount": 60,
-      "createdAt": "2026-05-25T20:11:01.857Z"
     },
     {
       "did": "did:plc:bjffiehontgrffdqmy7bomol",
@@ -8026,7 +7988,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 15,
-      "followersCount": 30,
+      "followersCount": 31,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -8044,7 +8006,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 11,
-      "followersCount": 32,
+      "followersCount": 33,
       "followsCount": 26,
       "createdAt": ""
     },
@@ -8062,7 +8024,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 29,
+      "followersCount": 31,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -8116,7 +8078,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 11,
-      "followersCount": 9,
+      "followersCount": 10,
       "followsCount": 36,
       "createdAt": ""
     },
@@ -8152,7 +8114,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 16,
-      "followersCount": 19,
+      "followersCount": 20,
       "followsCount": 35,
       "createdAt": ""
     },
@@ -8170,7 +8132,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 15,
+      "followersCount": 16,
       "followsCount": 25,
       "createdAt": ""
     },
@@ -8188,7 +8150,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 30,
+      "followersCount": 31,
       "followsCount": 35,
       "createdAt": ""
     },
@@ -8224,7 +8186,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 35,
+      "followersCount": 37,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -8242,7 +8204,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 22,
+      "followersCount": 23,
       "followsCount": 27,
       "createdAt": ""
     },
@@ -8314,7 +8276,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 14,
-      "followersCount": 24,
+      "followersCount": 26,
       "followsCount": 37,
       "createdAt": ""
     },
@@ -8350,7 +8312,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 15,
-      "followersCount": 25,
+      "followersCount": 26,
       "followsCount": 31,
       "createdAt": ""
     },
@@ -8566,7 +8528,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 11,
-      "followersCount": 31,
+      "followersCount": 32,
       "followsCount": 33,
       "createdAt": ""
     },
@@ -8620,7 +8582,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 55,
+      "followersCount": 57,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -8818,7 +8780,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 15,
+      "followersCount": 17,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -8872,7 +8834,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 6,
-      "followersCount": 42,
+      "followersCount": 46,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -8890,7 +8852,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 8,
+      "followersCount": 9,
       "followsCount": 18,
       "createdAt": ""
     },
@@ -8944,7 +8906,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 17,
+      "followersCount": 18,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -8998,7 +8960,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 22,
+      "followersCount": 23,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -9016,7 +8978,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 16,
       "createdAt": ""
     },
@@ -9268,7 +9230,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 20,
+      "followersCount": 21,
       "followsCount": 18,
       "createdAt": ""
     },
@@ -9322,7 +9284,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 15,
+      "followersCount": 20,
       "followsCount": 18,
       "createdAt": ""
     },
@@ -9376,7 +9338,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -9466,7 +9428,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 10,
-      "followersCount": 5,
+      "followersCount": 6,
       "followsCount": 20,
       "createdAt": ""
     },
@@ -9484,7 +9446,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 34,
+      "followersCount": 35,
       "followsCount": 20,
       "createdAt": ""
     },
@@ -9502,7 +9464,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 11,
+      "followersCount": 12,
       "followsCount": 20,
       "createdAt": ""
     },
@@ -9520,7 +9482,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 38,
+      "followersCount": 39,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -9615,6 +9577,24 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:mjimotpychmivwxilham6ly6",
+      "handle": "xylalane.pds.louisvillebsky.app",
+      "displayName": "",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.5,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 9,
+      "followersCount": 6,
+      "followsCount": 27,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:yoeaniktgz4mfg6ai6eh4t5m",
       "handle": "greatstack.pds.louisvillebsky.app",
       "displayName": "",
@@ -9628,7 +9608,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 28,
+      "followersCount": 29,
       "followsCount": 21,
       "createdAt": ""
     },
@@ -9718,7 +9698,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 26,
+      "followersCount": 27,
       "followsCount": 19,
       "createdAt": ""
     },
@@ -9862,7 +9842,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 18,
+      "followersCount": 22,
       "followsCount": 25,
       "createdAt": ""
     },
@@ -9901,6 +9881,24 @@
       "followersCount": 16,
       "followsCount": 23,
       "createdAt": ""
+    },
+    {
+      "did": "did:plc:pdpozjlyfrdgysy7evjwcbjl",
+      "handle": "hanan0.pds.louisvillebsky.app",
+      "displayName": "",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.5,
+      "signals": [
+        "no_description",
+        "no_display_name",
+        "zero_posts",
+        "mass_follow_zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 12,
+      "followsCount": 60,
+      "createdAt": "2026-05-25T20:11:01.857Z"
     },
     {
       "did": "did:plc:fine4cmxa7e2rkys7kdqjbrh",
@@ -10083,7 +10081,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 2,
+      "followersCount": 3,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -10480,7 +10478,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 18,
+      "followersCount": 19,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -10632,7 +10630,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 28,
+      "followersCount": 29,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -10688,7 +10686,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 22,
+      "followersCount": 23,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -10859,7 +10857,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 30,
+      "followersCount": 31,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -10897,7 +10895,7 @@
       ],
       "handlePattern": "firstname_number",
       "postsCount": 1,
-      "followersCount": 20,
+      "followersCount": 21,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -10957,6 +10955,23 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": ""
+    },
+    {
+      "did": "did:plc:jyik3q6oaufqvfi25exdmp5h",
+      "handle": "vaultnira.pds.louisvillebsky.app",
+      "displayName": "nira pulse",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.47,
+      "signals": [
+        "handle_pattern:random_alphanum",
+        "zero_posts",
+        "high_follow_ratio:13.0"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 1,
+      "followsCount": 13,
+      "createdAt": "2026-06-06T23:24:20.060Z"
     },
     {
       "did": "did:plc:yuhc7cjveowuykf4weaqwy6e",
@@ -11150,7 +11165,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 20,
+      "followersCount": 21,
       "followsCount": 6,
       "createdAt": "2026-05-08T20:47:38.969Z"
     },
@@ -11651,24 +11666,6 @@
       "handlePattern": "compound_number",
       "postsCount": 7,
       "followersCount": 54,
-      "followsCount": 60,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:uxrd3txgmwyhbsw7hbl7gb7x",
-      "handle": "mintfox552812.pds.louisvillebsky.app",
-      "displayName": "",
-      "pds": "pds.louisvillebsky.app",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:compound_number"
-      ],
-      "handlePattern": "compound_number",
-      "postsCount": 7,
-      "followersCount": 65,
       "followsCount": 60,
       "createdAt": ""
     },
@@ -21679,6 +21676,176 @@
       "followersCount": 0,
       "followsCount": 0,
       "createdAt": ""
+    },
+    {
+      "did": "did:plc:az64ubalrjcnedzvwaacd54q",
+      "handle": "beatneon.pds.louisvillebsky.app",
+      "displayName": "wave nira",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-06-08T14:57:13.472Z"
+    },
+    {
+      "did": "did:plc:acaoh5o4ticy3sbwilj33zzs",
+      "handle": "synth22.pds.louisvillebsky.app",
+      "displayName": "nira flux",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-06-08T14:58:17.172Z"
+    },
+    {
+      "did": "did:plc:ikdjwp3wl2ynoefu3m2fv62u",
+      "handle": "nirasynth.pds.louisvillebsky.app",
+      "displayName": "synth core",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-06-08T15:00:10.865Z"
+    },
+    {
+      "did": "did:plc:zbvnr6dtdbr465zqfu2zveoz",
+      "handle": "ghostnode.pds.louisvillebsky.app",
+      "displayName": "NiraSynth",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-06-08T15:01:00.366Z"
+    },
+    {
+      "did": "did:plc:hs4qawby7z3njw2quwu5uev7",
+      "handle": "waveapex.pds.louisvillebsky.app",
+      "displayName": "beat pulse",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-06-08T15:01:41.465Z"
+    },
+    {
+      "did": "did:plc:ewn3ay5iswihelparai3d7n3",
+      "handle": "darkwave31.pds.louisvillebsky.app",
+      "displayName": "nira audio",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-06-08T15:44:11.558Z"
+    },
+    {
+      "did": "did:plc:25yab5po4kh5frjko5ez6456",
+      "handle": "nira260.pds.louisvillebsky.app",
+      "displayName": "nira deep",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-06-08T15:44:11.770Z"
+    },
+    {
+      "did": "did:plc:twdu3s4vprsdc45svghkxo4j",
+      "handle": "gatelink.pds.louisvillebsky.app",
+      "displayName": "nira core",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-06-09T01:05:35.373Z"
+    },
+    {
+      "did": "did:plc:xhnbuxi4tgsiffw4p2xejrel",
+      "handle": "hqlunar.pds.louisvillebsky.app",
+      "displayName": "nira dark",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-06-09T03:48:17.477Z"
+    },
+    {
+      "did": "did:plc:xfcu6hbntt4wu3en6h5u4l5y",
+      "handle": "digitalbold.pds.louisvillebsky.app",
+      "displayName": "nira deep",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": "2026-06-09T05:14:48.964Z"
     },
     {
       "did": "did:plc:ekufkaqd3bhjb4tgjbeasqnm",
