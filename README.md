@@ -6,6 +6,7 @@ Investigations into coordinated inauthentic behavior on the Bluesky social netwo
 
 | Date | Target | Accounts | Summary |
 |------|--------|----------|---------|
+| [2026-06-17](investigations/2026-06-17-haruhwa-multi-pds-expansion/) | 8 self-hosted PDS (haruhwa operator) | ≥74,038 | Multi-PDS sleeper expansion: same operator scaled onto 7 new PDS; 68K accounts in 4 days, synchronized 20.9s 8-host genesis + lockstep 06-15 pause, dormant pre-activation, nirasynth.xxx funnel |
 | [2026-06-17](investigations/2026-06-17-haruhwa-spike/) | haruhwa.com | 10,585 | Sleeper-account surge: 702 → 10,585 (~15×) in 19 days; 94.6% created June 14–17 in machine-paced bursts, dormant stockpile, same operator |
 | [2026-05-28](investigations/2026-05-28-louisvillebsky-haruhwa/) | pds.louisvillebsky.app & haruhwa.com | 3,584 | Coordinated bot infrastructure: follow inflation + charity fraud scam |
 | [2026-05-28](investigations/2026-05-28-burst-follow-spam/) | watchmelive.my.id / livechats.my.id | 389 | Burst-follow spam: 1,001 follows in <5 min, adult content promotion |
