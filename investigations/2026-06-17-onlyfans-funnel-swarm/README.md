@@ -347,6 +347,16 @@ account scrubs its `s.gy`/OnlyFans bio, its near-identical follow set still fing
 *(Window caveat: firehose follow coverage begins ~2026-05-16, so pre-surge follows by the
 2024-vintage accounts are under-counted; the pattern shown is from the active window.)*
 
+**Direction matters — this "~90–100% swarm-followed" signature describes the *hubs the core
+follows outward*, not the core itself.** Inbound, the 545 core accounts are followed mostly by
+ordinary outsiders: of 8,266 distinct in-window followers, only **0.5%** are other core accounts
+and **3.5%** are in the wider roster — **96.5% sit outside the cluster** — and the 102 still-live
+core accounts carry real follower bases (median **92**, up to **6,120**). So the core is the
+**public-facing persona front** that accrues genuine followers by spraying replies into busy
+threads, while the hubs are its **manufactured-audience satellite layer**. The two layers are
+mirror images: the core barely follows or is followed by its own cluster, yet collectively
+co-follows the hubs almost unanimously.
+
 ---
 
 ## 8. Live Survival / Moderation Rate
@@ -501,10 +511,10 @@ cluster cleanup required.
   `nonswarm_templates.json`, `generator_leak_fingerprint.json`, `post_totals.json`,
   `segment_summary.json`, `survival_summary.json`, `creation_timeline.json`,
   `findings_summary.json`, `cofollow_data.json`, `cofollow_targets_resolved.json`,
-  `cofollow_graph.json`, `cofollow_full.json`, and scripts `kql.py`, `01_profile_scan.py`, `02_funnel_analysis.py`,
+  `cofollow_graph.json`, `cofollow_full.json`, `core_inbound.json`, and scripts `kql.py`, `01_profile_scan.py`, `02_funnel_analysis.py`,
   `03_redirect_resolve.py`, `04_post_kql.py`, `05_survival_score.py`, `plot.py`,
   `06_cofollow_pull.py`, `07_cofollow_resolve.py`, `08_cofollow_sample.py`, `09_cofollow_graph.py`,
-  `10_cofollow_full.py`, `11_cofollow_full_graph.py`.
+  `10_cofollow_full.py`, `11_cofollow_full_graph.py`, `12_core_followers.py`.
 
 *Investigation conducted via KQL against the Bluesky Firehose (Microsoft Fabric Eventhouse) and
 the public AT-Protocol AppView. 2026-06-17.*
