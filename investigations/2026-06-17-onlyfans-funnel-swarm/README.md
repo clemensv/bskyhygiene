@@ -72,6 +72,7 @@ some single-creator accounts may be genuine creators enrolled in the same affili
 | `s.gy` branded shorteners | `rxvgiz` 146, `tcenx4` 82, `qkizgz` 37 (+9 single-use) |
 | Funnel destination | `onlyfans.com/<creator>/c<N>` (referral codes) |
 | Shared buggy generator (Python-exception leak) | **79 accounts** |
+| Co-follow signature (545 core) | 447,111 follows, only **106 mutual**; 40+ shared targets each ~90–100% swarm-followed |
 | Live-survival (whole roster) | **71.8% live / 28.2% suspended** |
 | Live-survival (templated core) | **18.5% live / 81.5% suspended** |
 | Heuristic bot score (mean / median) | **0.232 / 0.200** (seasoning defeats it) |
@@ -283,7 +284,12 @@ sense"`, `"true"`, `"fair point"`, `"love this so inspiring"`) to look like a re
 
 ---
 
-## 7. Coordination Evidence (Shared Generator)
+## 7. Coordination Evidence
+
+Two independent, mutually-reinforcing signals: a leaked shared content generator (§7.1) and a
+complete co-follow signature in the follow graph (§7.2).
+
+### 7.1 Shared generator — leaked scaffolding
 
 Searching the roster's June posts for generator scaffolding that should never appear in human
 text:
@@ -298,6 +304,44 @@ text:
 **79 accounts emitting the identical Python traceback is conclusive proof of shared automation
 infrastructure** — independent human creators do not all surface the same `NoneType` error.
 This is the single strongest coordination signal in the dossier.
+
+### 7.2 Co-follow network — the swarm boosts a hidden layer of shared targets
+
+A second, independent signal sits in the **follow graph**. Taking the **545 Tier-A core DIDs** as
+seeds (`detection_core_dids.csv`) and reading every follow they emitted from the firehose
+(`Bluesky.Graph.Follow_v1`, last 45 d):
+
+- **535 / 545 seeds emit 447,111 follows** to 173,559 distinct targets — yet **only 106 of those
+  follows land on another seed.** This is **not** a mutual-follow ring (contrast the
+  [b-short ring](../2026-05-27-bshort-japanese-ring/README.md)'s 29,268 mutual edges); the funnel
+  accounts barely follow each other.
+- Instead they **co-follow an identical set of small outside accounts.** 40+ targets are each
+  followed by **126–161 of the 545 sampled seeds (~23–30%)**, and for most of them the funnel
+  swarm is **~90–100% of their entire follower base** — these targets have almost no followers who
+  are *not* funnel accounts:
+
+| Shared co-follow target | Swarm followers / total followers |
+|---|---:|
+| `@jccustomsmetalfab` | 146 / 146 |
+| `@arenavincent` | 145 / 146 |
+| `@projectworldwariii` | 144 / 144 |
+| `@superbowlpartybets` | 144 / 148 |
+| `@f1season2026` | 144 / 150 |
+| `@worldtensionwatch` | 139 / 141 |
+
+A 40-account sample shows the structure cleanly: **every sampled account follows every shown hub**
+(a complete co-follow bipartite) and all carry the same `s.gy → OnlyFans` bio link (centre):
+
+![Co-follow network](assets/network_graph.png)
+
+**Reading.** Independent users do not collectively follow the same ~150-follower strangers. The
+swarm is **manufacturing an audience for a hidden satellite layer** of eclectic persona accounts
+(shooting sports, F1, Brexit, crypto, tarot, niche news) that are otherwise followerless — either
+sibling accounts of the same operator being seasoned for later use, or a paid follow-boosting
+service run on the side. Like the generator leak, this signature is **bio-independent**: even if an
+account scrubs its `s.gy`/OnlyFans bio, its near-identical follow set still fingerprints membership.
+*(Window caveat: firehose follow coverage begins ~2026-05-16, so pre-surge follows by the
+2024-vintage accounts are under-counted; the pattern shown is from the active window.)*
 
 ---
 
@@ -444,7 +488,7 @@ cluster cleanup required.
 ### Files
 
 - `assets/` — `creation_timeline.png`, `persona_distribution.png`, `sgy_distribution.png`,
-  `follow_vs_follower.png`, `swarm_ignition.png`, `survival_by_segment.png`
+  `follow_vs_follower.png`, `swarm_ignition.png`, `survival_by_segment.png`, `network_graph.png`
 - `data/` — `funnel_profiles.jsonl` (3,326 scanned bios), `appview_roster.jsonl` (live sweep),
   `scored_cohort.csv`, `detection_core_dids.csv` (545), `key_monitor_dids.csv`,
   `onlyfans_creator_tally.csv`, `sgy_code_tally.csv`, `sgy_redirect_resolution.json`,
@@ -452,8 +496,10 @@ cluster cleanup required.
   `roster_daily_timeline.json`, `lang_distribution.json`, `swarm_templates.json`,
   `nonswarm_templates.json`, `generator_leak_fingerprint.json`, `post_totals.json`,
   `segment_summary.json`, `survival_summary.json`, `creation_timeline.json`,
-  `findings_summary.json`, and scripts `kql.py`, `01_profile_scan.py`, `02_funnel_analysis.py`,
-  `03_redirect_resolve.py`, `04_post_kql.py`, `05_survival_score.py`, `plot.py`.
+  `findings_summary.json`, `cofollow_data.json`, `cofollow_targets_resolved.json`,
+  `cofollow_graph.json`, and scripts `kql.py`, `01_profile_scan.py`, `02_funnel_analysis.py`,
+  `03_redirect_resolve.py`, `04_post_kql.py`, `05_survival_score.py`, `plot.py`,
+  `06_cofollow_pull.py`, `07_cofollow_resolve.py`, `08_cofollow_sample.py`, `09_cofollow_graph.py`.
 
 *Investigation conducted via KQL against the Bluesky Firehose (Microsoft Fabric Eventhouse) and
 the public AT-Protocol AppView. 2026-06-17.*
