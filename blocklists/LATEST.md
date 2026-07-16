@@ -1,7 +1,7 @@
-## Blocklist Update 2026-07-15
+## Blocklist Update 2026-07-16
 
 | Metric | Count |
 |--------|-------|
-| Total flagged | 3478 |
+| Total flagged | 3477 |
 | High score (≥0.7) | 14 |
-| Medium score (0.45–0.7) | 3464 |
+| Medium score (0.45–0.7) | 3463 |
