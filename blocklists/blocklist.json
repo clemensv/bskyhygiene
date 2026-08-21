@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-20T06:20:59.429637+00:00",
+    "generated_at": "2026-08-21T06:20:56.231000+00:00",
     "threshold": 0.45,
     "total_flagged": 3461,
     "pds_servers_scanned": [
@@ -81,12 +81,12 @@
         "no_display_name",
         "handle_pattern:consonant_cluster",
         "zero_posts",
-        "elevated_follow_ratio:8.5",
+        "elevated_follow_ratio:8.2",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "consonant_cluster",
       "postsCount": 0,
-      "followersCount": 31,
+      "followersCount": 32,
       "followsCount": 262,
       "createdAt": "2026-04-22T09:20:37.043Z"
     },
@@ -101,12 +101,12 @@
         "no_display_name",
         "handle_pattern:random_alphanum",
         "zero_posts",
-        "elevated_follow_ratio:5.2",
+        "elevated_follow_ratio:5.1",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 39,
+      "followersCount": 40,
       "followsCount": 203,
       "createdAt": "2026-04-13T10:22:38.347Z"
     },
@@ -121,12 +121,12 @@
         "no_display_name",
         "handle_pattern:random_alphanum",
         "zero_posts",
-        "elevated_follow_ratio:7.1",
+        "elevated_follow_ratio:6.8",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 19,
+      "followersCount": 20,
       "followsCount": 135,
       "createdAt": "2026-04-13T10:26:05.661Z"
     },
@@ -181,12 +181,12 @@
         "no_display_name",
         "handle_pattern:random_alphanum",
         "zero_posts",
-        "elevated_follow_ratio:6.5",
+        "elevated_follow_ratio:6.7",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 57,
+      "followersCount": 56,
       "followsCount": 373,
       "createdAt": "2026-04-22T09:22:18.242Z"
     },
@@ -30346,44 +30346,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:hqwjde6jjhmjnmoq727nffut",
-      "handle": "east3186.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:bp475si6vn6odfbk7eow5455",
-      "handle": "reel1784.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:aicpt55ucmrcckaiu6mjmsyx",
       "handle": "track1742.haruhwa.com",
       "displayName": "",
@@ -31619,8 +31581,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:ivso6hxnljybsx2vicem3hdg",
-      "handle": "sky5748.haruhwa.com",
+      "did": "did:plc:anwpbrcnhws27fyaer7xisqf",
+      "handle": "haze878.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -31657,6 +31619,25 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:vclsiknyus5xq5hugsgwcoxh",
+      "handle": "snow6603.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:zavun2ivblcgcmtmpyscop2w",
       "handle": "wave2298.haruhwa.com",
       "displayName": "",
@@ -31676,27 +31657,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:bzmtgt3iobugmcs6q5nt74gp",
-      "handle": "dust2base.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 1,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:c5ebn24tecbze27czsguiqzg",
-      "handle": "data7291.haruhwa.com",
+      "did": "did:plc:ajqgslnrzws4hu4syxpdjk3o",
+      "handle": "scene7888.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -31714,8 +31676,46 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:brb7v5dducbaskpsp2i7dedy",
-      "handle": "set4885.haruhwa.com",
+      "did": "did:plc:xyrbkq6esvqbk4eaz6a5kegh",
+      "handle": "pixel3551.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:drs7zcklubwpcvgd2hfzrh53",
+      "handle": "synth150.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:3lvwdk7ku6di45nf3j5xfzfx",
+      "handle": "flux6837.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -31752,8 +31752,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:7ud2x5dry6ol5jgtk5mkht2z",
-      "handle": "solar4166.haruhwa.com",
+      "did": "did:plc:3sk65kxho6i32tisn6hhgstr",
+      "handle": "rift2375.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -31771,27 +31771,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:5r6wdvczv2lnrnx4rcgcpoo3",
-      "handle": "seal5317.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:2rmeq4xxggqglislidfwegth",
-      "handle": "warm7042.haruhwa.com",
+      "did": "did:plc:socddb2yldxd443phhexurzc",
+      "handle": "stone5043.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -33994,44 +33975,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:argpcas7jrkxyq5lklysfi4v",
-      "handle": "take7075.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 1,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:3givjjvn4g5tjlfuy3n3lzfu",
-      "handle": "root25032.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:chbkk54ozwtfqe6jpz2forae",
       "handle": "corebit.haruhwa.com",
       "displayName": "",
@@ -34051,27 +33994,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:tmk7spqkag4zoc2jh7pikfuk",
-      "handle": "filemod.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:tmddb2cd5242o76uxnhsnwqv",
-      "handle": "neoflow5.haruhwa.com",
+      "did": "did:plc:j44lwst2ecupryysoutjgr5q",
+      "handle": "cyber5086.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -35210,8 +35134,27 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:gqkfl2wqxdlsvnltm7oc5byg",
-      "handle": "link26950.haruhwa.com",
+      "did": "did:plc:n4ccgrexhrh54e33pbgihhra",
+      "handle": "star2551.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 1,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:hkqu7oqneetxpyyajmefubxo",
+      "handle": "mesh7529.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -35229,8 +35172,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:65hgem6k65gem5o6ddmerc3q",
-      "handle": "sun2490.haruhwa.com",
+      "did": "did:plc:3c25uze5f64uic6mtqbu3fjn",
+      "handle": "surge1652.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -35704,8 +35647,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:hcfcwwyz5kvjbimkvzpsk3oo",
-      "handle": "flux3483.haruhwa.com",
+      "did": "did:plc:lo6hhbtv3jgbk2klprjiq2t4",
+      "handle": "max2849.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -35742,25 +35685,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:bt44y2eencaa5cykhwsxxdvc",
-      "handle": "map5713.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:33btwmr6ywqr2eexavtq3pqe",
       "handle": "black2449.haruhwa.com",
       "displayName": "",
@@ -35780,8 +35704,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:fzuovwi25sz3rl7o2behwl24",
-      "handle": "byte2786.haruhwa.com",
+      "did": "did:plc:gisrurryyw4soax6izzoiqd6",
+      "handle": "quantum3072.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -35799,8 +35723,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:p27rnkgrxewxrltbu45uihp3",
-      "handle": "roll7909.haruhwa.com",
+      "did": "did:plc:spj5dqjvxcoizwqcdmbldpiq",
+      "handle": "gen4154.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -35818,8 +35742,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:r4snv3n7dv6b52kh4datbobs",
-      "handle": "core24888.haruhwa.com",
+      "did": "did:plc:v6hed4r3jlfnecwyuienv74t",
+      "handle": "crop4749.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -35837,46 +35761,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:zjwkzegrxs3zfumfxh2g6bye",
-      "handle": "build2815.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:vr72bfdz2lm6hm7immu6f6zm",
-      "handle": "dawn3681.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:yewbmznskt2epmihgbexger4",
-      "handle": "blue6230.haruhwa.com",
+      "did": "did:plc:4fow52al7qhvnygtz3da2kgn",
+      "handle": "road6788.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -36502,25 +36388,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:uky6qt3trp6lxjdzu6hje2x7",
-      "handle": "grow5576.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:foipsw5rxkcl2hqijuuwr77e",
       "handle": "arc1089.haruhwa.com",
       "displayName": "",
@@ -36578,82 +36445,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:5olqz7age7yjvyffzgp5u2h2",
-      "handle": "quantum2594.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:77zi2n26mov6wo66xslrw4oq",
-      "handle": "neon7289.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:ggjhuvpseakykj4imnfsdfzg",
-      "handle": "blue4588.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:s6ekmovq2ebb3toijignqrub",
-      "handle": "warm3639.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:6ddaqfxlvwoyyx6ncfkscqjv",
       "handle": "elite6524.haruhwa.com",
       "displayName": "",
@@ -36673,8 +36464,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:4ws27luumivimrxoz3ovmuah",
-      "handle": "gold7554.haruhwa.com",
+      "did": "did:plc:uek47km25fo5hs2yrcfgrdhg",
+      "handle": "valley7212.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -36692,8 +36483,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:aarzlbkn6d2gub4e2laaafam",
-      "handle": "wave3522.haruhwa.com",
+      "did": "did:plc:eeqcsaodcga2uw22jzzdb6pj",
+      "handle": "indexcyber.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -36711,8 +36502,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:j3azyydp3ossvlmho3twncoc",
-      "handle": "violet6271.haruhwa.com",
+      "did": "did:plc:6m2vjiorwnd6bem6ky34yom7",
+      "handle": "lunar3494.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -36730,8 +36521,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:7euzudyfi4cokv2ws6knr3zi",
-      "handle": "noon3575.haruhwa.com",
+      "did": "did:plc:prmm5o74h7uiokswuhzvp6lg",
+      "handle": "sync5649.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -36749,46 +36540,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:io3qmychpbsct57zcz2ckcbk",
-      "handle": "ruby2103.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:rdra62wyi3wjql4jsl2j6x4f",
-      "handle": "bridge4994.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:7ex4foatxzbox6jloywofmpv",
-      "handle": "blur1156.haruhwa.com",
+      "did": "did:plc:hymhdbzkycxfwonjjjb5gfqn",
+      "handle": "grey3081.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -36825,8 +36578,65 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:3jfr6k4q4rpyl4dtpvcxg6zo",
-      "handle": "elite6885.haruhwa.com",
+      "did": "did:plc:7x347qbnfne3hqeebknnrno5",
+      "handle": "roll130.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:tlq2chcvxktj2nsdeeapkh3f",
+      "handle": "mute5559.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:ijcrnb4t4hz3dzpdwenhfgba",
+      "handle": "atom1771.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:5pkwtccdiw466omv3tccvszi",
+      "handle": "silver5881.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -36863,8 +36673,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:gtobdkjbfyn2n5neaui34b6w",
-      "handle": "pull5747.haruhwa.com",
+      "did": "did:plc:byqghx52tg42znflrnkxzyms",
+      "handle": "grey2590.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37091,25 +36901,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:42336gg27kcfhrzbb4nxfq7m",
-      "handle": "script4761.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:au7yvcmwzpee6zr3gwusj5fb",
       "handle": "green6390.haruhwa.com",
       "displayName": "",
@@ -37129,8 +36920,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:prjn4lnnmlgn65ngz5tf7x6w",
-      "handle": "road6125.haruhwa.com",
+      "did": "did:plc:lvdcegn476klwax3ungaj2wz",
+      "handle": "copper1418.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37148,84 +36939,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:asvxuhca2lytwgt3euu4dofr",
-      "handle": "pull7175.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:5qj3mz3tomukeuj4fwjgesa6",
-      "handle": "burn5911.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:b2j5lpetd2ylsyoalfumztgc",
-      "handle": "shade2596.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:2752xdxutq2twsv7aserdwpj",
-      "handle": "kappa7838.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:b75uiwdkaruwdd2pt6lsmvcv",
-      "handle": "west5490.haruhwa.com",
+      "did": "did:plc:2xb2nevcldvwjfbnnsflg4hr",
+      "handle": "deep7459.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37262,8 +36977,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:mvwwujs7zl7pcfrqrzqid2zb",
-      "handle": "neural4271.haruhwa.com",
+      "did": "did:plc:i3xnh6ksugwjlovm4ifw5hck",
+      "handle": "pro6992.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37276,7 +36991,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 1,
+      "followersCount": 0,
       "followsCount": 0,
       "createdAt": ""
     },
@@ -37300,8 +37015,27 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:wqpdlbpanz6qp6ikkvdbad6w",
-      "handle": "vault1289.haruhwa.com",
+      "did": "did:plc:wi4y54zlewr5wsyffsytenh3",
+      "handle": "star7975.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:dmgw4l5btmvbokk2gynlqxgv",
+      "handle": "indigo2977.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37338,46 +37072,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:xyopoanxw32gqb7bh72kekjw",
-      "handle": "neo5485.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:blgqdsykomekkngmnftmllr2",
-      "handle": "film2224.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:owa357cmlsijkdmvdkoqgprd",
-      "handle": "hit1617.haruhwa.com",
+      "did": "did:plc:32y3p5sar24z2tt5d5v2pzkk",
+      "handle": "root4990.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37414,8 +37110,46 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:dv3janpvydz5pc2bhfrcjwdg",
-      "handle": "elite6709.haruhwa.com",
+      "did": "did:plc:nhgmdnb75iz43ma6mt7rqtzb",
+      "handle": "chrome4000.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:z2ic5u23gjlho4pzzuusrsvs",
+      "handle": "burn3624.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:n5zyf5hjq6kkjz4ip6amxrvq",
+      "handle": "code1104.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37435,25 +37169,6 @@
     {
       "did": "did:plc:cy37jtkam2kuw7yd3ysxvc6j",
       "handle": "drop24528.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:5wsvxhpym23atjljtk2vd7kt",
-      "handle": "bold1053.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37547,8 +37262,27 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:ti42mytldt4vvdegmz6xlppr",
-      "handle": "copper5125.haruhwa.com",
+      "did": "did:plc:zgpfqmauss4erfapbjcrzico",
+      "handle": "drop1329.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:5gbhgo626bxv7geysyqpc56d",
+      "handle": "pulse6999.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37585,44 +37319,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:5ef2a2klcypu754awpl7kcnn",
-      "handle": "ultra3708.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:lwwmaenuqbd2t2so3e7ngny3",
-      "handle": "form7061.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:xr36a7pio6rixczyphnfua2b",
       "handle": "spark3031.haruhwa.com",
       "displayName": "",
@@ -37642,8 +37338,27 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:2hc6tlo7w52cnc3fna2shohz",
-      "handle": "flash7501.haruhwa.com",
+      "did": "did:plc:mjighwcr6azhwvzbhf7qrisz",
+      "handle": "drift2959.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:lchbkaka3o3iehg4tun2gc7p",
+      "handle": "hot7400.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37718,8 +37433,46 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:antpfdhkceku6cm3qubiamtr",
-      "handle": "rise4150.haruhwa.com",
+      "did": "did:plc:ascqy7nhrlkuoyj2gskzos22",
+      "handle": "run27200.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:cxw4tscbfcrfuhqpdypwqg7q",
+      "handle": "node2588.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:laohwmsygjjwpgtdedfvybzw",
+      "handle": "ghost2561.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37756,6 +37509,44 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:cjc5vtwb6knhe5d75mbhq4yo",
+      "handle": "sky6550.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:nqtgb775dxfy3usfafvp4pcx",
+      "handle": "sun3495.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:6uoekmtdv4xbamwqs6nxhk57",
       "handle": "spark1238.haruhwa.com",
       "displayName": "",
@@ -37775,46 +37566,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:w4tgfytfj3ndnezhv4j7dx22",
-      "handle": "run1264.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:fpzvpnwdplrh3rsdjh4fewbn",
-      "handle": "craft2821.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:ydl6s55cw5koge2wfz5wgblc",
-      "handle": "bloom1562.haruhwa.com",
+      "did": "did:plc:4cccddbfwyya4d3dwdx5r2p3",
+      "handle": "valley7885.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37851,8 +37604,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:4a3yssjrk5q7qiwlha33fw6v",
-      "handle": "cell1388.haruhwa.com",
+      "did": "did:plc:df73fb3zzqodgayw5ua6nc2o",
+      "handle": "bolt1701.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37870,8 +37623,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:6g72swqdizubob43zudcyjtd",
-      "handle": "driftframe.haruhwa.com",
+      "did": "did:plc:ttvimqayy2szncyrw63qr6og",
+      "handle": "amber6526.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37889,8 +37642,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:omwea4ciyb5ytndqrqfi2ekb",
-      "handle": "haze5509.haruhwa.com",
+      "did": "did:plc:dqy2tomrezx3xzyfco2ono3d",
+      "handle": "script7345.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37908,8 +37661,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:w66zsxsqn6ykujkyqiwffn57",
-      "handle": "pro2247.haruhwa.com",
+      "did": "did:plc:wfkjaha7xcmwipvsuyffcwpi",
+      "handle": "sky4035.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37927,8 +37680,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:qbkogcfnmes7i73l2uzhuphv",
-      "handle": "plus7613.haruhwa.com",
+      "did": "did:plc:i6xcmytpf7szcaumtv62p5ko",
+      "handle": "dust25812.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37946,8 +37699,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:7jvq5dxorb2akmaq4jj6bh2m",
-      "handle": "micro7321.haruhwa.com",
+      "did": "did:plc:dtzq7iq5s5u7emjdm4qrhchn",
+      "handle": "frame7924.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37965,8 +37718,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:4mvhjqhe2pa5pgism5piznqf",
-      "handle": "drift6641.haruhwa.com",
+      "did": "did:plc:pjtjtzoadqkezldkwwwnb6li",
+      "handle": "chrome3155.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -37984,8 +37737,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:ljxzkf54s2j2sslexu25evc2",
-      "handle": "apex1047.haruhwa.com",
+      "did": "did:plc:6h6jfwo36zipng6zofy3eani",
+      "handle": "gem6766.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -38003,8 +37756,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:nookdmlyypur43bdyqeljrhg",
-      "handle": "roll3257.haruhwa.com",
+      "did": "did:plc:qglgit5ws5qdvyfjlhvd3wyr",
+      "handle": "seal5721.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -38022,8 +37775,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:74j3lyh3r4px7wvujyr4dplb",
-      "handle": "pull7353.haruhwa.com",
+      "did": "did:plc:pfimxsxa5dvqb4vdwsxty3tu",
+      "handle": "post5329.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -38041,122 +37794,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:ex52gyungrown7xdytvmopze",
-      "handle": "cell1015.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:xghrej3imntg65iswqogve27",
-      "handle": "gold5706.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 1,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:coky3ivat4ba6qcjdaxi7t7i",
-      "handle": "loop4675.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:qdwsfh5ftqkjfrhufel53qol",
-      "handle": "ash2script.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:rtsqalmhhclcki5cvg7jjtuf",
-      "handle": "bit4941.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:neyt3auyl6irl76q6pv3ultt",
-      "handle": "cyber7784.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:3pjlji6vda5wnyf3xlmhugfs",
-      "handle": "take3094.haruhwa.com",
+      "did": "did:plc:kmwrqpqab22hngiawvji5w2n",
+      "handle": "mist6057.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -38193,8 +37832,8 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:ppdzsk3yuc46o4b5v572rd5s",
-      "handle": "zone7079.haruhwa.com",
+      "did": "did:plc:trhhpyy6ho3onzhksvcoyeay",
+      "handle": "mask4504.haruhwa.com",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.65,
@@ -40911,7 +40550,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 22,
+      "followersCount": 21,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -42963,7 +42602,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 19,
+      "followersCount": 18,
       "followsCount": 3,
       "createdAt": ""
     },
@@ -43039,7 +42678,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 48,
+      "followersCount": 47,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -43842,25 +43481,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:3pfuvklefkvvjyry6ehgg5f2",
-      "handle": "natcarr.pds.louisvillebsky.app",
-      "displayName": "",
-      "pds": "pds.louisvillebsky.app",
-      "botScore": 0.56,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "elevated_follow_ratio:7.0"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 9,
-      "followersCount": 2,
-      "followsCount": 14,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:46rkd66dlqnn4fskqbh7oyv7",
       "handle": "demi679.pds.louisvillebsky.app",
       "displayName": "",
@@ -43877,25 +43497,6 @@
       "postsCount": 6,
       "followersCount": 3,
       "followsCount": 20,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:n374azz57yqjmpjrlsjq7dbd",
-      "handle": "truefrost.pds.louisvillebsky.app",
-      "displayName": "",
-      "pds": "pds.louisvillebsky.app",
-      "botScore": 0.56,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "elevated_follow_ratio:5.5"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 8,
-      "followersCount": 4,
-      "followsCount": 22,
       "createdAt": ""
     },
     {
@@ -43984,12 +43585,12 @@
         "no_description",
         "no_display_name",
         "zero_posts",
-        "elevated_follow_ratio:8.4",
+        "elevated_follow_ratio:8.3",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "other",
       "postsCount": 0,
-      "followersCount": 47,
+      "followersCount": 48,
       "followsCount": 397,
       "createdAt": "2026-04-17T10:00:10.848Z"
     },
@@ -44003,12 +43604,12 @@
         "no_description",
         "no_display_name",
         "zero_posts",
-        "elevated_follow_ratio:7.6",
+        "elevated_follow_ratio:7.3",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "other",
       "postsCount": 0,
-      "followersCount": 28,
+      "followersCount": 29,
       "followsCount": 213,
       "createdAt": "2026-04-17T10:01:29.141Z"
     },
@@ -44339,7 +43940,7 @@
       ],
       "handlePattern": "consonant_cluster",
       "postsCount": 7,
-      "followersCount": 42,
+      "followersCount": 43,
       "followsCount": 17,
       "createdAt": ""
     },
@@ -45765,6 +45366,25 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:e6bu5n7y4rcczluqarsj2iv4",
+      "handle": "lab373.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.55,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:firstname_number",
+        "zero_posts"
+      ],
+      "handlePattern": "firstname_number",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:guf2ohptbn3doqqghueshqbz",
       "handle": "greeniron1867.pds.louisvillebsky.app",
       "displayName": "",
@@ -45890,7 +45510,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 11,
-      "followersCount": 35,
+      "followersCount": 36,
       "followsCount": 28,
       "createdAt": ""
     },
@@ -46376,7 +45996,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 59,
+      "followersCount": 60,
       "followsCount": 28,
       "createdAt": ""
     },
@@ -46430,7 +46050,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 13,
+      "followersCount": 14,
       "followsCount": 31,
       "createdAt": ""
     },
@@ -46520,7 +46140,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 15,
-      "followersCount": 18,
+      "followersCount": 19,
       "followsCount": 35,
       "createdAt": ""
     },
@@ -46826,7 +46446,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 10,
-      "followersCount": 20,
+      "followersCount": 21,
       "followsCount": 26,
       "createdAt": ""
     },
@@ -46882,6 +46502,24 @@
       "postsCount": 10,
       "followersCount": 13,
       "followsCount": 30,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:3pfuvklefkvvjyry6ehgg5f2",
+      "handle": "natcarr.pds.louisvillebsky.app",
+      "displayName": "",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.5,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 9,
+      "followersCount": 3,
+      "followsCount": 14,
       "createdAt": ""
     },
     {
@@ -47204,7 +46842,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 6,
-      "followersCount": 47,
+      "followersCount": 48,
       "followsCount": 19,
       "createdAt": ""
     },
@@ -47493,6 +47131,24 @@
       "handlePattern": "random_alphanum",
       "postsCount": 9,
       "followersCount": 64,
+      "followsCount": 22,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:n374azz57yqjmpjrlsjq7dbd",
+      "handle": "truefrost.pds.louisvillebsky.app",
+      "displayName": "",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.5,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 8,
+      "followersCount": 5,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -48904,11 +48560,11 @@
         "no_description",
         "no_display_name",
         "handle_pattern:firstname_number",
-        "elevated_follow_ratio:8.0"
+        "elevated_follow_ratio:6.0"
       ],
       "handlePattern": "firstname_number",
       "postsCount": 12,
-      "followersCount": 3,
+      "followersCount": 4,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -60114,6 +59770,42 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:hqwjde6jjhmjnmoq727nffut",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:bp475si6vn6odfbk7eow5455",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:xxzopbx2gkoqlnugwwqt3aae",
       "handle": "handle.invalid",
       "displayName": "",
@@ -60150,7 +59842,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:anwpbrcnhws27fyaer7xisqf",
+      "did": "did:plc:ivso6hxnljybsx2vicem3hdg",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -60186,43 +59878,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:vclsiknyus5xq5hugsgwcoxh",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:q3q3e2mlo4xdio7n6tekolic",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:ajqgslnrzws4hu4syxpdjk3o",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -60294,7 +59950,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:xyrbkq6esvqbk4eaz6a5kegh",
+      "did": "did:plc:bzmtgt3iobugmcs6q5nt74gp",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -60307,7 +59963,7 @@
       ],
       "handlePattern": "other",
       "postsCount": 0,
-      "followersCount": 0,
+      "followersCount": 1,
       "followsCount": 0,
       "createdAt": ""
     },
@@ -60348,6 +60004,24 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:c5ebn24tecbze27czsguiqzg",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:bdrqycsrhkrxav5hlhhl3olu",
       "handle": "handle.invalid",
       "displayName": "",
@@ -60366,43 +60040,25 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:drs7zcklubwpcvgd2hfzrh53",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:3lvwdk7ku6di45nf3j5xfzfx",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:g5tkdbcyak767jndsxesestz",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:brb7v5dducbaskpsp2i7dedy",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -60456,7 +60112,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:3sk65kxho6i32tisn6hhgstr",
+      "did": "did:plc:7ud2x5dry6ol5jgtk5mkht2z",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -60474,7 +60130,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:socddb2yldxd443phhexurzc",
+      "did": "did:plc:5r6wdvczv2lnrnx4rcgcpoo3",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -60510,6 +60166,24 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:2rmeq4xxggqglislidfwegth",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:nkby3lwrngqxpixqusgbu6fa",
       "handle": "handle.invalid",
       "displayName": "",
@@ -60524,6 +60198,24 @@
       "handlePattern": "other",
       "postsCount": 0,
       "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:argpcas7jrkxyq5lklysfi4v",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 1,
       "followsCount": 0,
       "createdAt": ""
     },
@@ -60600,6 +60292,24 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:3givjjvn4g5tjlfuy3n3lzfu",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:a67pjjyfxqpwviosgyn2dwlj",
       "handle": "handle.invalid",
       "displayName": "",
@@ -60619,6 +60329,24 @@
     },
     {
       "did": "did:plc:t2k7wukqlhi5idilmcni477l",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:tmk7spqkag4zoc2jh7pikfuk",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -60690,24 +60418,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:j44lwst2ecupryysoutjgr5q",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:nfrqgxtjr7jb2ezt7o32in2v",
       "handle": "handle.invalid",
       "displayName": "",
@@ -60727,6 +60437,24 @@
     },
     {
       "did": "did:plc:l4zpmyeg6gngly64fbr4bygz",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:tmddb2cd5242o76uxnhsnwqv",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -60834,25 +60562,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:n4ccgrexhrh54e33pbgihhra",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 1,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:hkqu7oqneetxpyyajmefubxo",
+      "did": "did:plc:gqkfl2wqxdlsvnltm7oc5byg",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -60906,7 +60616,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:3c25uze5f64uic6mtqbu3fjn",
+      "did": "did:plc:65hgem6k65gem5o6ddmerc3q",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -60942,7 +60652,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:lo6hhbtv3jgbk2klprjiq2t4",
+      "did": "did:plc:hcfcwwyz5kvjbimkvzpsk3oo",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61032,6 +60742,24 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:bt44y2eencaa5cykhwsxxdvc",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:uyychrqc5ap3v55mkubhy4xg",
       "handle": "handle.invalid",
       "displayName": "",
@@ -61104,7 +60832,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:gisrurryyw4soax6izzoiqd6",
+      "did": "did:plc:fzuovwi25sz3rl7o2behwl24",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61122,7 +60850,25 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:spj5dqjvxcoizwqcdmbldpiq",
+      "did": "did:plc:p27rnkgrxewxrltbu45uihp3",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:r4snv3n7dv6b52kh4datbobs",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61158,6 +60904,24 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:zjwkzegrxs3zfumfxh2g6bye",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:wkqwxryvcgzsgqvqawsfms4r",
       "handle": "handle.invalid",
       "displayName": "",
@@ -61176,7 +60940,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:v6hed4r3jlfnecwyuienv74t",
+      "did": "did:plc:vr72bfdz2lm6hm7immu6f6zm",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61194,7 +60958,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:4fow52al7qhvnygtz3da2kgn",
+      "did": "did:plc:yewbmznskt2epmihgbexger4",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61213,6 +60977,24 @@
     },
     {
       "did": "did:plc:dxtpzfinzslxolsyg3lkcrkx",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:uky6qt3trp6lxjdzu6hje2x7",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61285,6 +61067,24 @@
     },
     {
       "did": "did:plc:xto6yel5ndvxcksqwheiwbjk",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:5olqz7age7yjvyffzgp5u2h2",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61392,7 +61192,61 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:77zi2n26mov6wo66xslrw4oq",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:okmu5z65egi42sfoj7qj7bre",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:ggjhuvpseakykj4imnfsdfzg",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:s6ekmovq2ebb3toijignqrub",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61428,7 +61282,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:uek47km25fo5hs2yrcfgrdhg",
+      "did": "did:plc:4ws27luumivimrxoz3ovmuah",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61446,7 +61300,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:eeqcsaodcga2uw22jzzdb6pj",
+      "did": "did:plc:aarzlbkn6d2gub4e2laaafam",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61500,24 +61354,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:6m2vjiorwnd6bem6ky34yom7",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:e3unrgvfzvivalvr6dhar4rw",
       "handle": "handle.invalid",
       "displayName": "",
@@ -61554,7 +61390,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:prmm5o74h7uiokswuhzvp6lg",
+      "did": "did:plc:gx2n4k3mladb2lkb55roms5m",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61572,7 +61408,25 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:gx2n4k3mladb2lkb55roms5m",
+      "did": "did:plc:j3azyydp3ossvlmho3twncoc",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:7euzudyfi4cokv2ws6knr3zi",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61608,7 +61462,43 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:hymhdbzkycxfwonjjjb5gfqn",
+      "did": "did:plc:io3qmychpbsct57zcz2ckcbk",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:rdra62wyi3wjql4jsl2j6x4f",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:7ex4foatxzbox6jloywofmpv",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61662,25 +61552,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:7x347qbnfne3hqeebknnrno5",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:tlq2chcvxktj2nsdeeapkh3f",
+      "did": "did:plc:3jfr6k4q4rpyl4dtpvcxg6zo",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -61716,42 +61588,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:ijcrnb4t4hz3dzpdwenhfgba",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:5pkwtccdiw466omv3tccvszi",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:xnrrtydcvro2nm7b5b3qw4lb",
       "handle": "handle.invalid",
       "displayName": "",
@@ -61770,7 +61606,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:byqghx52tg42znflrnkxzyms",
+      "did": "did:plc:gtobdkjbfyn2n5neaui34b6w",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -62094,7 +61930,43 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:42336gg27kcfhrzbb4nxfq7m",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:fhhomfsw42g4liekw2i7uadi",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:prjn4lnnmlgn65ngz5tf7x6w",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -62166,24 +62038,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:lvdcegn476klwax3ungaj2wz",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:zd6zkb33b27pe5kdfpqywgym",
       "handle": "handle.invalid",
       "displayName": "",
@@ -62202,7 +62056,43 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:asvxuhca2lytwgt3euu4dofr",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:233apomxay52pdb6qz5urdr4",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:5qj3mz3tomukeuj4fwjgesa6",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -62239,6 +62129,24 @@
     },
     {
       "did": "did:plc:7icbyj23w3abr2h3pnnxopmk",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:b2j5lpetd2ylsyoalfumztgc",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -62382,24 +62290,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:2xb2nevcldvwjfbnnsflg4hr",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:d5qunl2j3is2uime3ezmn57r",
       "handle": "handle.invalid",
       "displayName": "",
@@ -62436,7 +62326,43 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:2752xdxutq2twsv7aserdwpj",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:zh63wvjhdksdt7dumy4zb5ui",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:b75uiwdkaruwdd2pt6lsmvcv",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -62508,6 +62434,24 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:mvwwujs7zl7pcfrqrzqid2zb",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 1,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:tot2jeazzuasewnezngbptm7",
       "handle": "handle.invalid",
       "displayName": "",
@@ -62562,43 +62506,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:i3xnh6ksugwjlovm4ifw5hck",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:xalg2dxsvdblngjp3ti3pgha",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:wi4y54zlewr5wsyffsytenh3",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -62634,7 +62542,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:dmgw4l5btmvbokk2gynlqxgv",
+      "did": "did:plc:wqpdlbpanz6qp6ikkvdbad6w",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -62706,7 +62614,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:32y3p5sar24z2tt5d5v2pzkk",
+      "did": "did:plc:6xv2jxzo4p7lan4uytl75lcw",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -62724,7 +62632,25 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:6xv2jxzo4p7lan4uytl75lcw",
+      "did": "did:plc:xyopoanxw32gqb7bh72kekjw",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:blgqdsykomekkngmnftmllr2",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -62778,61 +62704,25 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:owa357cmlsijkdmvdkoqgprd",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:yksbq7nhcfydnpt7sbwmympm",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:nhgmdnb75iz43ma6mt7rqtzb",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:z2ic5u23gjlho4pzzuusrsvs",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:n5zyf5hjq6kkjz4ip6amxrvq",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -62886,8 +62776,26 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:dv3janpvydz5pc2bhfrcjwdg",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:q7ylvdcojn365kaggdj2mzlb",
-      "handle": "edge5.haruhwa.com",
+      "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
       "botScore": 0.45,
@@ -62905,6 +62813,24 @@
     },
     {
       "did": "did:plc:yud43u4p2wumjrmmw34aqhzy",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:5wsvxhpym23atjljtk2vd7kt",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -63066,42 +62992,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:zgpfqmauss4erfapbjcrzico",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:5gbhgo626bxv7geysyqpc56d",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:2hzhdhaa57bhv6un4sxglbqg",
       "handle": "handle.invalid",
       "displayName": "",
@@ -63121,6 +63011,24 @@
     },
     {
       "did": "did:plc:wmjtyzaox46v5lqmda5dtkvn",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:ti42mytldt4vvdegmz6xlppr",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -63210,6 +63118,24 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:5ef2a2klcypu754awpl7kcnn",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:kk4qoqpqj7a62kh5nwmngojf",
       "handle": "handle.invalid",
       "displayName": "",
@@ -63229,6 +63155,24 @@
     },
     {
       "did": "did:plc:i2wdcce7pz57nuydqjkizw4e",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 1,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:lwwmaenuqbd2t2so3e7ngny3",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -63282,7 +63226,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:mjighwcr6azhwvzbhf7qrisz",
+      "did": "did:plc:2hc6tlo7w52cnc3fna2shohz",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -63408,24 +63352,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:lchbkaka3o3iehg4tun2gc7p",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:vjhf72zlin5zazfzi33u6avu",
       "handle": "handle.invalid",
       "displayName": "",
@@ -63493,7 +63419,7 @@
       ],
       "handlePattern": "other",
       "postsCount": 0,
-      "followersCount": 0,
+      "followersCount": 1,
       "followsCount": 0,
       "createdAt": ""
     },
@@ -63516,7 +63442,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:ascqy7nhrlkuoyj2gskzos22",
+      "did": "did:plc:antpfdhkceku6cm3qubiamtr",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -63570,42 +63496,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:cxw4tscbfcrfuhqpdypwqg7q",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:laohwmsygjjwpgtdedfvybzw",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:krtr4h6remaida4noew3vkqo",
       "handle": "handle.invalid",
       "displayName": "",
@@ -63625,24 +63515,6 @@
     },
     {
       "did": "did:plc:imfghhvhvg6gpfotxg7wjfd7",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:cjc5vtwb6knhe5d75mbhq4yo",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -63696,7 +63568,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:nqtgb775dxfy3usfafvp4pcx",
+      "did": "did:plc:br4c6ukjvjzuiq64ia5xbezc",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -63714,7 +63586,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:br4c6ukjvjzuiq64ia5xbezc",
+      "did": "did:plc:w4tgfytfj3ndnezhv4j7dx22",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -63750,7 +63622,25 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:4cccddbfwyya4d3dwdx5r2p3",
+      "did": "did:plc:fpzvpnwdplrh3rsdjh4fewbn",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:ydl6s55cw5koge2wfz5wgblc",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -63786,7 +63676,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:df73fb3zzqodgayw5ua6nc2o",
+      "did": "did:plc:4a3yssjrk5q7qiwlha33fw6v",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -63894,7 +63784,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:ttvimqayy2szncyrw63qr6og",
+      "did": "did:plc:6g72swqdizubob43zudcyjtd",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -63912,25 +63802,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:dqy2tomrezx3xzyfco2ono3d",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:wfkjaha7xcmwipvsuyffcwpi",
+      "did": "did:plc:omwea4ciyb5ytndqrqfi2ekb",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -64002,7 +63874,43 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:w66zsxsqn6ykujkyqiwffn57",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:xdbix5szxzzneo5jylyxt5yj",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:qbkogcfnmes7i73l2uzhuphv",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -64038,6 +63946,42 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:7jvq5dxorb2akmaq4jj6bh2m",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:4mvhjqhe2pa5pgism5piznqf",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:qbsqme7fjqzxndox6mdteqxt",
       "handle": "handle.invalid",
       "displayName": "",
@@ -64056,7 +64000,79 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:ljxzkf54s2j2sslexu25evc2",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:6fawhlc4ujlom7lq6s57d54v",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:nookdmlyypur43bdyqeljrhg",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:74j3lyh3r4px7wvujyr4dplb",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:ex52gyungrown7xdytvmopze",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -64110,6 +64126,24 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:xghrej3imntg65iswqogve27",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 1,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:ekvhtfkzdlft2wtusgnhu672",
       "handle": "handle.invalid",
       "displayName": "",
@@ -64128,43 +64162,25 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:i6xcmytpf7szcaumtv62p5ko",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:dtzq7iq5s5u7emjdm4qrhchn",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:cybfb2xkr7hnpu4nbcfwqvjz",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:coky3ivat4ba6qcjdaxi7t7i",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -64290,6 +64306,24 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:qdwsfh5ftqkjfrhufel53qol",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:63dddqdh2fublqdmj7szcg5c",
       "handle": "handle.invalid",
       "displayName": "",
@@ -64309,42 +64343,6 @@
     },
     {
       "did": "did:plc:qxdm555i3jdvtntukdkho44a",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:pjtjtzoadqkezldkwwwnb6li",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:6h6jfwo36zipng6zofy3eani",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -64434,43 +64432,25 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:rtsqalmhhclcki5cvg7jjtuf",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:zvl3f22sllnbxutc7fctfciz",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:qglgit5ws5qdvyfjlhvd3wyr",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:pfimxsxa5dvqb4vdwsxty3tu",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -64524,24 +64504,6 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:kmwrqpqab22hngiawvji5w2n",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
       "did": "did:plc:z252ckvxn4oabeo27jqzyvbw",
       "handle": "handle.invalid",
       "displayName": "",
@@ -64578,7 +64540,43 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:neyt3auyl6irl76q6pv3ultt",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:3t7y66tkiehhsqrxb4ntg2o6",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:3pjlji6vda5wnyf3xlmhugfs",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -64650,7 +64648,7 @@
       "createdAt": ""
     },
     {
-      "did": "did:plc:e6bu5n7y4rcczluqarsj2iv4",
+      "did": "did:plc:ppdzsk3yuc46o4b5v572rd5s",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
@@ -64687,24 +64685,6 @@
     },
     {
       "did": "did:plc:kgiypul5dqkbvseo3t7e23k5",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "haruhwa.com",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:trhhpyy6ho3onzhksvcoyeay",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
