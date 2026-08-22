@@ -2,7 +2,6 @@ did:plc:5y2go7gxafjlfy4vttmocld5
 did:plc:oc6cvfo2zkgtqu43dyzfrhs5
 did:plc:wnrw76ccbkn7tunus3kvgrik
 did:plc:dzdi752sz7das3il7ziic57i
-did:plc:xc2mr4qkij6slxx4j53jhfu4
 did:plc:vptodyjzhefjhmjcyivqu6ke
 did:plc:ft4yjqukxxcooru36e7ixr4a
 did:plc:u2cvsaldokho27bcswwjwdz2
@@ -11,6 +10,7 @@ did:plc:oeetdckdmddu7ez6liskzxup
 did:plc:c25thlb4lo44o3millqqzwty
 did:plc:g2qbkm4si57ey2g4iszztpjv
 did:plc:ysmmwnbpoanewgjga5r7tv2r
+did:plc:xc2mr4qkij6slxx4j53jhfu4
 did:plc:vn35twjimdy7n26lo5ytxbbm
 did:plc:gdfjqykynayedv5ikpc5paph
 did:plc:bibwm6gzaycqfovslzc7u2sv
