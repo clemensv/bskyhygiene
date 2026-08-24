@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-23T06:17:50.877620+00:00",
+    "generated_at": "2026-08-24T06:29:31.010982+00:00",
     "threshold": 0.45,
     "total_flagged": 3461,
     "pds_servers_scanned": [
@@ -40720,7 +40720,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 42,
+      "followersCount": 41,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -40910,7 +40910,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 23,
+      "followersCount": 22,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -42924,7 +42924,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 46,
+      "followersCount": 45,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -43323,7 +43323,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 40,
+      "followersCount": 41,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -45491,7 +45491,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 16,
-      "followersCount": 79,
+      "followersCount": 78,
       "followsCount": 27,
       "createdAt": ""
     },
@@ -46229,7 +46229,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 71,
+      "followersCount": 70,
       "followsCount": 34,
       "createdAt": ""
     },
