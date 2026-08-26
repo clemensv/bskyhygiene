@@ -1961,6 +1961,8 @@ did:plc:hk43m2x6nrbliiltzay45mey
 did:plc:zgpfqmauss4erfapbjcrzico
 did:plc:5gbhgo626bxv7geysyqpc56d
 did:plc:fe7qbckxpjymeurrci3lolcl
+did:plc:xr36a7pio6rixczyphnfua2b
+did:plc:mjighwcr6azhwvzbhf7qrisz
 did:plc:lchbkaka3o3iehg4tun2gc7p
 did:plc:kkwm2d3cduuz4xb3ln6cmkto
 did:plc:rateha7r4un36vggwrn6yoqu
@@ -3255,6 +3257,11 @@ did:plc:uky6qt3trp6lxjdzu6hje2x7
 did:plc:lhmitk4zrxuqaurxzuoahinf
 did:plc:uyxsv2s5poe24ubssbapzc2i
 did:plc:vq7wmmxsdjgykmo7nn6ljfzx
+did:plc:xto6yel5ndvxcksqwheiwbjk
+did:plc:5olqz7age7yjvyffzgp5u2h2
+did:plc:xuoag2vfen2xzxtm3egi6bcm
+did:plc:uu777dwsunspwvvyxde2p2zy
+did:plc:bgtp27sv23vyn44ilf5wyjkg
 did:plc:52475k3mmcggxib6mqpfczrv
 did:plc:wdtqqez4ipt6pq74g2xjarid
 did:plc:77zi2n26mov6wo66xslrw4oq
@@ -3365,6 +3372,13 @@ did:plc:dwnb22jmlqyzs2gzoau5ryhn
 did:plc:vrsa5dcj6oqgncv4zpx3xxot
 did:plc:to74ljmt7joij74dspyecdjx
 did:plc:5ef2a2klcypu754awpl7kcnn
+did:plc:kk4qoqpqj7a62kh5nwmngojf
+did:plc:i2wdcce7pz57nuydqjkizw4e
+did:plc:lwwmaenuqbd2t2so3e7ngny3
+did:plc:gnnaugr5724wrevjgpzkprjp
+did:plc:ndz6qv44yxpniysovc4ty5ef
+did:plc:2hc6tlo7w52cnc3fna2shohz
+did:plc:ztswj3jdehoxeu7tnplkokpd
 did:plc:5a3fawkz72rkzqbhhbrwpddk
 did:plc:j3t2l6woymbdxv5morzjnl7s
 did:plc:qf6ttu3ihagamj2txsb3fkri

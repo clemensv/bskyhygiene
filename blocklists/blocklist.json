@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-08-25T06:21:24.192544+00:00",
+    "generated_at": "2026-08-26T06:23:08.940080+00:00",
     "threshold": 0.45,
-    "total_flagged": 3447,
+    "total_flagged": 3461,
     "pds_servers_scanned": [
       "pds.louisvillebsky.app",
       "haruhwa.com",
@@ -220,12 +220,12 @@
         "no_description",
         "handle_pattern:random_alphanum",
         "zero_posts",
-        "high_follow_ratio:18.3",
+        "high_follow_ratio:20.0",
         "mass_follow_zero_posts"
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 12,
+      "followersCount": 11,
       "followsCount": 220,
       "createdAt": "2026-04-13T11:08:31.753Z"
     },
@@ -37318,6 +37318,44 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:xr36a7pio6rixczyphnfua2b",
+      "handle": "spark3031.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:mjighwcr6azhwvzbhf7qrisz",
+      "handle": "drift2959.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.65,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "zero_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:lchbkaka3o3iehg4tun2gc7p",
       "handle": "hot7400.haruhwa.com",
       "displayName": "",
@@ -40625,7 +40663,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 46,
+      "followersCount": 47,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -40891,7 +40929,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 45,
+      "followersCount": 46,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -41442,7 +41480,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 28,
+      "followersCount": 29,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -41461,7 +41499,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 23,
+      "followersCount": 24,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -41575,7 +41613,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 33,
+      "followersCount": 34,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -42962,7 +43000,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 45,
+      "followersCount": 46,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -44747,7 +44785,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 1,
+      "followersCount": 0,
       "followsCount": 1,
       "createdAt": "2026-04-13T10:57:41.057Z"
     },
@@ -44765,7 +44803,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 1,
+      "followersCount": 0,
       "followsCount": 1,
       "createdAt": "2026-04-13T11:02:21.450Z"
     },
@@ -44783,7 +44821,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 1,
+      "followersCount": 0,
       "followsCount": 1,
       "createdAt": "2026-04-13T11:05:26.950Z"
     },
@@ -44801,7 +44839,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 1,
+      "followersCount": 0,
       "followsCount": 1,
       "createdAt": "2026-04-13T11:16:45.350Z"
     },
@@ -45453,7 +45491,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 16,
-      "followersCount": 78,
+      "followersCount": 79,
       "followsCount": 27,
       "createdAt": ""
     },
@@ -45489,7 +45527,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 15,
-      "followersCount": 49,
+      "followersCount": 50,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -45525,7 +45563,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 40,
+      "followersCount": 41,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -45759,7 +45797,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 80,
+      "followersCount": 81,
       "followsCount": 29,
       "createdAt": ""
     },
@@ -45795,7 +45833,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 14,
-      "followersCount": 45,
+      "followersCount": 46,
       "followsCount": 33,
       "createdAt": ""
     },
@@ -45957,7 +45995,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 59,
+      "followersCount": 60,
       "followsCount": 28,
       "createdAt": ""
     },
@@ -45975,7 +46013,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 31,
+      "followersCount": 32,
       "followsCount": 37,
       "createdAt": ""
     },
@@ -46029,7 +46067,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 66,
+      "followersCount": 67,
       "followsCount": 32,
       "createdAt": ""
     },
@@ -46083,7 +46121,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 11,
-      "followersCount": 41,
+      "followersCount": 42,
       "followsCount": 33,
       "createdAt": ""
     },
@@ -46425,7 +46463,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 6,
-      "followersCount": 67,
+      "followersCount": 68,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -46569,7 +46607,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 36,
+      "followersCount": 37,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -46965,7 +47003,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 33,
+      "followersCount": 34,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -47091,7 +47129,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 64,
+      "followersCount": 65,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -47127,7 +47165,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 50,
+      "followersCount": 51,
       "followsCount": 15,
       "createdAt": ""
     },
@@ -47730,7 +47768,7 @@
       ],
       "handlePattern": "firstname_number",
       "postsCount": 1,
-      "followersCount": 34,
+      "followersCount": 35,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -61027,6 +61065,96 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:xto6yel5ndvxcksqwheiwbjk",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:5olqz7age7yjvyffzgp5u2h2",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:xuoag2vfen2xzxtm3egi6bcm",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:uu777dwsunspwvvyxde2p2zy",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:bgtp27sv23vyn44ilf5wyjkg",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:52475k3mmcggxib6mqpfczrv",
       "handle": "handle.invalid",
       "displayName": "",
@@ -62990,6 +63118,132 @@
     },
     {
       "did": "did:plc:5ef2a2klcypu754awpl7kcnn",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:kk4qoqpqj7a62kh5nwmngojf",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:i2wdcce7pz57nuydqjkizw4e",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 1,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:lwwmaenuqbd2t2so3e7ngny3",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:gnnaugr5724wrevjgpzkprjp",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:ndz6qv44yxpniysovc4ty5ef",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:2hc6tlo7w52cnc3fna2shohz",
+      "handle": "handle.invalid",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.45,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "zero_posts"
+      ],
+      "handlePattern": "other",
+      "postsCount": 0,
+      "followersCount": 0,
+      "followsCount": 0,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:ztswj3jdehoxeu7tnplkokpd",
       "handle": "handle.invalid",
       "displayName": "",
       "pds": "haruhwa.com",
