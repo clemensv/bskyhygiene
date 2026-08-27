@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-08-26T06:23:08.940080+00:00",
+    "generated_at": "2026-08-27T16:52:54.214496+00:00",
     "threshold": 0.45,
-    "total_flagged": 3461,
+    "total_flagged": 3462,
     "pds_servers_scanned": [
       "pds.louisvillebsky.app",
       "haruhwa.com",
@@ -211,25 +211,6 @@
       "createdAt": "2026-04-22T09:29:46.346Z"
     },
     {
-      "did": "did:plc:g2qbkm4si57ey2g4iszztpjv",
-      "handle": "elifelifjwan.haruhwa.com",
-      "displayName": "Om jameel",
-      "pds": "haruhwa.com",
-      "botScore": 0.72,
-      "signals": [
-        "no_description",
-        "handle_pattern:random_alphanum",
-        "zero_posts",
-        "high_follow_ratio:20.0",
-        "mass_follow_zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 11,
-      "followsCount": 220,
-      "createdAt": "2026-04-13T11:08:31.753Z"
-    },
-    {
       "did": "did:plc:ysmmwnbpoanewgjga5r7tv2r",
       "handle": "vrrr.haruhwa.com",
       "displayName": "",
@@ -263,7 +244,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 0,
-      "followersCount": 41,
+      "followersCount": 42,
       "followsCount": 203,
       "createdAt": "2026-04-13T10:22:38.347Z"
     },
@@ -41157,7 +41138,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 8,
+      "followersCount": 9,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -41727,7 +41708,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 5,
+      "followersCount": 6,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -42530,6 +42511,25 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:4ixa6sawuvpvyr5oqeuvrnmr",
+      "handle": "blakeswift.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.58,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "very_few_posts"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 1,
+      "followersCount": 18,
+      "followsCount": 4,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:erq3ihf6hbvjh3qdoxp4p4co",
       "handle": "route439.haruhwa.com",
       "displayName": "",
@@ -43076,7 +43076,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 24,
+      "followersCount": 25,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -45887,7 +45887,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 15,
-      "followersCount": 37,
+      "followersCount": 38,
       "followsCount": 31,
       "createdAt": ""
     },
@@ -47939,7 +47939,7 @@
       ],
       "handlePattern": "firstname_number",
       "postsCount": 1,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 10,
       "createdAt": ""
     },
@@ -48127,7 +48127,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 25,
+      "followersCount": 26,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -48340,6 +48340,25 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:5odo363umakgezw6epah5drs",
+      "handle": "stark-lynx.haruhwa.com",
+      "displayName": "",
+      "pds": "haruhwa.com",
+      "botScore": 0.48,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:adjective_noun",
+        "very_few_posts"
+      ],
+      "handlePattern": "adjective_noun",
+      "postsCount": 1,
+      "followersCount": 24,
+      "followsCount": 6,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:tms5yosn4hvpnhnwnddyfrzc",
       "handle": "mint-gale.haruhwa.com",
       "displayName": "",
@@ -48411,7 +48430,7 @@
       ],
       "handlePattern": "firstname_number",
       "postsCount": 1,
-      "followersCount": 15,
+      "followersCount": 16,
       "followsCount": 6,
       "createdAt": ""
     },

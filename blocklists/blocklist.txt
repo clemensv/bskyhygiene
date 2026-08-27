@@ -8,7 +8,6 @@ did:plc:u2cvsaldokho27bcswwjwdz2
 did:plc:ulpx4hftsxcjowj7fid3l7sv
 did:plc:oeetdckdmddu7ez6liskzxup
 did:plc:c25thlb4lo44o3millqqzwty
-did:plc:g2qbkm4si57ey2g4iszztpjv
 did:plc:ysmmwnbpoanewgjga5r7tv2r
 did:plc:xc2mr4qkij6slxx4j53jhfu4
 did:plc:vn35twjimdy7n26lo5ytxbbm
@@ -2236,6 +2235,7 @@ did:plc:exozoofb77hqzjzznl5pw7ir
 did:plc:syowiumzha7jrqyd5xdrzc3a
 did:plc:4za7w42gjt5wx2h4m26idwc3
 did:plc:fnyvnxyv4f47r3sew4kagl6r
+did:plc:4ixa6sawuvpvyr5oqeuvrnmr
 did:plc:erq3ihf6hbvjh3qdoxp4p4co
 did:plc:4kpdwa7jc76tthzb7nd6jfn3
 did:plc:o2nxfscw4uikgyxlj6llhf3k
@@ -2550,6 +2550,7 @@ did:plc:o3ybztrwx2nt3j2ufb7jweyg
 did:plc:kqjvjskjrzgyvxtesylrtag7
 did:plc:b3yexk7zgdry4gurm2va7wt5
 did:plc:uanuv4r6cvyae5iandch72vz
+did:plc:5odo363umakgezw6epah5drs
 did:plc:tms5yosn4hvpnhnwnddyfrzc
 did:plc:2sph4ek7hzyb5ygvcro5uo6k
 did:plc:jkov2krmg7iwjvj36r7ea6ia
