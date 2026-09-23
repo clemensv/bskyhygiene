@@ -1,4 +1,4 @@
-## Blocklist Update 2026-09-22
+## Blocklist Update 2026-09-23
 
 | Metric | Count |
 |--------|-------|
