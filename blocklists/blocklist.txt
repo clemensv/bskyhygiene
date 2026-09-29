@@ -1677,7 +1677,6 @@ did:plc:nld2xtlda5zmnspl7yemtx5g
 did:plc:wrmk5unnk2stdwigqwtlrx3j
 did:plc:bslg5jw7efcpxdrlvidlwdxl
 did:plc:dwhrukq55zos5bboyb37ptdb
-did:plc:bjqpdt4tpnxv6qvmsuszhtbm
 did:plc:yr35dyrtyen4vlisfa7pvoj6
 did:plc:v3dnc2pzts52t6qqldiu3k3l
 did:plc:dqwm62cpi7x576mztadi23sg
@@ -1718,6 +1717,7 @@ did:plc:guf2ohptbn3doqqghueshqbz
 did:plc:kdky2m6gfzey6vc4okinw6c6
 did:plc:sjg4slekfwffx7wxdaoiyarc
 did:plc:f46yhwja36hc4kp2bbj6haqn
+did:plc:bjqpdt4tpnxv6qvmsuszhtbm
 did:plc:gvziwewih2m3x4x55tun6pts
 did:plc:lq2u4dfeydudus4wykrsa6oy
 did:plc:ip4fibjp7pskjw2ao77psuqu
