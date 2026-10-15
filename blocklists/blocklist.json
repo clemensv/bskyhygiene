@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-14T10:40:17.026805+00:00",
+    "generated_at": "2026-10-15T10:24:08.266700+00:00",
     "threshold": 0.45,
     "total_flagged": 2487,
     "pds_servers_scanned": [
@@ -30404,7 +30404,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 19,
+      "followersCount": 20,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -32691,7 +32691,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 11,
-      "followersCount": 52,
+      "followersCount": 53,
       "followsCount": 38,
       "createdAt": ""
     },
@@ -32763,7 +32763,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 11,
-      "followersCount": 53,
+      "followersCount": 54,
       "followsCount": 26,
       "createdAt": ""
     },
@@ -32889,7 +32889,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 28,
+      "followersCount": 29,
       "followsCount": 25,
       "createdAt": ""
     },
@@ -33933,7 +33933,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 13,
+      "followersCount": 14,
       "followsCount": 19,
       "createdAt": ""
     },
@@ -34131,7 +34131,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 23,
+      "followersCount": 24,
       "followsCount": 17,
       "createdAt": ""
     },
@@ -34311,7 +34311,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 59,
+      "followersCount": 60,
       "followsCount": 20,
       "createdAt": ""
     },
@@ -34635,7 +34635,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 6,
-      "followersCount": 60,
+      "followersCount": 61,
       "followsCount": 20,
       "createdAt": ""
     },
@@ -35100,7 +35100,7 @@
       ],
       "handlePattern": "firstname_number",
       "postsCount": 1,
-      "followersCount": 36,
+      "followersCount": 37,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -35307,7 +35307,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 26,
+      "followersCount": 27,
       "followsCount": 10,
       "createdAt": ""
     },
