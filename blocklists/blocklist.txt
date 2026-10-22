@@ -1871,7 +1871,6 @@ did:plc:qqb4s3ho42h3wzvlq7dx652n
 did:plc:izuxuw3dsh2wqhnomjt6flo7
 did:plc:o27xcn72a7bjlzopd4rgpq3q
 did:plc:ffjwvs3tnrj2lndabl5e37lz
-did:plc:p23nwkqvc4dmwnjm5caw33m7
 did:plc:gt7vfixbrn3ungq5boj7lpl7
 did:plc:p6qzgxbadmwh2dhhxqizak6t
 did:plc:vz6yan4x3adagfept6s3th4o
