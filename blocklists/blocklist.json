@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-10-28T11:42:15.171925+00:00",
+    "generated_at": "2026-10-29T11:50:03.767725+00:00",
     "threshold": 0.45,
-    "total_flagged": 2486,
+    "total_flagged": 2485,
     "pds_servers_scanned": [
       "pds.louisvillebsky.app",
       "haruhwa.com",
@@ -27243,25 +27243,6 @@
       "handle": "haze776.pds.louisvillebsky.app",
       "displayName": "",
       "pds": "pds.louisvillebsky.app",
-      "botScore": 0.65,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "zero_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 0,
-      "followersCount": 0,
-      "followsCount": 0,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:suvv44lxx4442u2azvdhd74a",
-      "handle": "christian.haruhwa.com",
-      "displayName": "",
-      "pds": "haruhwa.com",
       "botScore": 0.65,
       "signals": [
         "no_avatar",

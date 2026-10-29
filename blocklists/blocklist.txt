@@ -1432,7 +1432,6 @@ did:plc:p2qe2otg22nmrd5e5mjw5lo5
 did:plc:275isycf2hcrj7iakz5m4fa4
 did:plc:vqzqavwwtriylncmjzcfkjk5
 did:plc:mul6iadx33lqgpfv7dn7cg7l
-did:plc:suvv44lxx4442u2azvdhd74a
 did:plc:nllbjlytzc6hifwjxfjy3dgn
 did:plc:hoiibeb6vf7y326uvyggjnkq
 did:plc:2tadxrclo4zshtmk6x5atrdh
