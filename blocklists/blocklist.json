@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-30T11:42:44.141681+00:00",
+    "generated_at": "2026-10-31T11:16:21.926266+00:00",
     "threshold": 0.45,
     "total_flagged": 2485,
     "pds_servers_scanned": [
@@ -34382,7 +34382,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 6,
-      "followersCount": 68,
+      "followersCount": 67,
       "followsCount": 22,
       "createdAt": ""
     },
