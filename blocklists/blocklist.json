@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-31T11:16:21.926266+00:00",
+    "generated_at": "2026-11-01T12:40:15.577392+00:00",
     "threshold": 0.45,
     "total_flagged": 2485,
     "pds_servers_scanned": [
@@ -30100,7 +30100,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 53,
+      "followersCount": 54,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -30423,7 +30423,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 25,
+      "followersCount": 26,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -34967,7 +34967,7 @@
       ],
       "handlePattern": "firstname_number",
       "postsCount": 1,
-      "followersCount": 41,
+      "followersCount": 42,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -35157,7 +35157,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 29,
+      "followersCount": 30,
       "followsCount": 4,
       "createdAt": ""
     },
