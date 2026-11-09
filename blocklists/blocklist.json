@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-11-08T12:15:45.666271+00:00",
+    "generated_at": "2026-11-09T14:26:54.005630+00:00",
     "threshold": 0.45,
     "total_flagged": 2485,
     "pds_servers_scanned": [
@@ -30176,7 +30176,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 32,
+      "followersCount": 31,
       "followsCount": 4,
       "createdAt": ""
     },
@@ -30841,7 +30841,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 34,
+      "followersCount": 35,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -31565,25 +31565,6 @@
       "postsCount": 8,
       "followersCount": 2,
       "followsCount": 16,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:46rkd66dlqnn4fskqbh7oyv7",
-      "handle": "demi679.pds.louisvillebsky.app",
-      "displayName": "",
-      "pds": "pds.louisvillebsky.app",
-      "botScore": 0.56,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "elevated_follow_ratio:6.7"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 6,
-      "followersCount": 3,
-      "followsCount": 20,
       "createdAt": ""
     },
     {
@@ -32762,7 +32743,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 12,
-      "followersCount": 44,
+      "followersCount": 45,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -33104,7 +33085,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 17,
-      "followersCount": 24,
+      "followersCount": 25,
       "followsCount": 32,
       "createdAt": ""
     },
@@ -33860,7 +33841,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 23,
+      "followersCount": 24,
       "followsCount": 24,
       "createdAt": ""
     },
@@ -34132,6 +34113,24 @@
       "postsCount": 7,
       "followersCount": 41,
       "followsCount": 18,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:46rkd66dlqnn4fskqbh7oyv7",
+      "handle": "demi679.pds.louisvillebsky.app",
+      "displayName": "",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.5,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 6,
+      "followersCount": 4,
+      "followsCount": 20,
       "createdAt": ""
     },
     {
@@ -35081,7 +35080,7 @@
       ],
       "handlePattern": "firstname_number",
       "postsCount": 1,
-      "followersCount": 38,
+      "followersCount": 39,
       "followsCount": 8,
       "createdAt": ""
     },
@@ -35119,7 +35118,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 4,
+      "followersCount": 3,
       "followsCount": 6,
       "createdAt": ""
     },
