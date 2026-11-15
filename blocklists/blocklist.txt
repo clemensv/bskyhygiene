@@ -1434,6 +1434,7 @@ did:plc:vqzqavwwtriylncmjzcfkjk5
 did:plc:mul6iadx33lqgpfv7dn7cg7l
 did:plc:nllbjlytzc6hifwjxfjy3dgn
 did:plc:hoiibeb6vf7y326uvyggjnkq
+did:plc:vod3dxs6mplyicnsxs5grpzf
 did:plc:2tadxrclo4zshtmk6x5atrdh
 did:plc:wvpnjgy7glf5cqbhjmc7hoxe
 did:plc:wuoucmu2cpwdkfywqb6f5ulx
@@ -1615,7 +1616,6 @@ did:plc:vapksilolfvs6jdrfcfewfan
 did:plc:4eirikpdqsyvpldzprjuvt4e
 did:plc:pxtebkyknqsl26exhc3v6ain
 did:plc:arj5zldpsiawbdiqst2sht4s
-did:plc:vod3dxs6mplyicnsxs5grpzf
 did:plc:yyzvajywkubq5ols2f4mewvg
 did:plc:cnhnt7em4hzxgdaudx2rwtto
 did:plc:h66of3izfchwvud3q5a6lmgc

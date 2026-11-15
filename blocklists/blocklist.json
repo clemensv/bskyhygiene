@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-11-14T12:33:22.766302+00:00",
+    "generated_at": "2026-11-15T12:59:51.519707+00:00",
     "threshold": 0.45,
     "total_flagged": 2485,
     "pds_servers_scanned": [
@@ -27297,6 +27297,26 @@
       "createdAt": ""
     },
     {
+      "did": "did:plc:vod3dxs6mplyicnsxs5grpzf",
+      "handle": "wildwave.pds.louisvillebsky.app",
+      "displayName": "",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.64,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:random_alphanum",
+        "very_few_posts",
+        "elevated_follow_ratio:6.0"
+      ],
+      "handlePattern": "random_alphanum",
+      "postsCount": 1,
+      "followersCount": 1,
+      "followsCount": 6,
+      "createdAt": ""
+    },
+    {
       "did": "did:plc:2tadxrclo4zshtmk6x5atrdh",
       "handle": "ariazen.pds.louisvillebsky.app",
       "displayName": "",
@@ -30594,7 +30614,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 14,
+      "followersCount": 15,
       "followsCount": 5,
       "createdAt": ""
     },
@@ -30729,25 +30749,6 @@
       "postsCount": 1,
       "followersCount": 7,
       "followsCount": 10,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:vod3dxs6mplyicnsxs5grpzf",
-      "handle": "wildwave.pds.louisvillebsky.app",
-      "displayName": "",
-      "pds": "pds.louisvillebsky.app",
-      "botScore": 0.58,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum",
-        "very_few_posts"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 1,
-      "followersCount": 0,
-      "followsCount": 6,
       "createdAt": ""
     },
     {
@@ -33193,7 +33194,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 35,
+      "followersCount": 36,
       "followsCount": 37,
       "createdAt": ""
     },
@@ -33499,7 +33500,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 13,
-      "followersCount": 26,
+      "followersCount": 27,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -33985,7 +33986,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 43,
+      "followersCount": 44,
       "followsCount": 34,
       "createdAt": ""
     },
@@ -34345,7 +34346,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 5,
+      "followersCount": 6,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -34453,7 +34454,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 10,
+      "followersCount": 11,
       "followsCount": 27,
       "createdAt": ""
     },
@@ -34966,7 +34967,7 @@
       ],
       "handlePattern": "firstname_number",
       "postsCount": 1,
-      "followersCount": 44,
+      "followersCount": 45,
       "followsCount": 9,
       "createdAt": ""
     },
@@ -35061,7 +35062,7 @@
       ],
       "handlePattern": "firstname_number",
       "postsCount": 1,
-      "followersCount": 19,
+      "followersCount": 20,
       "followsCount": 6,
       "createdAt": ""
     },
@@ -35420,7 +35421,7 @@
       ],
       "handlePattern": "adjective_noun",
       "postsCount": 1,
-      "followersCount": 35,
+      "followersCount": 36,
       "followsCount": 10,
       "createdAt": ""
     },
