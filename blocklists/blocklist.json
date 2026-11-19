@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-11-18T14:38:16.063140+00:00",
+    "generated_at": "2026-11-19T14:44:28.650769+00:00",
     "threshold": 0.45,
     "total_flagged": 3125,
     "pds_servers_scanned": [
@@ -38977,7 +38977,7 @@
       ],
       "handlePattern": "consonant_cluster",
       "postsCount": 0,
-      "followersCount": 33,
+      "followersCount": 36,
       "followsCount": 11,
       "createdAt": "2026-04-04T12:35:43.151Z"
     },
@@ -39108,6 +39108,25 @@
       "handlePattern": "compound_number",
       "postsCount": 0,
       "followersCount": 2,
+      "followsCount": 10,
+      "createdAt": ""
+    },
+    {
+      "did": "did:plc:gqjgzn3mglpaxkteqynf4cu4",
+      "handle": "wildcat550685.pds.louisvillebsky.app",
+      "displayName": "",
+      "pds": "pds.louisvillebsky.app",
+      "botScore": 0.6,
+      "signals": [
+        "no_avatar",
+        "no_description",
+        "no_display_name",
+        "handle_pattern:compound_number",
+        "zero_posts"
+      ],
+      "handlePattern": "compound_number",
+      "postsCount": 0,
+      "followersCount": 6,
       "followsCount": 10,
       "createdAt": ""
     },
@@ -40684,7 +40703,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 1,
-      "followersCount": 6,
+      "followersCount": 7,
       "followsCount": 7,
       "createdAt": ""
     },
@@ -45047,7 +45066,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 8,
-      "followersCount": 42,
+      "followersCount": 41,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -45803,7 +45822,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 9,
-      "followersCount": 77,
+      "followersCount": 76,
       "followsCount": 22,
       "createdAt": ""
     },
@@ -45947,7 +45966,7 @@
       ],
       "handlePattern": "random_alphanum",
       "postsCount": 7,
-      "followersCount": 42,
+      "followersCount": 41,
       "followsCount": 21,
       "createdAt": ""
     },
@@ -47502,24 +47521,6 @@
       "handlePattern": "other",
       "postsCount": 0,
       "followersCount": 16,
-      "followsCount": 10,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:gqjgzn3mglpaxkteqynf4cu4",
-      "handle": "handle.invalid",
-      "displayName": "",
-      "pds": "pds.louisvillebsky.app",
-      "botScore": 0.45,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "zero_posts"
-      ],
-      "handlePattern": "other",
-      "postsCount": 0,
-      "followersCount": 6,
       "followsCount": 10,
       "createdAt": ""
     },
