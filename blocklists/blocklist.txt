@@ -2477,6 +2477,8 @@ did:plc:o27xcn72a7bjlzopd4rgpq3q
 did:plc:ffjwvs3tnrj2lndabl5e37lz
 did:plc:3o3y5zpkl4pjqolqvznuhasx
 did:plc:gt7vfixbrn3ungq5boj7lpl7
+did:plc:p6qzgxbadmwh2dhhxqizak6t
+did:plc:vz6yan4x3adagfept6s3th4o
 did:plc:j32tan4back3eqmhmb4cyyh2
 did:plc:t7ko7lcarsbycmnihm5ln2pv
 did:plc:4s7dm3ckesxa77lvscruerm6
