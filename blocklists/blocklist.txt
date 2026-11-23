@@ -2350,7 +2350,6 @@ did:plc:4gbwsjplbudkof5rwlwb6zfe
 did:plc:oe2inzgolox2g3p5xp7irzb3
 did:plc:fukbdfncgkogunreu7d327kw
 did:plc:piokztyxzzsya3233tritaig
-did:plc:bcrae6icqk6pirazm63jbpbi
 did:plc:ayy63sxx32d2l4wrd2t3rarj
 did:plc:bkewjh5ajujl2bn27x7lbwab
 did:plc:6upsirkdooejsxwrwghvs2o7

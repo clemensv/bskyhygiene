@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-11-22T13:39:11.461642+00:00",
+    "generated_at": "2026-11-23T16:33:58.074540+00:00",
     "threshold": 0.45,
-    "total_flagged": 3127,
+    "total_flagged": 3126,
     "pds_servers_scanned": [
       "pds.louisvillebsky.app",
       "haruhwa.com",
@@ -44654,24 +44654,6 @@
       "postsCount": 13,
       "followersCount": 68,
       "followsCount": 35,
-      "createdAt": ""
-    },
-    {
-      "did": "did:plc:bcrae6icqk6pirazm63jbpbi",
-      "handle": "thornpark.pds.louisvillebsky.app",
-      "displayName": "",
-      "pds": "pds.louisvillebsky.app",
-      "botScore": 0.5,
-      "signals": [
-        "no_avatar",
-        "no_description",
-        "no_display_name",
-        "handle_pattern:random_alphanum"
-      ],
-      "handlePattern": "random_alphanum",
-      "postsCount": 12,
-      "followersCount": 66,
-      "followsCount": 28,
       "createdAt": ""
     },
     {
